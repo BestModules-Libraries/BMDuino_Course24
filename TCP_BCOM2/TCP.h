@@ -16,7 +16,7 @@
 #define WIFI_PASS "iot12345"//热点密码
 
 /*** 链接的TCP IP及端口信息*/
-#define IP "203.66.34.45"  //TCP服务器 IP地址
+#define IP "www.hinet.net"  //TCP服务器 IP地址
 #define IP_Port 80  //TCP服务器 端口
 
 //*********************************************//
