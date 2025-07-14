@@ -1,0 +1,11 @@
+幫我寫一隻python，
+連線到網址為broker.emqx.io的MQTT Broker伺服器，該伺服器可以用匿名登錄，
+然後傳送下列json內容，
+{ 
+  "DEVICE":"E89F6DE869F8", 
+  "SENSOR":"RELAY" ,
+  "SET":4 ,
+  "OPERATION":"HIGH"
+}
+到主題為/ncnu/controller，
+的一隻程式

@@ -1,0 +1,5 @@
+血氧資料表
+bloodoxygen Table Schema
+
+CREATE TABLE ` bloodoxygen` (`id` INT NOT NULL AUTO_INCREMENT COMMENT '主鍵' , `crtdatetime` TIMESTAMP on update CURRENT_TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '資料建立時間' , `systime` CHAR(14) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '資料日期時間' , `MAC` CHAR(12) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '裝置編號' , `blood` FLOAT NOT NULL COMMENT '血氧資料' , `heartbeat` INT NOT NULL COMMENT '心跳資料' , PRIMARY KEY (`id`)) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_unicode_ci COMMENT = '量測血氧資料檔';
+
