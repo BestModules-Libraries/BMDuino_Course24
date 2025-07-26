@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
+<<<<<<< HEAD
+-- 產生時間： 2025-05-30 19:14:05
+=======
 -- 產生時間： 2025-05-16 19:53:51
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 -- 伺服器版本： 10.4.32-MariaDB
 -- PHP 版本： 8.2.12
 
@@ -32,6 +36,10 @@ CREATE TABLE `bloodoxygen` (
   `crtdatetime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT '資料建立時間',
   `systime` char(14) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '資料日期時間',
   `MAC` char(12) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '裝置編號',
+<<<<<<< HEAD
+  `IP` char(20) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL COMMENT '連線IP Address',
+=======
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
   `blood` float NOT NULL COMMENT '血氧資料',
   `heartbeat` int(11) NOT NULL COMMENT '心跳資料'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='量測血氧資料檔';

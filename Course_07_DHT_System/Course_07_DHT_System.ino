@@ -15,14 +15,12 @@ void setup()
     initAll() ;
     delay(200);
     ShowDHTInformation();   //印出溫溼度感測器產品所有資訊   
-
+    clearScreen()  ;  //清除螢幕
     // 畫BEST MODULE LOGO
     drawPicture(0,0,BestModule_LOGO,128, 64) ; //畫BEST MODULE LOGO
     delay(2000) ;
     clearScreen()  ;  //清除螢幕
-    showTitleonOled("Temp & Humid SyS") ; //秀第一列字
-
-
+    showTitleonOled("Temp & Humid SyS") ; //秀第一列字        
 } 
 
 void loop() {
@@ -38,8 +36,8 @@ void loop() {
     Serial.print(BMht.readTemperature());    // 顯示溫度值
     Serial.println(" °C ");                 // 顯示溫度單位 °C
 
-      showTemperatureonOled(TValue) ;//
-      showHumidityonOled(HValue) ;//    
+    showTemperatureonOled(TValue); //列印溫度於OLED上
+    showHumidityonOled(HValue);  //列印濕度於OLED上-   
     delay(2000);                // 每隔 2 秒讀取並更新一次溫濕度資料
 
 }

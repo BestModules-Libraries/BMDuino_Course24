@@ -24,7 +24,7 @@ void loop()
     Serial.print(" %    ");   
 
     // 從感測器讀取溫度數值並顯示
-    HValue = readTemperature();        //讀取濕度數
+    TValue = readTemperature();        //讀取濕度數
     Serial.print("Temperature : ");
     Serial.print(BMht.readTemperature());    // 顯示溫度值
     Serial.println(" °C ");                 // 顯示溫度單位 °C

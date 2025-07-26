@@ -30,7 +30,11 @@
     // 套用實際的資料進入 SQL 字串
     $qrystr = sprintf($qry, $rfidkey, $activate);
 
+<<<<<<< HEAD
+    //echo $qrystr . "<br>"; // 顯示查詢語句（除錯用）
+=======
     echo $qrystr . "<br>"; // 顯示查詢語句（除錯用）
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
     // 執行查詢語句
     $result = mysqli_query($link, $qrystr);

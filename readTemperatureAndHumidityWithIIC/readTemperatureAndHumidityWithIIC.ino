@@ -11,9 +11,9 @@ BM25S2021_1 BMht(&Wire);
 
 void setup() 
 {
-    BMht.begin();               // 初始化感測器，啟動 I2C 通訊
     Serial.begin(9600);         // 初始化序列埠，設定鮑率為 9600，用於與電腦通訊顯示資料
-
+   BMht.begin();               // 初始化感測器，啟動 I2C 通訊
+ 
     // 顯示裝置的基本資訊：序號 SN、產品 ID、韌體版本
     Serial.println("=======DeviceInfo(HEX)========= ");
     Serial.print("SN : ");

@@ -25,7 +25,11 @@ $link = Connection();
 $subrow = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%d</td><td>%s</td></tr>";
 
 // 定義每筆紀錄對應的超連結模板，點擊後會跳轉至該卡片的詳細紀錄頁面
+<<<<<<< HEAD
+$op1 = "<a href='listforpass.php?KEY=%s'>Pass Logging Detail(詳細每一筆資料)</a>/<a href='chartforpass.php?KEY=%s'>Pass Logging Chart(資料統計圖表)</a>";
+=======
 $op1 = "<a href='listforpass.php?KEY=%s'>Pass Logging Detail(詳細每一筆資料)</a>";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 建立 SQL 查詢：
 // - 查詢所有卡號(cardnumber)
@@ -97,7 +101,11 @@ mysqli_close($link);
                 // 用迴圈把每筆資料列印出來
                 for ($i = 0; $i < count($d01); $i++) {
                     // 建立超連結（跳轉到每張卡片詳細紀錄）
+<<<<<<< HEAD
+                    $op1a = sprintf($op1, $d01[$i], $d01[$i]);
+=======
                     $op1a = sprintf($op1, $d01[$i]);
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
                     // 印出一行表格資料
                     echo sprintf($subrow, $d01[$i], $d02[$i], $d03[$i], $d04[$i], $op1a);
                 }

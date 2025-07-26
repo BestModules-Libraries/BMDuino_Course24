@@ -11,6 +11,19 @@ rfidstatus() 是一個自訂函數（可能在 comlib.php 中定義），
  
 */
 
+<<<<<<< HEAD
+// 啟動 PHP 會話，確保使用者的 Session 能夠追蹤登入或其他狀態
+session_start();
+
+// 引入自訂的函式庫 comlib.php（例如共用函數）
+include("../comlib.php");        // 引入共用函數庫，如自訂函數  
+
+// 引入與資料庫連線的設定與函數（通常在 iotcnn.php 裡會定義 mysqli_connect 的細節）
+include("../Connections/iotcnn.php"); 
+
+// 透過自訂的函式 Connection() 建立資料庫連線
+$link = Connection(); 
+=======
 // 啟動 session，常用於管理登入狀態或傳遞頁面變數
 session_start();
 
@@ -20,6 +33,7 @@ include("../Connections/iotcnn.php"); // 引入資料庫連線參數與連線函
 
 // 透過自定函數 Connection() 與資料庫建立連線
 $link = Connection(); // 此函數定義於 iotcnn.php 檔案中
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 定義 HTML 表格中資料列的格式化字串 (使用 sprintf 格式化)
 $subrow = "<tr><td>%s</td><td>%s</td><td>%d</td></tr>";
@@ -72,6 +86,10 @@ mysqli_close($link);
     <!-- 載入上方標題列（通常包含 LOGO、網站名稱等） -->
     <?php include("../toptitle.php"); ?>
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     <!-- 主資料區塊：置中對齊 -->
     <div align="center">
         <!-- 建立表格，顯示 RFID 卡號資料 -->
@@ -105,6 +123,10 @@ mysqli_close($link);
     </div>
 
     <!-- 載入網頁下方的頁尾（如聯絡資訊、版權聲明等） -->
+<<<<<<< HEAD
+    <!-- 引入頁面下方版權或結尾區塊 -->
+=======
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     <?php include("../topfooter.php"); ?>
 </body>
 </html>

@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
+<<<<<<< HEAD
+            <name>bigdata(web on D)</name>
+=======
             <name>bigdata(localhost)</name>
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
         </data>
     </configuration>
 </project>

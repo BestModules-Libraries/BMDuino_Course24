@@ -1,4 +1,40 @@
 <?php
+<<<<<<< HEAD
+//取得統一抬頭
+function systemtitle()
+{
+    // 定義網頁標題的函數
+
+    // 將網頁標題設定為"曹永忠老師的學習網站(New教學網站)"
+    $tt = "曹永忠老師的學習網站(New教學網站)" ;
+
+    // 輸出網頁標題
+    echo $tt ;
+}
+
+
+// 函數返回針對 HTML input 元素的屬性，用於設置最大和最小值
+function getqtyinfo($dd) { // $dd 必須是整數
+    // 定義格式化字串，格式：value='%d' min='%d' max='%d'
+    $rr = "value='%d' min='%d' max='%d'";
+    if ($dd < 1) { // 如果 $dd 小於 1
+        return sprintf($rr, 0, 0, 0); // 返回 value 為 0 的格式
+    } else {
+        return sprintf($rr, 1, 1, $dd); // 返回最小為 1，最大為 $dd
+    }
+}
+
+// 函數返回日期的年份
+function GetYear($dd) {
+    // 根據 'Y-m-d' 格式創建 DateTime 對象
+    $tmp = DateTime::createFromFormat('Y-m-d', $dd);
+    // 返回年份
+    return $tmp->format('Y');
+}
+
+// 函數返回日期的月份
+function GetMonth($dd) {
+=======
 //systemtitle()	輸出統一網站標題
 //getqtyinfo()	設定數量輸入框的限制屬性
 //makekey()	產生 MD5 加密字串
@@ -44,6 +80,7 @@ function GetYear($dd)
 // 函數返回日期的月份
 function GetMonth($dd) 
 {
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     // 根據 'Y-m-d' 格式創建 DateTime 對象
     $tmp = DateTime::createFromFormat('Y-m-d', $dd);
     // 返回月份
@@ -51,8 +88,12 @@ function GetMonth($dd)
 }
 
 // 函數返回日期的日
+<<<<<<< HEAD
+function GetDay($dd) {
+=======
 function GetDay($dd) 
 {
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     // 根據 'Y-m-d' 格式創建 DateTime 對象
     $tmp = DateTime::createFromFormat('Y-m-d', $dd);
     // 返回日
@@ -60,6 +101,33 @@ function GetDay($dd)
 }
 
 // 函數生成一個字串的 MD5 哈希
+<<<<<<< HEAD
+function makekey($cc) {
+    return md5($cc);
+}
+
+// 函數加密一個字串
+function cryptkey($cc) {
+    return crypt($cc, rand(0, 99)); // 使用隨機鹽值加密
+}
+
+// 函數比較兩個字串，如果相等返回 1
+function comparekey($c1, $c2) {
+    if ($c1 == $c2)
+        return 1; // 返回 1 表示相等
+    else
+        return 0; // 返回 0 表示不相等
+}
+
+// 函數將台灣日期（民國紀元）轉換為公元日期
+function twdate2date($ddt) {
+    $yyyy = (int)substr($ddt, 0, 3) + 1911; // 民國轉公元
+    $mm = (int)substr($ddt, 4, 2); 
+    $dd = (int)substr($ddt, 7, 2);
+    // 返回公元日期格式
+    return "$yyyy/$mm/$dd";
+}
+=======
 function makekey($cc) 
 {
     return md5($cc); // 將輸入字串以 MD5 加密
@@ -85,6 +153,7 @@ function twdate2date($ddt) {
     return "$yyyy/$mm/$dd"; // 回傳格式 YYYY/MM/DD
 }
 
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 function getshiftdataorder($d) 
         {
                 $date = new DateTime();
@@ -109,16 +178,27 @@ function getshiftdayorder($d)
                return ($yyyy.$mm.$dd)  ;
 }		 
 
+<<<<<<< HEAD
+// 函數返回當前日期和時間的格式化字串
+function getdataorder() {
+    $dt = getdate(); // 獲取當前日期時間
+=======
 // 函數返回當前日期和時間的格式化字串，生成日期時間代碼（格式為數字編碼）
 function getdataorder() {
     $dt = getdate();
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     $yyyy = str_pad($dt['year'], 4, "0", STR_PAD_LEFT);
     $mm = str_pad($dt['mon'], 2, "0", STR_PAD_LEFT);
     $dd = str_pad($dt['mday'], 2, "0", STR_PAD_LEFT);
     $hh = str_pad($dt['hours'], 2, "0", STR_PAD_LEFT);
     $min = str_pad($dt['minutes'], 2, "0", STR_PAD_LEFT);
     $sec = str_pad($dt['seconds'], 2, "0", STR_PAD_LEFT);
+<<<<<<< HEAD
+    // 返回按年、月、日、時、分、秒的格式化字串
+    return "$yyyy$mm$dd$hh$min$sec";
+=======
     return "$yyyy$mm$dd$hh$min$sec"; // 輸出格式：20250513150333
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 }
 function getdayorder() 
         {
@@ -277,6 +357,21 @@ function rfidstatus($parameterno) //RFID 狀態說明
     ];
     return isset($statusMap[$parameterno]) ? $statusMap[$parameterno] : '有問題';
 }
+<<<<<<< HEAD
+function rfidpassstatus($parameterno) //RFID 狀態說明
+{
+    $statusMap = [
+        0 => '未啟用',
+        1 => '啟用中',
+        2 => '失效',
+        3 => '遺失',
+        4 => '禁用',
+        9 => '註銷'
+    ];
+    return isset($statusMap[$parameterno]) ? $statusMap[$parameterno] : '有問題';
+}
+=======
 
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 // JavaScript 函數用於瀏覽器返回或前進
 ?>

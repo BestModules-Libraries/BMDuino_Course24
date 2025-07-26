@@ -19,6 +19,23 @@
     // 顯示組合完成的 SQL 語句（除錯用，可移除）
     //echo $qrystr."<br>";
 
+<<<<<<< HEAD
+// 執行 SQL 刪除指令，如果成功，則導向至 cardlistmgt.php 頁面
+if (mysqli_query($link, $qrystr)) {
+    // 若資料刪除成功，先關閉與資料庫的連線
+    mysqli_close($link);
+
+    // 重新導向使用者到卡片列表頁面
+    header("Location: cardlistmgt.php");
+    exit(); // 確保導向後不再執行後續程式
+}
+
+    // 若 SQL 執行失敗（不論是否成功執行上面 if），最終都關閉資料庫連線
+    mysqli_close($link);
+		// 重新導向使用者到卡片列表頁面
+	header("Location: cardlistmgt.php");
+	exit(); // 確保導向後不再執行後續程式
+=======
     // 執行 SQL 插入指令，如果成功，則導向至 cardlistmgt.php 頁面
     if (mysqli_query($link, $qrystr)) {
         // 若資料新增成功，先關閉與資料庫的連線
@@ -31,4 +48,5 @@
 
     // 若 SQL 執行失敗（不論是否成功執行上面 if），最終都關閉資料庫連線
     mysqli_close($link);
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 ?>

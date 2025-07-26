@@ -33,7 +33,11 @@ CREATE TABLE `passlist` (
   `systime` char(14) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '資料日期時間',
   `mid` int(11) NOT NULL COMMENT '連接rfidlist主鍵Key值',
   `lockdevice` char(12) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '門鎖裝置編號',
+<<<<<<< HEAD
+  `activate` int(11) NOT NULL COMMENT '狀態',
+=======
   `aactivate` int(11) NOT NULL COMMENT '狀態',
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
   `startdatetime` char(14) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL COMMENT '啟用日期時間',
   `enddatetime` char(14) CHARACTER SET ascii COLLATE ascii_general_ci DEFAULT NULL COMMENT '停用日期時間'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;

@@ -19,8 +19,13 @@
     <br>
     <div align="center">
     <!-- 這裡可以放置主要內容，例如顯示圖片 -->
+<<<<<<< HEAD
+     <img src="/bigdata/images/main.jpg" width = "60%" height = "60%" alt="my Team" />
+    
+=======
   
     <img src="images/main.jpg" alt="Welcome to https://www.bestmodulescorp.com/">
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     <!-- 再次添加空格行，通常用來分隔內容與頁腳 -->
     </div>
 

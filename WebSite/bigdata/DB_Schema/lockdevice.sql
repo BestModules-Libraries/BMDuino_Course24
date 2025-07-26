@@ -3,9 +3,15 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： localhost
+<<<<<<< HEAD
+-- 產生時間： 2025 年 06 月 29 日 17:59
+-- 伺服器版本： 5.5.68-MariaDB
+-- PHP 版本： 8.2.27
+=======
 -- 產生時間： 2025 年 05 月 25 日 23:22
 -- 伺服器版本： 5.5.68-MariaDB
 -- PHP 版本： 8.2.21
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,6 +46,18 @@ CREATE TABLE `lockdevice` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='門禁裝置清單';
 
 --
+<<<<<<< HEAD
+-- 傾印資料表的資料 `lockdevice`
+--
+
+INSERT INTO `lockdevice` (`id`, `crtdatetime`, `systime`, `IP`, `deviceid`, `devicename`, `activate`, `location`, `building`) VALUES
+(1, '2025-05-25 15:28:18', '20250514010101', '140.12.45.67', 'AABBCCDDEEFF', '測試機', 1, '老師家門口', '老師家'),
+(2, '2025-06-28 20:20:09', '20250525234551', '114.33.165.41', 'B8D61A68DAFD', '開發系統專用1', 1, '老師家門口', '老師家'),
+(7, '2025-06-28 21:26:34', '20250629052634', '114.33.165.41', 'B8D61A68DAFC', '卡號B8D61A68DAFC', 1, '請補述', '請補述');
+
+--
+=======
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 -- 已傾印資料表的索引
 --
 
@@ -58,7 +76,11 @@ ALTER TABLE `lockdevice`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `lockdevice`
 --
 ALTER TABLE `lockdevice`
+<<<<<<< HEAD
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主鍵', AUTO_INCREMENT=8;
+=======
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主鍵';
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

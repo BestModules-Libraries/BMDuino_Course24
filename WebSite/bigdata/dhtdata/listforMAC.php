@@ -22,13 +22,21 @@ if ($temp0 == "") {
 }
 
 // 表格標題，包含 MAC 地址
+<<<<<<< HEAD
+$tstr = "Temperature & Humidity Sensor for MAC %s(溫溼度感測裝置:%d筆)";
+=======
 $tstr = "Temperature & Humidity Sensor for MAC %s(溫溼度感測裝置)";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 定義表格行的模板，用於顯示資料
 $subrow = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%4.2f</td><td>%4.2f</td></tr>";
 
 // SQL 查詢字串，使用給定的 MAC 地址
+<<<<<<< HEAD
+$str = "SELECT MAC, temperature, humidity, systime, IP FROM big.dhtdata WHERE MAC = '%s' order by systime desc;";
+=======
 $str = "SELECT MAC, temperature, humidity, systime, IP FROM dhtdata WHERE MAC = '%s' order by systime desc";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 產生真正SQL 查詢字串，格式化查詢字串，替換占位符
 $qrystr = sprintf($str, $temp0);
@@ -69,7 +77,11 @@ mysqli_close($link);
 <head>
     <!-- 設定網頁的標題和數據字元碼  -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<<<<<<< HEAD
+    <title>Temperature and Humidity List for MAC Address)</title>
+=======
     <title>Temperature and Humidity List for MAC Address</title>
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     <link href="../webcss.css" rel="stylesheet" type="text/css" /> <!-- 加載 CSS 樣式 -->
 </head>
 <body>
@@ -83,7 +95,11 @@ mysqli_close($link);
             <tr bgcolor="#CFC">
                 <td colspan="5">
                     <div align="center">
+<<<<<<< HEAD
+                        <?php echo sprintf($tstr, $temp0,count($d01)); ?> <!-- 表格標題，包含 MAC 地址 -->
+=======
                         <?php echo sprintf($tstr, $temp0); ?> <!-- 表格標題，包含 MAC 地址 -->
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
                     </div>
                 </td>
             </tr>

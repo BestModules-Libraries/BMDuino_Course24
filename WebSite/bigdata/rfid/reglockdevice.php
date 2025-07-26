@@ -61,8 +61,13 @@
     else 
     {
         //INSERT INTO `lockdevice` (`id`, `crtdatetime`, `systime`, `IP`, `deviceid`, `devicename`, `activate`, `location`, `building`) VALUES (NULL, CURRENT_TIMESTAMP, '20250514010101', '140.12.45.67', 'AABBCCDDEEFF', '測試機', '1', '老師家門口', '老師家');
+<<<<<<< HEAD
+        $qry = "insert into lockdevice (systime, IP, deviceid, devicename, activate, location, building) values ('%s', '%s', '%s', '卡號%s', '1', '請補述', '請補述');" ;
+        $qrystr = sprintf($qry,$sysdt,$ip,$temp0,$temp0) ;
+=======
         $qry = "insert into lockdevice (systime, IP, deviceid, devicename, activate, location, building) values ('%s', '%s', '%s', '未給名字', '1', '老師家門口', '老師家');" ;
         $qrystr = sprintf($qry,$sysdt,$ip,$temp0) ;
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
         $result = mysqli_query($link, $qrystr);        
         //echo "Lock Device is added <br>"; // 顯示啟用失敗訊息
         $passok = "Added" ;

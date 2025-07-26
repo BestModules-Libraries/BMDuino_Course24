@@ -1,7 +1,12 @@
 <?php
 // 範例網址（用於測試作廢 RFID 卡片的功能）：
+<<<<<<< HEAD
+// http://iot.arduino.org.tw:8888/bigdata/rfid/removecard.php?KEY=1938332656&MAC=B8D61A68DAFC
+// http://localhost:8888/bigdata/rfid/removecard.php?KEY=1938332656&MAC=B8D61A68DAFC
+=======
 // http://iot.arduino.org.tw:8888/bigdata/rfid/removecard.php?KEY=0219390674&MAC=B8D61A68DAFC
 // http://localhost:8888/bigdata/rfid/removecard.php?KEY=0219390674&MAC=B8D61A68DAFC
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
     include("../Connections/iotcnn.php"); // 引入資料庫連線檔案，通常內含 Connection() 函式
 
@@ -52,7 +57,11 @@
     }
 
     // SQL 查詢語句：查找 rfidlist 資料表中，符合卡號且 activate 為 1 的紀錄（1 表示啟用中）
+<<<<<<< HEAD
+    $qry = "select * from rfidlist where rfidkey = '%s' and activate in (0,1) ";
+=======
     $qry = "select * from rfidlist where rfidkey = '%s' and activate = 1 ";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     $qrystr = sprintf($qry, $temp1); // 將卡號代入查詢語句
 
     // 執行 SQL 查詢
@@ -62,8 +71,14 @@
     $num = mysqli_num_rows($result);
 
     // 若沒有找到任何資料
+<<<<<<< HEAD
+    if ($num == 0) 
+    {
+        $passok = "Not Existed";  // 卡片不存在或已非啟用狀態
+=======
     if ($num == 0) {
         $passok = "Card Not Existed";  // 卡片不存在或已非啟用狀態
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     }
 
     // 若找到了至少一筆資料（通常只有一筆）
@@ -72,14 +87,23 @@
         $id = $row["id"];  // 取得該筆資料的 ID
 
         // 如果該卡片的 activate 欄位為 1（表示啟用中）
+<<<<<<< HEAD
+        if ((int)$row["activate"] == 1 or (int)$row["activate"] == 0) 
+        {
+=======
         if ((int)$row["activate"] == 1) {
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
             // 將該卡片的 activate 狀態更新為 9（表示作廢），並更新時間與 IP 位址
             $qry = "update rfidlist set activate = 9, systime = '%s' , IP = '%s' where id = %s";
             $qrystr = sprintf($qry, $sysdt, $ip, $id); // 格式化 SQL 語句
 
             $result = mysqli_query($link, $qrystr); // 執行更新語句
 
+<<<<<<< HEAD
+            $passok = "Canceled"; // 成功標記為已作廢
+=======
             $passok = "Card Removed"; // 成功標記為已作廢
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
         }
     }
 

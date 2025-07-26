@@ -65,7 +65,11 @@ mysqli_close($link);
     <div align="center"> <!-- 居中對齊 -->
         <table border="1" align="center" cellspacing="1" cellpadding="1"> <!-- 建立表格 -->
             <tr bgcolor="#CFC"> <!-- 標題行，帶有背景色 -->
+<<<<<<< HEAD
+                <td colspan='5'><div align='center'>RFID Card List (RFID卡號清單)</div></td> <!-- 合併六個單元格 -->
+=======
                 <td colspan='5'><div align='center'>Ultrasonic HC-SR04 Device(超音波測距裝置)</div></td> <!-- 合併六個單元格 -->
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
             </tr>
             <tr> <!-- 表格的標題欄 -->
                 <td>RFID Card(RFID卡號)</td>

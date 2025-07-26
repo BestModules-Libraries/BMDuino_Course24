@@ -60,14 +60,22 @@
 	
 	*/
 	
+<<<<<<< HEAD
+	//$qrystr = "insert into nukiot.dhtdata (mac,systime,temperature,humidity) VALUES ('".$temp0."','".$sysdt."',".$temp1.",".$temp2.")"; 
+=======
 	//$qrystr = "insert into dhtdata (mac,systime,temperature,humidity) VALUES ('".$temp0."','".$sysdt."',".$temp1.",".$temp2.")"; 
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 	//組成新增到dhtdata資料表的SQL語法
 	//          INSERT INTO `dhtdata` (`id`, `MAC`, `crtdatetime`, `temperature`, `humidity`, `systime`) VALUES (NULL, '111111111111', CURRENT_TIMESTAMP, '26.8', '65', '20220318100901');
 	//          INSERT INTO `dhtdata` (MAC, temperature, humidity, systime) VALUES ('111111111111','26.8', '65', '20220318100901');
 
 	//select * from dhtdata order by id desc;
 //--------------
+<<<<<<< HEAD
+	$qrystr = sprintf("insert into nukiot.dhtdata (MAC,temperature, humidity, systime) VALUES ( '%s', %f, %f, '%s');" ,$temp0,$temp1,$temp2,$sysdt) ;
+=======
 	$qrystr = sprintf("insert into dhtdata (MAC,temperature, humidity, systime) VALUES ( '%s', %f, %f, '%s');" ,$temp0,$temp1,$temp2,$sysdt) ;
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 	echo $qrystr ;
 	echo "<br>" ;
 	if (mysqli_query($link,$qrystr))

@@ -73,9 +73,15 @@
 
 </head>
 <body>
+<<<<<<< HEAD
+
+<?php include("../toptitle.php"); ?>
+
+=======
     <?php
        include '../toptitle.php';
     ?>
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 <input type ="button" onclick="history.back()" value="BACK(回到上一頁)">
 </input>
   <div align="center">
@@ -112,8 +118,14 @@
 </div>
 
 </form>
+<<<<<<< HEAD
+    <!-- 包含網頁的頁尾內容 -->
+    <?php
+    include("../topfooter.php"); 
+=======
     <?php
         include '../topfooter.php';
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     ?>
 
 </body>

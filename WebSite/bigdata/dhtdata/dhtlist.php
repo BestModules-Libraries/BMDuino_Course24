@@ -22,7 +22,11 @@ $link = Connection(); // Connection 是在 iotcnn.php 中定義的連接函數
 $op1 = "<a href='listforMAC.php?MAC=%s'>Device Detail(詳細每一筆資料)</a>";
 
 // SQL 查詢字串，用於按 MAC 地址分組並查詢溫溼度和其他資訊
+<<<<<<< HEAD
+$qrystr = "SELECT MAC, avg(temperature) as temperature, avg(humidity) as humidity, max(systime) as systime, count(*) as count FROM big.dhtdata WHERE 1 group by MAC order by MAC asc";
+=======
 $qrystr = "SELECT MAC, avg(temperature) as temperature, avg(humidity) as humidity, max(systime) as systime, count(*) as count FROM dhtdata WHERE 1 group by MAC order by systime desc ;";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 建立空陣列，用於儲存查詢結果
 $d01 = array(); // 用於儲存 MAC 地址

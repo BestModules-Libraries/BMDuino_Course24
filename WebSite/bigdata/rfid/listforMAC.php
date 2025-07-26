@@ -22,7 +22,11 @@ if ($temp0 == "") {
 }
 //Ultrasonic HC-SR04 Device(超音波測距裝置)
 // 表格標題，包含 MAC 地址
+<<<<<<< HEAD
+$tstr = "Pass RFID Card Logging Records for MAC %s(門禁卡號進出紀錄表)";
+=======
 $tstr = "Ultrasonic HC-SR04 Device for MAC %s(超音波測距裝置)";
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 // 定義表格行的模板，用於顯示資料
 $subrow = "<tr><td>%s</td><td>%s</td><td>%s</td><td>%4.2f</td></tr>";

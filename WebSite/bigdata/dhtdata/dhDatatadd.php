@@ -82,8 +82,13 @@ HTTP GET 是一個基本但重要的 HTTP 請求方法，
 	$sysdt = getdataorder() ;
 //	$ddt = getdataorder() ;
 	
+<<<<<<< HEAD
+	//http://localhost:8888/bigdata/dhtdata/dhDatatadd.php?MAC=AABBCCDDEEFF&T=34&H=34
+	//http://iot.arduino.org.tw:8888/bigdata/dhtdata/dhDatatadd.php?MAC=AABBCCDDEEFF&T=34&H=34
+=======
 	//http://iot.arduino.org.tw:8888/bigdata/dhtdata/dhDatatadd.php?MAC=AABBCCDDEEFF&T=34&H=34
 	//http://iot.arduino.org.tw:8888/bigdata/		dhtdata/dhDatatadd.php?MAC=AABBCCDDEEFF&T=34&H=34
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 	// 主機：http://localhost:8888/
 	//Http GET程式：dhtdata/dhDatatadd.php
 	//傳遞的參數：MAC=AABBCCDDEEFF&T=34&H=34
@@ -108,7 +113,11 @@ HTTP GET 是一個基本但重要的 HTTP 請求方法，
 //--------------
 
 	//新增資料的sql 語法:INSERT INTO dhtdata (MAC, temperature, humidity, systime) VALUES ( 'AAAAAAAAAAAA',  '45.2', '88.9', '20230324114801');
+<<<<<<< HEAD
+	$cmdstr = "insert into big.dhtdata (MAC,IP, temperature, humidity, systime) VALUES ( '%s',  '%s', %6.1f, %6.1f, '%s');" ;
+=======
 	$cmdstr = "insert into dhtdata (MAC,IP, temperature, humidity, systime) VALUES ( '%s',  '%s', %6.1f, %6.1f, '%s');" ;
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 //	$qrystr = sprintf("insert into big.dhtdata (MAC,temperature, humidity, systime) VALUES ( '%s', '%s', %f, %f, '%s');" ,$temp0,$IP,$temp1,$temp2,$sysdt) ;
 	$qrystr = sprintf($cmdstr ,$temp0,$ip,$temp1,$temp2,$sysdt) ;
 	//使用sprintf 將 插入到dhtdata 資料表的insert SQL 敘述產生出來，並回傳整個SQL敘述到變數$qrystr

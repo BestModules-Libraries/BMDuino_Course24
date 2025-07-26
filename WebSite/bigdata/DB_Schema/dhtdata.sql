@@ -3,9 +3,15 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
+<<<<<<< HEAD
+-- 產生時間： 2024-03-18 09:09:31
+-- 伺服器版本： 10.4.28-MariaDB
+-- PHP 版本： 8.2.4
+=======
 -- 產生時間： 2025-05-01 05:42:39
 -- 伺服器版本： 10.4.32-MariaDB
 -- PHP 版本： 8.2.12
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -29,6 +35,14 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `dhtdata` (
   `id` int(11) NOT NULL COMMENT '主鍵',
+<<<<<<< HEAD
+  `MAC` char(12) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '裝置MAC值',
+  `crtdatetime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT '資料輸入時間',
+  `temperature` float NOT NULL COMMENT '溫度值',
+  `humidity` float NOT NULL COMMENT '濕度值',
+  `systime` char(14) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '使用者更新時間'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='溫溼度感測器資料';
+=======
   `MAC` varchar(12) NOT NULL COMMENT '裝置MAC值',
   `IP` char(20) CHARACTER SET ascii COLLATE ascii_general_ci NOT NULL COMMENT '用戶端IP',
   `crtdatetime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT '資料輸入時間',
@@ -2201,6 +2215,7 @@ INSERT INTO `dhtdata` (`id`, `MAC`, `IP`, `crtdatetime`, `temperature`, `humidit
 (2154, 'B8D61A68DAFC', '192.168.50.124', '2025-04-24 04:18:34', 25.8, 60.8, '20250424061834'),
 (2155, 'AABBCCDDEEFF', '140.127.201.62', '2025-04-25 13:23:52', 34, 34, '20250425195213'),
 (2156, 'AABBCCDDEEFF', '192.168.99.100', '2025-04-25 13:30:41', 34, 67, '');
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 --
 -- 已傾印資料表的索引
@@ -2211,7 +2226,11 @@ INSERT INTO `dhtdata` (`id`, `MAC`, `IP`, `crtdatetime`, `temperature`, `humidit
 --
 ALTER TABLE `dhtdata`
   ADD PRIMARY KEY (`id`),
+<<<<<<< HEAD
+  ADD KEY `mac` (`MAC`,`systime`);
+=======
   ADD KEY `MAC` (`MAC`,`systime`);
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 
 --
 -- 在傾印的資料表使用自動遞增(AUTO_INCREMENT)
@@ -2221,7 +2240,11 @@ ALTER TABLE `dhtdata`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `dhtdata`
 --
 ALTER TABLE `dhtdata`
+<<<<<<< HEAD
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主鍵';
+=======
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主鍵', AUTO_INCREMENT=2157;
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

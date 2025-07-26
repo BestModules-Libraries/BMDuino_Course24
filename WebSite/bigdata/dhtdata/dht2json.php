@@ -1,6 +1,10 @@
 <?php     
   //  http://localhost:8888/bigdata/dhtdata/dht2json.php?MAC=246F28248CE0&start=20200406&end=20200407
+<<<<<<< HEAD
+  //  http://iot.arduino.org.tw//bigdata/dhtdata/dht2json.php?MAC=246F28248CE0&start=20200406&end=20200407
+=======
   //  http://localhost:8888/bigdata/dhtdata/dht2json.php?MAC=246F28248CE0&start=20200406&end=20200407
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
     //include("../comlib.php");		//使用資料庫的呼叫程式
    	include("../Connections/iotcnn.php");		//使用資料庫的呼叫程式
   	$link=Connection();		//產生mySQL連線物件
@@ -48,9 +52,18 @@
 		{
 
 
+<<<<<<< HEAD
+//            array_push($d2 , round((float)$row["temperature"],1)) ;
+            array_push($d2, round((float)$row["temperature"], 1)); ;
+            //將取得的溫度值，只留一位小數點，丟入$d2陣列  
+//            array_push($d3 , round((float)$row["humidity"],1)) ;
+            array_push($d3, round((float)$row["humidity"], 1)); ;
+           // echo round((float)$row["temperature"],1)."/".round((float)$row["humidity"],1)."<br>" ;
+=======
             array_push($d2 , (double)sprintf("%5.1f",(double)$row["temperature"])) ;
             //將取得的溫度值，只留一位小數點，丟入$d2陣列  
             array_push($d3 , (double)sprintf("%5.1f",(double)$row["humidity"] )) ;
+>>>>>>> db2f7144f049a9ca8d54308bd388ef87fc78de9f
              //將取得的濕度值，只留一位小數點，丟入$d3陣列  
         }
         $maindata->Device = $sid ;
