@@ -1,0 +1,2 @@
+我使用apache+mySQL+php8的版本，網址是http://127.0.0.1:8888/， 想要寫一個資料表dhtdata， 內容文附件:dhtdata_Schema.sql，用php8的版本，寫一個這個資料表dhtdata的新增、修改、刪除、查詢與資料圖表顯示功能，每一個資料庫讀寫，都必須透過引入    include("iotcnn.php");的語法，來使用 Connection() 函式建立與資料庫的連線:$link = Connection();，使用 $link 來建立所有SQL命令的讀寫。
+並用php8語法來開發這個資料表dhtdata的新增、修改、刪除、查詢與資料圖表顯示功能，並在每一個功能都必須在開始使用:include 'toptitle.php';引入，建立畫面的抬頭顯示。並在每一個功能都必須在開始使用:include 'topfooter.php';引入，建立畫面的頁尾顯示。

@@ -1,0 +1,1 @@
+INSERT INTO dhtdata (id, MAC, crtdatetime, temperature, humidity, systime) VALUES (NULL, 'a01110001', current_timestamp(), '25.3', '88.9', '20220624220101');
