@@ -1,0 +1,420 @@
+{
+  "Device": "3C71BFFD882C",
+  "Datalist": [
+    {
+      "Datetime": "20210429025219",
+      "Temperature": "29",
+      "Humidity": "64.5"
+    },
+    {
+      "Datetime": "20210429025232",
+      "Temperature": "29",
+      "Humidity": "64.4"
+    },
+    {
+      "Datetime": "20210429025302",
+      "Temperature": "29",
+      "Humidity": "64.4"
+    },
+    {
+      "Datetime": "20210429025321",
+      "Temperature": "29",
+      "Humidity": "64.5"
+    },
+    {
+      "Datetime": "20210429025351",
+      "Temperature": "29",
+      "Humidity": "64.5"
+    },
+    {
+      "Datetime": "20210429025424",
+      "Temperature": "29",
+      "Humidity": "64.4"
+    },
+    {
+      "Datetime": "20210429025458",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429025528",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429025559",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429025629",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429025703",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429025733",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429025807",
+      "Temperature": "29",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429025837",
+      "Temperature": "29",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429025911",
+      "Temperature": "29",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429025931",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030001",
+      "Temperature": "29",
+      "Humidity": "64.5"
+    },
+    {
+      "Datetime": "20210429030032",
+      "Temperature": "29",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429030102",
+      "Temperature": "29",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429030133",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030203",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030243",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030313",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030344",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030414",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030445",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030515",
+      "Temperature": "29",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429030552",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030622",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030653",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030724",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030754",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030828",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030858",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030929",
+      "Temperature": "29",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429030959",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031030",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031100",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031131",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031201",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031232",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031303",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031333",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031404",
+      "Temperature": "28.9",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429031434",
+      "Temperature": "28.9",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429031505",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031535",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031606",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031637",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031707",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429031738",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429031808",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429031841",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429031915",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429031945",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429032016",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032046",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032117",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032147",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032218",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429032249",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032319",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032350",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032420",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032451",
+      "Temperature": "28.9",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429032521",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032558",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032628",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032749",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429032819",
+      "Temperature": "28.8",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429032850",
+      "Temperature": "28.8",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429032921",
+      "Temperature": "28.8",
+      "Humidity": "64.4"
+    },
+    {
+      "Datetime": "20210429032951",
+      "Temperature": "28.8",
+      "Humidity": "64.4"
+    },
+    {
+      "Datetime": "20210429033022",
+      "Temperature": "28.8",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429033052",
+      "Temperature": "28.8",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429033126",
+      "Temperature": "28.8",
+      "Humidity": "64.3"
+    },
+    {
+      "Datetime": "20210429033156",
+      "Temperature": "28.9",
+      "Humidity": "64.2"
+    },
+    {
+      "Datetime": "20210429033227",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429033249",
+      "Temperature": "28.9",
+      "Humidity": "64.1"
+    },
+    {
+      "Datetime": "20210429033931",
+      "Temperature": "29",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429034002",
+      "Temperature": "29",
+      "Humidity": "63.9"
+    },
+    {
+      "Datetime": "20210429034057",
+      "Temperature": "29",
+      "Humidity": "64"
+    },
+    {
+      "Datetime": "20210429034105",
+      "Temperature": "29",
+      "Humidity": "64"
+    }
+  ]
+}
