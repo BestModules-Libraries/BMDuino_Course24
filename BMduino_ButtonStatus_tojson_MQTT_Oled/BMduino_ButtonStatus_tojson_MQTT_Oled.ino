@@ -4,7 +4,7 @@
 #include "LedButtonLib.h"        // 引入 LED 與按鈕控制函式庫
 #include "OledLib.h"             // 引入 OLED 顯示模組函式庫
 #include "MQTTLib.h"             // 引入 MQTT 通訊函式庫
-
+SSSSSS
 //----------------------------------
 //-------函式前置宣告區---------------
 void showButtononOled(String ss); // 在 OLED 上列印按鈕狀態

@@ -1,19 +1,18 @@
-/*************************************************
-檔案:        readDataInfo
-描述:        1. 使用 SoftwareSerial 介面（波特率 38400）與 mySpo2 進行通訊。
-             2. 使用硬體序列埠（波特率 9600）與序列埠監視器進行通訊。
-注意事項:
-**************************************************/
+#include "TCP.h"  //將WIFI模組加入
+#include "OledLib.h"  //將OLED12864顯示模組加入
+#include <String.h>    // Arduino 內建字串處理函式庫
+//#include "commlib.h"   // 通訊相關的共用函式庫（可能包含封包處理、緩衝區管理等）
+
 // 包含 BMH08002-4 庫，用於與血氧感測器進行通訊
 #include <BMH08002-4.h>
-
+    
 // 定義 mySpo2 物件，根據硬體序列埠選擇不同的配置
 // 如果不使用軟體序列埠，請註解以下行
-// BMH08002_4 mySpo2(2, 5, 4);       // enPin, rxPin, txPin
+ BMH08002_4 mySpo2(8, 7, 6);       // enPin, rxPin, txPin
 
 // 如果使用硬體序列埠 Serial1，請取消註解此行（適用於 BMduino 的 Serial1）
-BMH08002_4 mySpo2(22, &Serial1);  // enPin 設為 22，與 Serial1 連結
-.
+//BMH08002_4 mySpo2(22, &Serial1);  // enPin 設為 22，與 Serial1 連結
+
 // 如果使用硬體序列埠 Serial2，請取消註解此行（適用於 BMduino 的 Serial2）
 // BMH08002_4 mySpo2(25, &Serial2);
 
@@ -29,9 +28,47 @@ uint8_t rBuf[15] = {0};            // 接收緩衝區陣列，用於儲存感測
 uint8_t Status = 0;                // 狀態變數，用於儲存感測器返回的狀態碼
 uint8_t flag = 0;                  // 旗標變數，用於追蹤手指移動狀態
 
+// ------- 自定義函式宣告區 -----------
+void initSensor();                 // 初始化所有感測模組
+void initAll();                    // 初始化整體系統
+void INITtWIFI();                  // 初始化 WiFi 網路連線
+void showDeviceonOled(String ss,int row);  //列印Device ID於OLED上
+void showTitleonOled(String ss,int row); //列印抬頭於OLED上
+void showIPonOled(String ss,int row); //列印IP Address於OLED上
+//-------列印ＭＡＣ　Ａｄｄｒｅｓｓ於OLED上---------------
+void showMACeonOled(String ss,int row); //列印MAC Address於OLED上
+//-------列印ＭＡＣ　Ａｄｄｒｅｓｓ於OLED上---------------
+void showSSIDeonOled(String ss,int row); //列印SSID於OLED上
+
+// ------- 全域變數宣告區 -----------
+String SSIDData;   // 儲存 WiFi 熱點名稱 (SSID)
+String IPData;     // 儲存 WiFi 分配到的 IP 位址
+String MacData;     // 儲存 WiFi 分配到的 MAC Address
+// MacData 在其他函式中宣告，作為全域變數
+
+// ------------------ 初始化 ------------------
+
+
+
+
 void setup()
 {
-  Serial.begin(9600);              // 初始化序列埠，波特率設為 9600，用於與電腦的序列監視器通訊
+   initAll();       // 初始化整體系統（啟動序列埠、初始化 OLED、Relay）
+  delay(200);      // 延遲 200ms，確保硬體模組穩定
+  INITtWIFI();     // 初始化 WiFi 網路，並取得 SSID、IP 與 MAC 資料
+
+ //---------------------------------
+  clearScreen();  // 清除 OLED 螢幕
+  // 顯示 BEST MODULES 的 LOGO
+  drawPicture(0, 0, BestModule_LOGO, 128, 64);
+  delay(3000);    // LOGO 顯示 3 秒
+  clearScreen();  // 再次清除螢幕
+
+  // 顯示系統資訊於 OLED
+  showTitleonOled(MacData,0);  // 在 OLED 顯示 MAC 位址
+  showIPonOled(IPData,2);      // 在 OLED 顯示 IP 位址
+  //----------------------------
+  Serial.println("Enter Loop()"); // 提示已經進入主迴圈 loop()
   mySpo2.begin();                  // 初始化血氧感測器模組
   mySpo2.setModeConfig(0x02);      // 設定感測器為查詢回應模式（0x02），手指檢測到時紅燈亮起
   mySpo2.setTimeInterval(300);     // 設定測量間隔為 300 毫秒
@@ -102,3 +139,48 @@ void Mode_continuous_timing()
     }
   }
 }
+// ------------------ 系統初始化區 ------------------
+
+// 初始化所有感測模組
+void initSensor()
+{
+  initOled();    // 初始化 OLED 12864 (0.96吋 OLED BMD31M090)
+  delay(2000);   // 延遲 2 秒，等待顯示模組穩定
+  
+}
+
+// 初始化整體系統
+void initAll()
+{
+  Serial.begin(9600);  // 啟動序列埠，速率 9600 bps
+  initSensor();        // 呼叫初始化感測模組
+}
+
+// 初始化 WiFi
+void INITtWIFI()
+{
+  initWiFi();   // 初始化 WiFi 功能
+  Serial.println("");
+  Serial.println("---wifi access point----");
+
+  SSIDData = GetSSID();   // 取得連線的 WiFi 熱點名稱
+  Serial.println(SSIDData);
+
+  Serial.println("---Show IP Address----");
+  IPData = GetIP();       // 取得裝置分配到的 IP 位址
+  Serial.println(IPData);
+
+  MacData = GetMAC();     // 取得裝置的 MAC 位址
+  Serial.println("---MAC Address----");
+  Serial.println(MacData);
+}
+
+
+
+
+
+
+
+
+
+

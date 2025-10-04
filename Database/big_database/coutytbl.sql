@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 4.8.2
 -- https://www.phpmyadmin.net/
 --
--- 主機： localhost
--- 產生時間： 2025 年 09 月 19 日 17:44
--- 伺服器版本： 5.5.68-MariaDB
--- PHP 版本： 8.2.27
+-- 主機: localhost
+-- 產生時間： 2022 年 06 月 19 日 14:33
+-- 伺服器版本: 5.5.57-MariaDB
+-- PHP 版本： 5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -28,10 +29,13 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `coutytbl` (
-  `cid` char(2) CHARACTER SET ascii NOT NULL COMMENT '縣市ID',
-  `cname` char(40) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL COMMENT '縣市名稱'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='台灣縣市資料代碼表';
+  `cid` varchar(14) CHARACTER SET ascii NOT NULL COMMENT '縣市ID',
+  `cname` varchar(40) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL COMMENT '	縣市名稱'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- 已匯出資料表的索引
+--
 
 --
 -- 資料表索引 `coutytbl`

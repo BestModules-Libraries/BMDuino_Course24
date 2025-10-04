@@ -6,14 +6,14 @@
 **************************************************/
 // 包含 BMH08002-4 庫，用於與血氧感測器進行通訊
 #include <BMH08002-4.h>
-
+    
 // 定義 mySpo2 物件，根據硬體序列埠選擇不同的配置
 // 如果不使用軟體序列埠，請註解以下行
-// BMH08002_4 mySpo2(2, 5, 4);       // enPin, rxPin, txPin
+ BMH08002_4 mySpo2(8, 7, 6);       // enPin, rxPin, txPin
 
 // 如果使用硬體序列埠 Serial1，請取消註解此行（適用於 BMduino 的 Serial1）
-BMH08002_4 mySpo2(22, &Serial1);  // enPin 設為 22，與 Serial1 連結
-.
+//BMH08002_4 mySpo2(22, &Serial1);  // enPin 設為 22，與 Serial1 連結
+
 // 如果使用硬體序列埠 Serial2，請取消註解此行（適用於 BMduino 的 Serial2）
 // BMH08002_4 mySpo2(25, &Serial2);
 

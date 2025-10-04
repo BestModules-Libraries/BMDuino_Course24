@@ -14,7 +14,7 @@ Description: 開機後透過 I2C 介面讀取一次裝置資訊（包含序號SN
 String DHTStr ;  //取得產品、序號、編號等文字
 
 //-----------------感測元件物件區-------------------------
-// 建立一個 BM25S2021_1 的物件，                   命名為 BMht，並使用 I2C（Wire）通訊方式
+// 建立一個 BM25S2021_1 的物件，命名為 BMht，並使用 I2C（Wire）通訊方式
 //BM25S2021_1 BMht(&Wire);    //透過IIC 讀取溫溼度感測模組
 BM25S2021_1 BMht(&Wire1);     //透過第一組IIC 讀取溫溼度感測模組
 //BM25S2021_1 BMht(&Wire2);   //透過第二組IIC 讀取溫溼度感測模組
@@ -33,7 +33,6 @@ void ShowDHTInformation();   //印出溫溼度感測器產品所有資訊
 //--------初始化溫溼度感測器，啟動 I2C 通訊-----------
 void initDHT()// 初始化溫溼度感測器，啟動 I2C 通訊
 {
-    Serial.println("now init Temperature & Humidity Sensor....") ;
     BMht.begin();               // 初始化感測器，啟動 I2C 通訊
     Serial.println("init Temerature OK") ;
 }
@@ -80,12 +79,3 @@ void ShowDHTInformation()   //印出溫溼度感測器產品所有資訊
     Serial.println(getVersion());    // 顯示韌體版本
     Serial.println("=============================== ");   
 }
-
-
-
-
-
-
-
-
-
