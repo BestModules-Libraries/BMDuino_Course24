@@ -25,21 +25,19 @@
 <p dir="auto">08	2025/7/26	08.將單機版之溫溼度感測顯示整合應用，整合網路應用情境之開發理念與技巧	https://youtube.com/live/ueJiO-HLTag</p>
 <p dir="auto">09	2025/8/9	09.以BMduino 開發板開發智慧家庭簡單產品雛形	https://youtube.com/live/yvlrSHJe-9s</p>
 <p dir="auto">10	2025/8/16	10.在物聯網架構 中BMduino 開發板連接雲端技巧	https://youtube.com/live/XzpckZw8rdI</p>
-<p dir="auto">2025/8/16	10.在物聯網架構 中BMduino 開發板連接雲端技巧</p>
-<p dir="auto">2025/8/2	11.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行分散式系統開發技巧</p>
-<p dir="auto">2025/9/13	12.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行控制遠端設備</p>
-<p dir="auto">2025/9/20	13.雲端系統介紹、開發環境與伺服器建置與設定</p>
-<p dir="auto">2025/9/27	14.介解紹感測器資料特性，進行資料庫規劃與資料設計</p>
-<p dir="auto">2025/10/4	15.使用BMduino 開發板開發資料收集器，並 透過通訊連接雲端平台</p>
-<p dir="auto">2025/10/18	16.使用BMduino 開發板建立物聯網產品雛型</p>
-<p dir="auto">2025/10/25	17.使用BMduino 開發板使用語音模組開發簡單語音應用</p>
-<p dir="auto">2025/11/1	18.整合多種感測器與語音模組，進行智慧應用</p>
-<p dir="auto">2025/11/8	19.使用BMduino 開發板開發智慧家庭中氣體感測產品</p>
-<p dir="auto">2025/11/15	20.使用BMduino 開發板開發智慧家庭中非法入侵感測與警示產品</p>
-<p dir="auto">2025/12/6	21.介紹 BMduino 開發板藍牙通訊，如何讀 取藍牙相關概念與設計</p>
-<p dir="auto">2025/12/13	22.介紹 BMduino 開發板如何透過藍牙通 訊，整合現有 APPs 來開發產品</p>
-<p dir="auto">2026/1/10	23.介紹APP Inventor 安裝、設定、開發環境介 紹與簡單範例介紹</p>
-<p dir="auto">2026/1/17	24.整合 BMduino 開發板與 APP Inventor 整合開發</p>
-
+<p dir="auto">11	2025/8/2	11.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行分散式系統開發技巧	https://youtube.com/live/s-B6reIEv8g</p>
+<p dir="auto">12	2025/9/13	12.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行控制遠端設備	https://www.youtube.com/live/hEcG-I_vV0Q</p>
+<p dir="auto">13	2025/9/20	13.雲端系統介紹、開發環境與伺服器建置與設定	https://www.youtube.com/live/xkpbDFf0udE</p>
+<p dir="auto">14	2025/9/27	14.介解紹感測器資料特性，進行資料庫規劃與資料設計	https://www.youtube.com/live/q1DpwspSWIs</p>
+<p dir="auto">15	2025/10/4	15.使用BMduino 開發板開發資料收集器，並透過通訊連接雲端平台	https://youtube.com/live/AJGhcEwpAEQ</p>
+<p dir="auto">16	2025/10/18	16.使用BMduino 開發板建立物聯網產品雛型	https://youtube.com/live/w9ePT2IPP_U</p>
+<p dir="auto">17	2025/10/25	17.使用BMduino 開發板使用語音模組開發簡單語音應用	https://youtube.com/live/Gu_7wy0SDxc</p>
+<p dir="auto">18	2025/11/1	18.整合多種感測器與語音模組，進行智慧應用	https://youtube.com/live/4Pw-U5YG4Z0</p>
+<p dir="auto">19	2025/11/15	19.使用BMduino 開發板開發智慧家庭中氣體感測產品	https://youtube.com/live/VagmS9z8jvs</p>
+<p dir="auto">20	2025/11/22	20.使用BMduino 開發板開發智慧家庭中非法入侵感測與警示產品	https://youtube.com/live/YAcaNpqefiM</p>
+<p dir="auto">21	2025/11/29	21.介紹 BMduino 開發板藍牙通訊，如何讀 取藍牙相關概念與設計	https://youtube.com/live/unjB-vQC9aQ</p>
+<p dir="auto">22	2026/1/17	22.介紹 BMduino 開發板如何透過藍牙通 訊，整合現有 APPs 來開發產品	https://youtube.com/live/pdo-vKUY24o</p>
+<p dir="auto">23	2026/1/24	23.介紹APP Inventor 安裝、設定、開發環境介 紹與簡單範例介紹	https://youtube.com/live/_jddnLar4Rw</p>
+<p dir="auto">24	2026/1/31	24.整合 BMduino 開發板與 APP Inventor 整合開發	https://youtube.com/live/7gXM7QxDZRg</p>
 
 
