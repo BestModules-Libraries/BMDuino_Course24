@@ -14,16 +14,17 @@
 <p dir="auto"><a href="http://ncnu.arduino.org.tw/brucetsao/myteachingppt.php" rel="nofollow">http://ncnu.arduino.org.tw/brucetsao/myteachingppt.php</a></p>
 <h5 dir="auto"></h5>
 <hr>
-<p dir="auto">預定日期	主題
-2025/5/10	01.介紹BMduino開發版及安裝開發環境與相關設定</p>
-<p dir="auto">2025/5/24	02.介紹Arduino 開發架構與C 語言介紹</p>
-<p dir="auto">2025/6/7	03.介紹BMduino官網感測零件、並以開發方向來介紹不 同零件的使用觀念與情境</p>
-<p dir="auto">2025/6/14	04.以使用情境介紹感測元件原理、使用情境與設計理念</p>
-<p dir="auto">2025/6/21	05.介紹 WiFi 環境與網路環境使用情境的開發技巧</p>
-<p dir="auto">2025/7/5	06.介紹 Bmduino使用WiFi 模組上網方法與通訊觀念</p>
-<p dir="auto">2025/7/19	07.使用溫溼度感測器與顯示器來介紹溫溼度感測顯示產品之開發理念與技巧</p>
-<p dir="auto">2025/7/26	08.將單機版之溫溼度感測顯示整合應用，整合網路應用情境之開發理念與技巧</p>
-<p dir="auto">2025/8/9	09.以 BMduino 開發板開發智慧家庭簡單產品雛形</p>
+<p dir="auto">預定日期	主題</p>
+<p dir="auto">01	2025/5/10	01.介紹BMduino開發板及安裝開發環境與相關設定	https://www.youtube.com/watch?v=nA8OiNYIlgY</p>
+<p dir="auto">02	2025/5/24	02.介紹Arduino 開發架構與C 語言介紹	https://www.youtube.com/live/sB0M6Hl8fDU</p>
+<p dir="auto">03	2025/6/7	03.介紹BMduino官網感測零件、並以開發方向來介紹不同零件的使用觀念與情境	https://www.youtube.com/watch?v=cCXoL5Xnbbk</p>
+<p dir="auto">04	2025/6/14	04.以使用情境介紹感測元件原理、使用情境與設計理念	https://www.youtube.com/watch?v=9r89UhbKTOA</p>
+<p dir="auto">05	2025/6/21	05.介紹 WiFi 環境與網路環境使用情境的開發技巧	https://www.youtube.com/live/r7sv3JfKjMg</p>
+<p dir="auto">06	2025/7/5	06.介紹 Bmduino使用WiFi 模組上網方法與通訊觀念	https://www.youtube.com/live/XK68UVXpvn0</p>
+<p dir="auto">07	2025/7/19	07.使用溫溼度感測器與顯示器來介紹溫溼度感測顯示產品之開發理念與技巧	https://youtube.com/live/UvdFC2NdyIg</p>
+<p dir="auto">08	2025/7/26	08.將單機版之溫溼度感測顯示整合應用，整合網路應用情境之開發理念與技巧	https://youtube.com/live/ueJiO-HLTag</p>
+<p dir="auto">09	2025/8/9	09.以BMduino 開發板開發智慧家庭簡單產品雛形	https://youtube.com/live/yvlrSHJe-9s</p>
+<p dir="auto">10	2025/8/16	10.在物聯網架構 中BMduino 開發板連接雲端技巧	https://youtube.com/live/XzpckZw8rdI</p>
 <p dir="auto">2025/8/16	10.在物聯網架構 中BMduino 開發板連接雲端技巧</p>
 <p dir="auto">2025/8/2	11.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行分散式系統開發技巧</p>
 <p dir="auto">2025/9/13	12.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行控制遠端設備</p>
