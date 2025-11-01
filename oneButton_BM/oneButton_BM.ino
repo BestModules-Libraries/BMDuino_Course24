@@ -1,4 +1,4 @@
-#define ButtoonPin 7  // 定義按鈕接在數位腳位 7（之後用變數 ButtoonPin 取代數值 7）
+#define ButtoonPin 8  // 定義按鈕接在數位腳位 8（之後用變數 ButtoonPin 取代數值 8）
 int keystatus = 0;    // 宣告一個整數變數 keystatus，用來儲存按鈕目前的狀態（0 或 1）
 
 // setup() 函式：開機或按下重設鍵時執行一次

@@ -8,9 +8,6 @@ StaticJsonDocument<200> doc; // 建立 JSON 文件物件
 #define MQTT_HOST "broker.emqx.io"               
 #define SERVER_PORT 1883
 
-//------全域變數區--------------------------
-String MacData ;//網路卡編號
-
 //------格式化字串變數區--------------------------
 //Publish & Subscribe use
 // String topic ;                        //MQTT_Topic

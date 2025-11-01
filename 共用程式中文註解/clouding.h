@@ -9,7 +9,7 @@ String ServerURL = "http://iot.arduino.org.tw";
 #define dbagent "/bigdata/dhtdata/dhDatatadd.php?MAC=%s&T=%4.1f&H=%4.1f"
 char dbagentstr[300] ; //sprint 使用之暫存區
  String connectstr ;    //一個空的字串變數，後續用來動態組成完整的 RESTful 請求參數。
-String MacData ;//網路卡編號
+//String MacData ;//網路卡編號
 float Tvalue=55, Hvalue=66; //用溫溼度
 String webresponse ;//取得http get回傳值
 

@@ -28,6 +28,7 @@ void setup()
   initAll();   // 初始化整體系統函式             // 執行 WiFi 模組初始化與連線（定義於 TCP.h / BMC81M001.h）
     delay(200); //延遲200ms
     ShowDHTInformation();   //印出溫溼度感測器產品所有資訊 
+    delay(2000); //延遲200ms
     INITtWIFI();  //系統INIT  WIFI網路
   if  (Wifi.getStatus())
  {

@@ -32,8 +32,8 @@ uint8_t t = ' ';  // 宣告變數 t，初始化為空格字元
 
 //-----------------感測元件物件區-------------------------
 // 創建 BMD31M090 顯示模組的物件，並使用 HW Wire 進行通訊
-BMD31M090 BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire);
-//BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire1); //Please uncomment out this line of code if you use HW Wire1 on BMduino
+//BMD31M090 BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire);
+BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire1); //Please uncomment out this line of code if you use HW Wire1 on BMduino
 //BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire2); //Please uncomment out this line of code if you use HW Wire1 on BMduino
 //----------自定義函式區宣告--------------
 void initOled() ;//初始化OLED12864，0.96吋OLED顯示模組 BMD31M090

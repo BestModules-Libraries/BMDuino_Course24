@@ -6,9 +6,9 @@
 void initSensor();                 // 初始化所有感測模組
 void initAll();                    // 初始化整體系統
 void INITtWIFI();                  // 初始化 WiFi 網路連線
-void showMAConOled(String ss); //列印MAC Address於OLED上
-void showSSIDonOled(String ss); //列印SSID NAME於OLED上
-void showIPonOled(String ss); //列印IP Address於OLED上
+void showMAConOled(String ss,int row); //列印MAC Address於OLED上
+void showSSIDonOled(String ss,int row); //列印SSID NAME於OLED上
+void showIPonOled(String ss,int row); //列印IP Address於OLED上
 
 // ------- 全域變數宣告區 -----------
 String MacData;   // 儲存 WiFi Mac Address Data
@@ -55,6 +55,7 @@ void initSensor()
 void initAll()
 {
   Serial.begin(9600);  // 啟動序列埠，速率 9600 bps
+  Serial.println("Now Init All Sensor") ;       
   initSensor();        // 呼叫初始化感測模組
 }
 
