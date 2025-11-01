@@ -1,5 +1,0 @@
-<?php
-
-big.dhtdata phpinfo() ;
-
-?>
