@@ -1,0 +1,24 @@
+01	2025/5/10	01.介紹BMduino開發板及安裝開發環境與相關設定	https://www.youtube.com/watch?v=nA8OiNYIlgY
+02	2025/5/24	02.介紹Arduino 開發架構與C 語言介紹	https://www.youtube.com/live/sB0M6Hl8fDU
+03	2025/6/7	03.介紹BMduino官網感測零件、並以開發方向來介紹不同零件的使用觀念與情境	https://www.youtube.com/watch?v=cCXoL5Xnbbk
+04	2025/6/14	04.以使用情境介紹感測元件原理、使用情境與設計理念	https://www.youtube.com/watch?v=9r89UhbKTOA
+05	2025/6/21	05.介紹 WiFi 環境與網路環境使用情境的開發技巧	https://www.youtube.com/live/r7sv3JfKjMg
+06	2025/7/5	06.介紹 Bmduino使用WiFi 模組上網方法與通訊觀念	https://www.youtube.com/live/XK68UVXpvn0
+07	2025/7/19	07.使用溫溼度感測器與顯示器來介紹溫溼度感測顯示產品之開發理念與技巧	https://youtube.com/live/UvdFC2NdyIg
+08	2025/7/26	08.將單機版之溫溼度感測顯示整合應用，整合網路應用情境之開發理念與技巧	https://youtube.com/live/ueJiO-HLTag
+09	2025/8/9	09.以BMduino 開發板開發智慧家庭簡單產品雛形	https://youtube.com/live/yvlrSHJe-9s
+10	2025/8/16	10.在物聯網架構 中BMduino 開發板連接雲端技巧	https://youtube.com/live/XzpckZw8rdI
+11	2025/8/2	11.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行分散式系統開發技巧	https://youtube.com/live/s-B6reIEv8g
+12	2025/9/13	12.在物聯網架構 中BMduino 開發板連接雲端MQTT_Broker進行控制遠端設備	https://www.youtube.com/live/hEcG-I_vV0Q
+13	2025/9/20	13.雲端系統介紹、開發環境與伺服器建置與設定	https://www.youtube.com/live/xkpbDFf0udE
+14	2025/9/27	14.介解紹感測器資料特性，進行資料庫規劃與資料設計	https://www.youtube.com/live/q1DpwspSWIs
+15	2025/10/4	15.使用BMduino 開發板開發資料收集器，並透過通訊連接雲端平台	https://youtube.com/live/AJGhcEwpAEQ
+16	2025/10/18	16.使用BMduino 開發板建立物聯網產品雛型	https://youtube.com/live/w9ePT2IPP_U
+17	2025/10/25	17.使用BMduino 開發板使用語音模組開發簡單語音應用	https://youtube.com/live/Gu_7wy0SDxc
+18	2025/11/1	18.整合多種感測器與語音模組，進行智慧應用	https://youtube.com/live/4Pw-U5YG4Z0
+19	2025/11/15	19.使用BMduino 開發板開發智慧家庭中氣體感測產品	https://youtube.com/live/VagmS9z8jvs
+20	2025/11/22	20.使用BMduino 開發板開發智慧家庭中非法入侵感測與警示產品	https://youtube.com/live/YAcaNpqefiM
+21	2025/11/29	21.介紹 BMduino 開發板藍牙通訊，如何讀 取藍牙相關概念與設計	https://youtube.com/live/unjB-vQC9aQ
+22	2026/1/17	22.介紹 BMduino 開發板如何透過藍牙通 訊，整合現有 APPs 來開發產品	https://youtube.com/live/pdo-vKUY24o
+23	2026/1/24	23.介紹APP Inventor 安裝、設定、開發環境介 紹與簡單範例介紹	https://youtube.com/live/_jddnLar4Rw
+24	2026/1/31	24.整合 BMduino 開發板與 APP Inventor 整合開發	https://youtube.com/live/7gXM7QxDZRg

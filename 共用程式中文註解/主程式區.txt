@@ -1,0 +1,156 @@
+// ================================================================
+// =============== 全域變數宣告區 (Global Variables) ===============
+// ================================================================
+
+// 宣告三個全域變數，用於儲存 WiFi 模組相關資訊
+String MacData;   // 儲存目前裝置的 WiFi MAC Address（網路卡的唯一識別碼）
+String SSIDData;  // 儲存目前連線的 WiFi 熱點名稱 (SSID)
+String IPData;    // 儲存 WiFi 連線後由路由器分配的 IP 位址
+
+
+// ------- 感測模組函式與外部函式引用宣告區 -----------
+#include <String.h>    // Arduino 內建字串處理函式庫
+#include "commlib.h"   // 通訊相關的共用函式庫（可能包含封包處理、緩衝區管理等）
+
+#include "OledLib.h"   // 自訂 OLED 顯示模組函式庫（提供 OLED 初始化、文字繪製、清屏等功能）
+#include "TCP.h"       // TCP 通訊函式庫（包含 WiFi 初始化、MAC 取得等函式）
+
+#include "clouding.h"       // REST Ful API 基本模組
+
+#include "RelayLib.h"  // 自訂 繼電器模組函式庫（提供 TurnonRelay、TurnoffRelay 等功能）
+#include "LedButtonLib.h"  // 自訂按鈕模組函式庫
+#include "OxygenLib.h"  // 自訂血氧模組函式庫
+#include "DHTLib.h"  // 自訂溫溼度模組函式庫
+#include "MQTTLib.h"   // MQTT 函式庫，提供 MQTT 初始化、連線與發佈/訂閱訊息功能
+
+#include "VocLib.h" //自訂語音自訂函式宣告
+
+// ------- 自定義函式宣告區 -----------
+void initSensor();                 // 初始化所有感測模組
+void initAll();                    // 初始化整體系統
+void INITtWIFI();                  // 初始化 WiFi 網路連線
+void showTitleonOled(String ss,int row);   // 顯示標題文字於 OLED 第一列
+void showIPonOled(String ss,int row);      // 顯示 IP 位址於 OLED
+void showDeviceonOled(String ss,int row);  // 顯示裝置 Device ID 於 OLED
+
+
+// ------------------ 初始化 ------------------
+void setup()
+{
+  initAll();       // 初始化整體系統（啟動序列埠、初始化 OLED、Relay）
+  delay(200);      // 延遲 200ms，確保硬體模組穩定
+  INITtWIFI();     // 初始化 WiFi 網路，並取得 SSID、IP 與 MAC 資料
+
+  if (Wifi.getStatus())   // 確認 WiFi 是否連線成功
+  {
+    initMQTT();           // 初始化 MQTT 伺服器連線
+    Serial.println("WIFI OK"); 
+    // SendtoClouding();  // （選用功能）傳送感測資料到雲端
+  }
+
+  //---------------------------------
+  clearScreen();  // 清除 OLED 螢幕
+  // 顯示 BEST MODULES 的 LOGO
+  drawPicture(0, 0, BestModule_LOGO, 128, 64);
+  delay(3000);    // LOGO 顯示 3 秒
+  clearScreen();  // 再次清除螢幕
+
+  // 顯示系統資訊於 OLED
+  showTitleonOled(MacData,0);  // 在 OLED 顯示 MAC 位址
+  showIPonOled(IPData,2);      // 在 OLED 顯示 IP 位址
+  //----------------------------
+  Serial.println("Enter Loop()"); // 提示已經進入主迴圈 loop()
+}
+
+// ------------------ 主迴圈 ------------------
+void loop() 
+{              
+  // WiFi 斷線檢查與重連邏輯（目前註解掉）
+  // 當 WiFi 斷線時可重新執行 INITtWIFI()
+
+  // 從 MQTT Broker 接收資料
+  Wifi.readIotData(&ReciveBuff, &ReciveBufflen, &topic);  // 讀取 Broker 下發的資料
+
+  if (ReciveBufflen)   // 如果有接收到資料
+  {
+    Serial.print("read payload from mqtt broker:(");
+    Serial.print(topic);
+    Serial.print("/");
+    Serial.print(ReciveBuff);
+    Serial.print(")\n");
+
+    // 解析接收到的 JSON 資料
+    DeserializationError error = deserializeJson(doc, ReciveBuff);
+
+    // 取出 JSON 中的欄位數值
+    const char* device     = doc["Device"];      // 例: "48E729732158"
+    int relaynumber        = doc["RelayNumber"]; // 例: 2
+    const char* command    = doc["Command"];     // 例: "ON" 或 "OFF"
+
+    // 將結果輸出到序列監視器
+    Serial.print("Device: ");
+    Serial.println(device);
+
+    Serial.print("RelayNumber: ");
+    Serial.println(relaynumber);
+
+    Serial.print("Command:(");
+    Serial.println(command);
+    Serial.print(")\n");
+
+    // 顯示在 OLED 上
+    showDeviceonOled(device);           // 顯示裝置 ID
+    showRelayNOonOled(relaynumber);     // 顯示繼電器編號
+    showCommandonOled(command);         // 顯示命令字串
+
+    // 判斷並執行對應的繼電器操作
+    if (String(command) == "ON")   // 若指令為 "ON"，開啟指定編號繼電器
+    {
+      Serial.println("Turn on Relay");
+      TurnonRelay(relaynumber);
+    }
+    if (String(command) == "OFF")  // 若指令為 "OFF"，關閉指定編號繼電器
+    {
+      Serial.println("Turn off Relay");
+      TurnoffRelay(relaynumber);
+    }
+  }
+}
+
+//---------------  自訂函式區 ------------------
+// ------------------ 系統初始化區 ------------------
+
+// 初始化所有感測模組
+void initSensor()	// 初始化所有感測模組
+{
+  initOled();    // 初始化 OLED 12864 (0.96吋 OLED BMD31M090)
+  delay(2000);   // 延遲 2 秒，等待顯示模組穩定
+  initRealy();   // 初始化繼電器模組
+}
+
+// 初始化整體系統
+void initAll()	// 初始化整體系統
+{
+  Serial.begin(9600);  // 啟動序列埠，速率 9600 bps
+  Serial.println("System Start.....") ; //印出"System Start....." 
+  initSensor(); 
+}
+
+// 初始化 WiFi
+void INITtWIFI()
+{
+  initWiFi();   // 初始化 WiFi 功能
+  Serial.println("");
+  Serial.println("---wifi access point----");
+
+  SSIDData = GetSSID();   // 取得連線的 WiFi 熱點名稱
+  Serial.println(SSIDData);
+
+  Serial.println("---Show IP Address----");
+  IPData = GetIP();       // 取得裝置分配到的 IP 位址
+  Serial.println(IPData);
+
+  MacData = GetMAC();     // 取得裝置的 MAC 位址
+  Serial.println("---MAC Address----");
+  Serial.println(MacData);
+}
