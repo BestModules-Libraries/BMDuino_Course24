@@ -32,7 +32,7 @@ void INITtWIFI();                  // 初始化 WiFi 網路連線
 void showTitleonOled(String ss,int row);   // 顯示標題文字於 OLED 第一列
 void showIPonOled(String ss,int row);      // 顯示 IP 位址於 OLED
 void showDeviceonOled(String ss,int row);  // 顯示裝置 Device ID 於 OLED
-
+void ShowWiFiInformation();  //顯示wifi的基本參數
 
 // ------------------ 初始化 ------------------
 void setup()
@@ -140,6 +140,18 @@ void initAll()	// 初始化整體系統
 void INITtWIFI()
 {
   initWiFi();   // 初始化 WiFi 功能
+  ShowWiFiInformation();  //顯示wifi的基本參數
+
+}
+
+
+void ShowWiFiInformation()  //顯示wifi的基本參數
+{
+  //顯示wifi的基本參數
+  MacData = GetMAC();     // 取得裝置的 MAC 位址
+  Serial.println("---MAC Address----");
+  Serial.println(MacData);
+
   Serial.println("");
   Serial.println("---wifi access point----");
 
@@ -150,7 +162,5 @@ void INITtWIFI()
   IPData = GetIP();       // 取得裝置分配到的 IP 位址
   Serial.println(IPData);
 
-  MacData = GetMAC();     // 取得裝置的 MAC 位址
-  Serial.println("---MAC Address----");
-  Serial.println(MacData);
+
 }
