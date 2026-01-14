@@ -14,59 +14,8 @@
       3. 點選 Key1 / Key2 / Key3 測試按下與放開事件
 **************************************************/
 
-#include <BM7701-00-1.h>  // 引入 BLE 模組 BM7701-00-1 的函式庫
-
-// 若使用軟體序列埠 (SoftwareSerial)，用以下形式建立：
-// BM7701_00_1 BC7701(2, 3);  // rxPin = 2, txPin = 3
-
-// 使用 BMduino 的硬體序列埠 Serial1
-BM7701_00_1 BC7701(&Serial1);  
-// 也可改成 Serial2 / Serial3 / Serial4 依需求切換
-
-//------------------------------------------------------
-// BLE 相關設定參數區
-//------------------------------------------------------
-#define TX_POWER     0x0F  // BLE 模組無線發射功率，0x0F = 最大功率
-#define XTAL_CLOAD   0x04  // 16MHz 晶振負載電容設定
-#define ADV_MIN      100   // 廣播間隔最小值（ms）
-#define ADV_MAX      100   // 廣播間隔最大值（ms）
-#define CON_MIN      30    // 連線間隔最小值（ms）
-#define CON_MAX      30    // 連線間隔最大值（ms）
-#define CON_LATENCY  00    // 連線延遲參數（用於省電）
-#define CON_TIMEOUT  300   // 連線超時時間（ms）
-
-// BLE MAC Address（設備位址）
-uint8_t BDAddress[6] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66};
-
-// BLE 廣播名稱（最多 31 bytes）
-uint8_t BDName[] = {'B','M','C','7','7','M','0','0','1'};
-
-// BLE 廣播封包（Advertise Data）
-uint8_t Adata[] = {0x02, 0x01, 0x06};
-
-// BLE 掃描響應封包（Scan Response Data）
-uint8_t Sdata[] = {0x03, 0x02, 0x0F, 0x18};
 
 
-//------------------------------------------------------
-// 內部狀態常數與旗標變數
-//------------------------------------------------------
-#define BUTTON_CONSISTENCY_DURATION    6
-#define BUTTON_REPEAT1_DURATION       (600 / BUTTON_CONSISTENCY_DURATION)
-#define BUTTON_REPEAT2_DURATION       (150 / BUTTON_CONSISTENCY_DURATION)
-#define INVERT_TIME                   500
-
-bool board_connect = false;  // 是否已連線
-bool board_receive = false;  // 是否收到資料
-bool board_conIntv = false;  // 連線參數是否已設定
-
-uint8_t Status;         // BLE 狀態碼
-uint8_t flag = 0;
-uint8_t count = 0;
-uint8_t sel = 1;        // BLE 初始化時的流程控制變數
-uint8_t receiveBuf[256] = {0};  // BLE 接收資料緩衝區
-
-KEY_MESSAGE Keymessage; // 用來回傳給 APP 的鍵值資料格式
 
 
 
@@ -210,9 +159,11 @@ void loop() {
   //----------------------------------------------------
   // 若 BLE 已連線，則設定連線參數（連線間隔、延遲、timeout）
   //----------------------------------------------------
-  if (board_connect == true) {
+  if (board_connect == true) 
+  {
 
-    if (!board_conIntv) {
+    if (!board_conIntv) 
+    {
       BC7701.wakeUp();
       delay(30);
 
@@ -289,46 +240,3 @@ void loop() {
 
 
 
-/**********************************************************
-  函式：bleProcess()
-  功能：判斷 BLE 模組回傳的狀態
-  回傳值：
-      API_CONNECTED         → BLE 已連線
-      API_DISCONNECTED      → BLE 已斷線
-      DATA_RECEIVED         → 收到 APP 資料
-      API_ERROR             → 讀取錯誤
-**********************************************************/
-uint8_t bleProcess() {
-
-  uint8_t st = 0x00;
-  uint8_t lenth = 0;
-
-  // 嘗試讀取 BLE 回傳資料
-  if (BC7701.readData(receiveBuf, lenth)) {
-
-    switch (receiveBuf[1]) {
-
-      case 0x00:  // 連線 or 斷線事件
-        if (receiveBuf[0] == 0x00) {
-          if (receiveBuf[3] & 0x01)
-            st = API_CONNECTED;
-          else
-            st = API_DISCONNECTED;
-        }
-        break;
-
-      case 0xF2:  // 收到 APP 的資料封包
-        if (receiveBuf[0] == 0x00 && receiveBuf[2] == 0xFF)
-          st = DATA_RECEIVED;
-        break;
-
-      default:
-        break;
-    }
-  }
-  else {
-    st = API_ERROR;  // 無法讀取模組 → 錯誤
-  }
-
-  return st;
-}

@@ -1,24 +1,5 @@
-// OLED 顯示模組自訂函式庫
-/*****************************************************************
-  檔案名稱：display.ino
-  功能說明：
-  1. 使用 I2C 通訊介面與 BMD31M090 OLED 顯示模組通訊（頻率：400KHz）
-  2. 使用硬體序列埠 Serial（115200 bps）與電腦序列監控器通訊
-  硬體接腳說明：
-    SCL 接腳：D19
-    SDA 接腳：D18
-******************************************************************/
-/*****************************************************************
-File:         display.ino
-Description:  1.Wire interface (Clock Frequency: 400K) is used to communicate with BMD31M090.
-              2.Hardware Serial (BAUDRATE 115200) is used to communicate with Serial Port Monitor.
-connection method: sclPin:SCL(D19) sdaPin:SDA(D18)
-******************************************************************/
-//----------外部引用函式區----------------
-//------感測器外部函式庫----------------
-#include "BMD31M090.h"  // 引入 BMD31M090 OLED 顯示模組的函式庫
-//#include  "BestModuleLogo.h"
-#include "Bitmap.h"     // 引入位圖相關的函式庫
+// OLED 顯示模組自訂函式庫-------------------------
+
 
 //------全域變數區--------------------------
 // 定義 BMD31M090 顯示模組的寬度和高度（單位：像素）
@@ -31,22 +12,22 @@ connection method: sclPin:SCL(D19) sdaPin:SDA(D18)
 
 uint8_t t = ' ';  // 宣告變數 t，初始化為空格字元
 
+//----------外部引用函式區----------------
+//------感測器外部函式庫----------------
+#include "BMD31M090.h"  // 引入 BMD31M090 OLED 顯示模組的函式庫
+#include  "BestModuleLogo.h"
+//#include "Bitmap.h"     // 引入位圖相關的函式庫
+
+
 //-----------------感測元件物件區-------------------------
 // 創建 BMD31M090 顯示模組的物件，並使用 HW Wire 進行通訊
 //BMD31M090 BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire);
 BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire1); //Please uncomment out this line of code if you use HW Wire1 on BMduino
 //BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire2); //Please uncomment out this line of code if you use HW Wire1 on BMduino
+
+
 //----------自定義函式區宣告--------------
 void initOled() ;//初始化OLED12864，0.96吋OLED顯示模組 BMD31M090
-void test_drawString_6x8();             // 顯示 6x8 字型字串
-void test_drawString_8x16();            // 顯示 8x16 字型字串
-void test_drawString_drawChar_drawNum();// 同時顯示字串、單字元與數字
-void test_drawPixel();                  // 像素繪製測試（白→黑→反轉）
-void test_drawFastHLine_drawFastVLine();// 繪製水平/垂直線條
-void test_drawBitmap();                 // 顯示 LOGO 點陣圖
-void test_variousScroll();              // 滾動顯示效果
-void test_invertDisplay();              // 顯示反白與恢復
-void  test_dim();                        // 顯示亮度切換（省電模式）
 void drawPicture(int x,int y, const uint8_t *pp,int width, int height) ;
 void clearScreen()  ;  //清除螢幕
 void updateScreen() ;  //顯示當前緩衝區的內容
@@ -149,8 +130,23 @@ void showMACeonOled(String ss,int row); //列印MAC Address於OLED上
 //-------列印ＭＡＣ　Ａｄｄｒｅｓｓ於OLED上---------------
 void showSSIDeonOled(String ss,int row); //列印SSID於OLED上
 void showMsgonOled(String ss,int row); //列印Message於OLED上
-//--------------物件初始化區---------------------
-void initOled()  //OLED12863物件初始化區
+
+//---------測試OLED顯示與展示----------------
+void test_drawString_6x8();             // 顯示 6x8 字型字串
+void test_drawString_8x16();            // 顯示 8x16 字型字串
+void test_drawString_drawChar_drawNum();// 同時顯示字串、單字元與數字
+void test_drawPixel();                  // 像素繪製測試（白→黑→反轉）
+void test_drawFastHLine_drawFastVLine();// 繪製水平/垂直線條
+void test_drawBitmap();                 // 顯示 LOGO 點陣圖
+void test_variousScroll();              // 滾動顯示效果
+void test_invertDisplay();              // 顯示反白與恢復
+void test_dim();                        // 顯示亮度切換（省電模式）
+
+
+//--------自定義函式區程式本體-----------
+
+//--------初始化OLED12832顯示模組，啟動 I2C 通訊-----------
+void initOled()  //OLED12832 物件初始化區
 {
   // 初始化 BMD31M090 顯示模組，使用 I2C 地址進行通訊
   BMD31.begin(BMD31M090_ADDRESS);
@@ -158,7 +154,6 @@ void initOled()  //OLED12863物件初始化區
     Serial.println("init OLED12864 OK") ;
 
 }
-
 //-------------設定字形----------------
 void setFont(const unsigned char* font)   //設定字形
 {
@@ -176,31 +171,31 @@ void updateScreen()  //顯示當前緩衝區的內容
   BMD31.display();  //顯示當前緩衝區的內容
 }
 
-//--------在xcolumn,y row位置，印出文字--------
+//--------指定位置印出文字函式--------
 void printText(int x,int y, String str)  //在xcolumn,y row位置，印出文字
 {
   BMD31.drawString((uint8_t)x, (uint8_t)y, (uint8_t*)str.c_str());
 }
 
-//-----------在xcolumn,y row位置，印出字元文字------------
+//-----------指定位置印出字元函式------------
 void printChar(int x,int y, char str)  //在xcolumn,y row位置，印出字元文字
 {
   BMD31.drawChar((uint8_t)x, (uint8_t)y, (uint8_t)str);
 }
 
-//--------在xcolumn,y row位置，印出整數-----------
+//--------指定位置印出整數-----------
 void printNumber(int x,int y, int num)  //在xcolumn,y row位置，印出整數
 {
   BMD31.drawNum((uint8_t)x, (uint8_t)y, (uint32_t)num,(uint8_t)(String(num).length()) );
 }
 
-//-----------在xcolumn,y row位置，印出浮點數-----------
+//-----------指定位置印出浮點數-----------
 void printFloat(int x,int y, float num)  //在xcolumn,y row位置，印出浮點數
 {
   printText(x, y, String(num) );  //印出字串文字
 }
 
-//--------在xcolumn,y row位置，繪出一點-----------
+//--------指定位置繪出一點-----------
 void drawPoint(int x,int y,int pixelColor) //在xcolumn,y row位置，繪出一點
 {
     //   x：x 座標，範圍 0~127
@@ -213,7 +208,7 @@ void drawPoint(int x,int y,int pixelColor) //在xcolumn,y row位置，繪出一�
     BMD31.display();
 }
 
-//---------畫(x1,y1) - (x2,y2) 的一條直線------------
+//---------在兩點畫一條直線------------
 void drawLine(int x1,int y1,int x2,int y2,int pixelColor) //畫(x1,y1) - (x2,y2) 的一條直線
 {
     // x_Start：起點 x 座標
@@ -228,7 +223,7 @@ void drawLine(int x1,int y1,int x2,int y2,int pixelColor) //畫(x1,y1) - (x2,y2)
   BMD31.display();
 }
 
-//---------在xcolumn,y row位置，繪出width寬度的畫垂直線-------------
+//-----在一點畫一條width寬度的畫垂直線-------
 void drawfastVline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置，繪出width寬度的畫垂直線
 {
     // x：x 座標，範圍 0~127
@@ -242,7 +237,7 @@ void drawfastVline(int x,int y, int width, int pixelColor)  //在xcolumn,y row�
   BMD31.display();
 }
 
- //---------在xcolumn,y row位置，繪出width寬度的畫水平線---------
+ //---------在一點畫一條width寬度的畫水平線---------
 void drawfastHline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置，繪出width寬度的畫水平線
 {
     // x：x 座標，範圍 0~127
@@ -256,7 +251,7 @@ void drawfastHline(int x,int y, int width, int pixelColor)  //在xcolumn,y row�
   BMD31.display();
 }
 
-//---------在xcolumn,y row位置，繪出width寬度的畫垂直線-------
+//---------在一點畫一條width寬度的畫垂直線-------
 void drawVline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置，繪出width寬度的畫垂直線
 {
     // x：x 座標，範圍 0~127
@@ -270,7 +265,7 @@ void drawVline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置
   BMD31.display();
 }
 
-//--------在xcolumn,y row位置，繪出width寬度的畫水平線----------
+//--------在一點畫一條width寬度的畫水平線----------
 void drawHline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置，繪出width寬度的畫水平線
 {
     // x：x 座標，範圍 0~127
@@ -284,7 +279,7 @@ void drawHline(int x,int y, int width, int pixelColor)  //在xcolumn,y row位置
   BMD31.display();
 }
 
-//-------畫(x1,y1) - (x2,y2) 的對角的繪出一個矩形-------
+//-------以兩點為對角的繪出一個矩形-------
 void drawBox(int x1,int y1,int x2,int y2,int pixelColor) //畫(x1,y1) - (x2,y2) 的對角的繪出一個矩形
 {
     // x_Start：起點 x 座標
@@ -309,9 +304,9 @@ void clearScreen()    //清除螢幕
   BMD31.display();  //更新螢幕資訊到螢幕硬體
 }
 
-//-------使用黑色畫一張圖---------
+//-------在指定位置已設定長寬畫一張圖---------
 void invdrawPicture(int x,int y, const uint8_t *pp,int width, int height) //使用黑色畫一張圖
-{
+{	//在指定位置已設定長寬畫一張圖
     // x：x 座標，範圍 0~127
     // y：y 座標，範圍 0~63
     // *Bitmap：點陣圖名稱
@@ -326,9 +321,9 @@ void invdrawPicture(int x,int y, const uint8_t *pp,int width, int height) //使�
   BMD31.display();
 }
 
-//-------------使用白色畫一張圖-------------
+//-------------在指定位置已設定長寬以黑色畫一張圖-------------
 void drawPicture(int x,int y, const uint8_t *pp,int width, int height)  //使用白色畫一張圖
-{
+{	//在指定位置已設定長寬以黑色畫一張圖
     // x：x 座標，範圍 0~127
     // y：y 座標，範圍 0~63
     // *Bitmap：點陣圖名稱
@@ -343,18 +338,18 @@ void drawPicture(int x,int y, const uint8_t *pp,int width, int height)  //使用
   BMD31.display();
 }
 
-//----------降低亮度（省電模式）-------------
+//----------設定省電模式降低亮度-------------
 void setsaveMode()  // 降低亮度（省電模式）
-{
+{	//設定省電模式降低亮度
   // dim：亮度選擇
   //   true：暗
   //   false：正常亮度
   BMD31.dim(TRUE);   // 降低亮度（省電模式）
 }
 
-//--------回復正常亮度-----------
+//--------設定正常用電模式回復正常亮度-----------
 void setlightMode() // 回復正常亮度
-{
+{	//設定正常用電模式回復正常亮度
     // dim：亮度選擇
   //   true：暗
   //   false：正常亮度
@@ -363,7 +358,7 @@ void setlightMode() // 回復正常亮度
 
 //---------設定螢幕反白模式-----------
 void setdisplayInverse()  //設定螢幕反白模式
-{
+{	//設定螢幕反白模式
   //  BMD31.invertDisplay(parameter)：是否反白
   // true：白底黑字 (black-on-white)
   // false：黑底白字 (white-on-black)
@@ -421,13 +416,73 @@ void scrollLeft(int x, int y, int speed,int dir) //向左捲動
 BMD31.startScrollLeft((uint8_t)x, (uint8_t)y, (uint8_t)speed,(uint8_t)dir) ;
 }
 
-//-----------------停止滾動-----------------------
+//---------停止滾動----------
 void stopScroll() //停止滾動
 {
   BMD31.stopScroll();   //停止滾動
 }
 
-//--------------------
+//-------列印抬頭於OLED上---------------
+void showTitleonOled(String ss,int row) //列印抬頭於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("Title on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+//----列印IP Address於OLED上------------
+void showIPonOled(String ss,int row) //列印IP Address於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("IP Address on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+//-------列印Device ID於OLED上-------
+void showDeviceonOled(String ss,int row) //列印Device ID於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("Device on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+
+//-------列印MAC Address於OLED上---------------
+void showMACeonOled(String ss,int row) //列印MAC Address於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("MAC on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+
+//-------列印SSID於OLED上---------------
+void showSSIDeonOled(String ss,int row) //列印SSID於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("SSID on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+
+//-------列印Message於OLED上---------------
+void showMsgonOled(String ss,int row) //列印Message於OLED上
+{
+      printText(0,row,"              ")  ;  //清空
+    printText(0,row,ss)  ;  //轉換string字串到char array
+    Serial.print("Message on OLED:(") ;
+  Serial.print(ss) ;
+  Serial.print(")\n") ;     
+}
+
+//---------測試OLED顯示與展示----------------
+
+//--------顯示反白與恢復-------
 void test_invertDisplay(void) // 顯示反白與恢復
 {
   BMD31.invertDisplay(TRUE); // invert Display Mode:black-on-white
@@ -440,6 +495,7 @@ void test_invertDisplay(void) // 顯示反白與恢復
   delay(500);
 }
 
+//-------顯示亮度切換測試-----------
 void test_dim(void)   // 顯示亮度切換（省電模式）
 {
   BMD31.dim(TRUE);   // 降低亮度（省電模式）
@@ -451,6 +507,8 @@ void test_dim(void)   // 顯示亮度切換（省電模式）
   BMD31.dim(FALSE);
   delay(500);
 }
+
+//--------顯示 6x8 字型字串測試----------
 void test_drawString_6x8(void)  //顯示 6x8 字型字串
 {
   BMD31.clearDisplay();  // 清除畫面
@@ -465,6 +523,8 @@ void test_drawString_6x8(void)  //顯示 6x8 字型字串
   delay(500);
 }
 
+
+//--------顯示8x16 字型字串測試----------
 void test_drawString_8x16(void) // 顯示 8x16 字型字串
 {
   BMD31.clearDisplay();
@@ -478,8 +538,10 @@ void test_drawString_8x16(void) // 顯示 8x16 字型字串
 
   delay(500);
 }
-void test_drawString_drawChar_drawNum(void) // 同時顯示字串、單字元與數字
-{
+
+//-------同時顯示字串與字元與數字----------
+void test_drawString_drawChar_drawNum(void) // 同時顯示字串與字元與數字
+{ //同時顯示字串與字元與數字
   BMD31.clearDisplay();
   BMD31.display();
 
@@ -503,6 +565,8 @@ void test_drawString_drawChar_drawNum(void) // 同時顯示字串、單字元與
   } while (++t < '~');
   t = ' ';
 }
+
+//-------像素繪製測試（白→黑→反轉）----
 void test_drawPixel(void) // 像素繪製測試（白→黑→反轉）
 {
   BMD31.clearDisplay();
@@ -525,6 +589,8 @@ void test_drawPixel(void) // 像素繪製測試（白→黑→反轉）
   delay(500);
 }
 
+
+//--------繪製水平與垂直線條測試-------------
 void test_drawFastHLine_drawFastVLine(void) // 繪製水平/垂直線條
 {
   int8_t col = 112;
@@ -551,6 +617,8 @@ void test_drawFastHLine_drawFastVLine(void) // 繪製水平/垂直線條
   BMD31.display();
   delay(500);
 }
+
+//--------顯示 LOGO 點陣圖測試-----------
 void test_drawBitmap()  // 顯示 LOGO 點陣圖
 {
   /*==========================================================
@@ -591,6 +659,8 @@ void test_drawBitmap()  // 顯示 LOGO 點陣圖
   BMD31.display();
   delay(300);
 }
+
+//----------滾動顯示效果測試----------
 void test_variousScroll(void) // 滾動顯示效果
 {
   /* Scroll Function Test */
@@ -612,61 +682,4 @@ void test_variousScroll(void) // 滾動顯示效果
   delay(500);
 
   BMD31.stopScroll();
-}
-//-------列印抬頭於OLED上---------------
-void showTitleonOled(String ss,int row) //列印抬頭於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("Title on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
-}
-//-------列印IP Address於OLED上---------------
-void showIPonOled(String ss,int row) //列印IP Address於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("IP Address on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
-}
-//-------列印Device ID於OLED上---------------
-void showDeviceonOled(String ss,int row) //列印Device ID於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("Title on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
-}
-
-//-------列印ＭＡＣ　Ａｄｄｒｅｓｓ於OLED上---------------
-void showMACeonOled(String ss,int row) //列印MAC Address於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("MAC on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
-}
-
-//-------列印ＭＡＣ　Ａｄｄｒｅｓｓ於OLED上---------------
-void showSSIDeonOled(String ss,int row) //列印SSID於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("SSID on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
-}
-
-//-------列印Message於OLED上---------------
-void showMsgonOled(String ss,int row) //列印Message於OLED上
-{
-      printText(0,row,"              ")  ;  //清空
-    printText(0,row,ss)  ;  //轉換string字串到char array
-    Serial.print("Message on OLED:(") ;
-  Serial.print(ss) ;
-  Serial.print(")\n") ;     
 }

@@ -9,7 +9,7 @@ version:          V1.0.4-2024-8-22
 
 /**********************************************************
 Description: Constructor
-Parameters:  *theSerial�hardware serial 
+Parameters:  *theSerial hardware serial 
              BMduino optional:serial(default) serial1/seria2/seria3/seria4
              UNO optional:serial(default)
 Return:      none     
@@ -194,7 +194,7 @@ String  BMC81M001::readDataTcp()
 }
 /**********************************************************
 Description: Configure MQTT parameters
-Parameters:  clientlid?�username?�password?�mqtt_host?�server_port      
+Parameters:  clientlid? username? password? mqtt_host? server_port      
 Return:      Communication status  1:SEND_Success 0:SEND_FAIL  
 Others:        
 **********************************************************/
@@ -385,9 +385,9 @@ bool BMC81M001::writeBytes(char Dbuffer[],int Dlength,String topic)
 }
 /**********************************************************
 Description: read data from module connect TCP server
-Parameters:  IotReciveBuff�Storing String data  
+Parameters:  IotReciveBuff Storing String data  
              IotReciveBufflen   String length 
-             topic�data form topic
+             topic data form topic
 Return:      
 Others:        
 **********************************************************/
@@ -568,7 +568,7 @@ bool BMC81M001::reset(void)
 Description: Send AT command  to moudle
 Parameters:  StringstrCmd:AT command
              *response :receiving the response indicates success
-             timeout�Resend message after timeout
+             timeout Resend message after timeout
              reTry :retransmission number      
 Return:      Communication status  1:SEND_Success 0:SEND_FAIL  
 Others:        
@@ -618,7 +618,7 @@ int BMC81M001::sendATCommand(String StringstrCmd, int timeout, uint8_t reTry)
 Description: Send AT command  to moudle
 Parameters:  StringstrCmd:AT command
              *response :receiving the response indicates success
-             timeout�Resend message after timeout
+             timeout Resend message after timeout
              reTry :retransmission number      
 Return:      AT command Ack  
 Others:        
@@ -943,7 +943,7 @@ int  BMC81M001::http_begin(String serverURL,int port,String subURL)
   {
     _port=443;
  
-    _type="SSL";
+    _type="TCP";
   }    
   else return HTTP_GET_URL_ERROR;
   token =strtok(NULL,"//");

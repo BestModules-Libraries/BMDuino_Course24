@@ -33,7 +33,7 @@ void setup()
   if  (Wifi.getStatus())
  {
     initMQTT(); //init MQTT Server
-    Serial.println("WIFI OK") ;
+    Serial.println("MQTT OK") ;
     //SendtoClouding() ;    //傳送感測資料到雲端
  }
  //---------------------------------

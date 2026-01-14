@@ -33,15 +33,13 @@ void loop() {
     // 從感測器讀取溫度數值並顯示
     TValue = readTemperature();        //讀取濕度數
     Serial.print("Temperature : ");
-    Serial.print(BMht.readTemperature());    // 顯示溫度值
+    Serial.print(TValue);    // 顯示溫度值
     Serial.println(" °C ");                 // 顯示溫度單位 °C
 
     showTemperatureonOled(TValue); //列印溫度於OLED上
     showHumidityonOled(HValue);  //列印濕度於OLED上-   
     delay(2000);                // 每隔 2 秒讀取並更新一次溫濕度資料
-
 }
-
 
 //----------初始化所有感測模組------------
 void initSensor()   // 初始化所有感測模組

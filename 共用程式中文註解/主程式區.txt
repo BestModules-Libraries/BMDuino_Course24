@@ -22,7 +22,6 @@ String IPData;    // 儲存 WiFi 連線後由路由器分配的 IP 位址
 #include "OxygenLib.h"  // 自訂血氧模組函式庫
 #include "DHTLib.h"  // 自訂溫溼度模組函式庫
 #include "MQTTLib.h"   // MQTT 函式庫，提供 MQTT 初始化、連線與發佈/訂閱訊息功能
-
 #include "VocLib.h" //自訂語音自訂函式宣告
 
 // ------- 自定義函式宣告區 -----------
@@ -39,7 +38,7 @@ void setup()
 {
   initAll();       // 初始化整體系統（啟動序列埠、初始化 OLED、Relay）
   delay(200);      // 延遲 200ms，確保硬體模組穩定
-  INITtWIFI();     // 初始化 WiFi 網路，並取得 SSID、IP 與 MAC 資料
+  INITWIFI();     // 初始化 WiFi 網路，並取得 SSID、IP 與 MAC 資料
 
   if (Wifi.getStatus())   // 確認 WiFi 是否連線成功
   {
@@ -117,10 +116,10 @@ void loop()
   }
 }
 
-//---------------  自訂函式區 ------------------
-// ------------------ 系統初始化區 ------------------
+//---------------  主程式自訂函式區 ------------------
 
-// 初始化所有感測模組
+
+//-----初始化所有感測模組----------
 void initSensor()	// 初始化所有感測模組
 {
   initOled();    // 初始化 OLED 12864 (0.96吋 OLED BMD31M090)
@@ -128,6 +127,7 @@ void initSensor()	// 初始化所有感測模組
   initRealy();   // 初始化繼電器模組
 }
 
+// ------------------ 系統初始化區 ------------------
 // 初始化整體系統
 void initAll()	// 初始化整體系統
 {
@@ -136,15 +136,15 @@ void initAll()	// 初始化整體系統
   initSensor(); 
 }
 
-// ------------------ 初始化 WiFi -------------------------
-void INITtWIFI()  //初始化 WiFi
+// ---------- 無線網路初始化 --------
+void INITWIFI()  //初始化 WiFi
 {
   initWiFi();             // 連線 WiFi
   ShowWiFiInformation();  // 顯示 MAC / SSID / IP
 }
 
 
-// ----------------示 WiFi 資訊------------------
+// ---------顯示無線網路基本資訊---------
 //**************************************************************
 // 函式名稱：ShowWiFiInformation()
 // 功能：顯示目前 WiFi 連線相關資訊（MAC、SSID、IP）

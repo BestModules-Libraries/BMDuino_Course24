@@ -34,4 +34,16 @@ data：暫存特定輸入值（例如 RFID、鍵盤值等）。
 DATA_BUF / tcpBuff：主要用於儲存字串封包（可搭配 String 操作，如 +=、indexOf() 等）。
 
 resLen / nKeyBuf：作為資料長度管理變數。
+
+
+此程式完整流程（圖像化理解）
+階段	動作
+⏹ 開機 → setup()	初始化 Serial、WiFi 模組
+📶 connectToAP()	嘗試連線至 WiFi 熱點
+🌐 connectTCP()	建立 TCP Client 連線
+🔁 loop()	等待：伺服器資料 or 使用者輸入
+📤 writeDataTcp()	將序列輸入送往 TCP server
+📥 readDataTcp()	顯示伺服器回覆
+
+這是一種典型 IoT 設備 TCP client 傳感器/人機資料 → 雲端伺服器 的模式。4
 */

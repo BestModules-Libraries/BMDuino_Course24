@@ -8,6 +8,7 @@
 #define intPin 22         // 設定外部中斷輸入腳位，使用 BMCOM1 (腳位 D22)
 //#define intPin 25       // 如果使用 BMCOM2，則改為腳位 D25
 
+//----------感測物件建立區----------------
 // 建立 BMK22M131 類別物件 myButton，並指定 I2C 通道
 // 可依實際使用的 Wire, Wire1, Wire2 來決定使用哪組 I2C 腳位
 //BMK22M131 myButton(intPin, &Wire);

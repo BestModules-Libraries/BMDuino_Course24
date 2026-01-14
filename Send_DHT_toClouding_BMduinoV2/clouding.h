@@ -1,9 +1,10 @@
 //http://iot.arduino.org.tw:8888/bigdata/dhtdata/dhDatatadd.php?MAC=112233445566&T=65.1&H=76
 
+//---------全域define網路通訊埠變數，定義通訊埠-------
 #define  HTTPGET_PORT_HTTP 80
 #define  HTTPGET_PORT_HTTPS 443
 
-
+//--------HTTP GET URL字串變數定義區---------
 #define ServerPort 8888
 String ServerURL = "http://iot.arduino.org.tw";
 #define dbagent "/bigdata/dhtdata/dhDatatadd.php?MAC=%s&T=%4.1f&H=%4.1f"
@@ -50,17 +51,20 @@ void SendtoClouding()     //傳送感測資料到雲端
           Tvalue：溫度值，轉換成字串格式。
           Hvalue：濕度值，轉換成字串格式。
           */
-          
+ //---------印出HTTP GET URL 變數內容-------         
  Serial.println(connectstr) ;//將組合好的參數字串輸出到序列監控視窗，用於除錯
  
  if  (Wifi.getStatus())
  {
-    Wifi.http_begin(ServerURL,ServerPort,connectstr);//begin http get 
+    //-----透過網路，使用http get方式連線------
+	Wifi.http_begin(ServerURL,ServerPort,connectstr);//透過網路，使用http get方式連線 
 
-    Wifi.http_get();//http get opration
-   webresponse = Wifi.http_getString();//get http result
-    Serial.println(webresponse);//get http result
-   if (webresponse.indexOf("Successful") != -1) //判斷回傳內容是否有"Successful" 字串
+	//-----讀取http get連線回傳頁面資料------
+	Wifi.http_get();//運行http get方式連線，並取得回傳頁面
+   webresponse = Wifi.http_getString();//取得回傳頁面內容字串回傳到webresponse
+    Serial.println(webresponse);//印出回傳頁面內容字串
+
+  if (webresponse.indexOf("Successful") != -1) //判斷回傳內容是否有"Successful" 字串
    {Serial.println("Http GET Successful"); /*印出http get上傳成功*/} 
    else
     {Serial.println("Http GET Fail"); /*印出http get上傳失敗*/ }
@@ -68,6 +72,7 @@ void SendtoClouding()     //傳送感測資料到雲端
    }
  else
  {
+	//-----重新連接網路---------
     initWiFi();              // 執行 WiFi 模組初始化與連線（定義於 TCP.h / BMC81M001.h）
       MacData = GetMAC() ; //取得 MAC 位址字串
     Serial.println("---MAC Address----"); // 分隔線，美觀用途
