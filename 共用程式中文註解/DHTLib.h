@@ -54,7 +54,7 @@ BM25S2021_1 BMht(&Wire1);  // 透過第一組 I2C 介面讀取溫溼度感測模
 參數：無
 傳回值：無
 */
-void initDHT();
+void initDHT();     //初始化溫溼度感測器，啟動 I2C 通訊
 
 /*
 函式名稱：readTemperature()
@@ -62,7 +62,7 @@ void initDHT();
 參數：無
 傳回值：float - 溫度值（攝氏度）
 */
-float readTemperature();
+float readTemperature();    //讀取溫度值
 
 /*
 函式名稱：readHumidity()
@@ -70,7 +70,7 @@ float readTemperature();
 參數：無
 傳回值：float - 濕度值（百分比）
 */
-float readHumidity();
+float readHumidity();   //讀取濕度值
 
 /*
 函式名稱：getVersion()
@@ -78,7 +78,7 @@ float readHumidity();
 參數：無
 傳回值：String - 韌體版本字串
 */
-String getVersion();
+String getVersion();  //讀取感測器韌體版本號
 
 /*
 函式名稱：getProductNumber()
@@ -87,7 +87,7 @@ String getVersion();
 傳回值：String - 產品編號字串
 備註：函式名稱有拼寫錯誤，應為 getProductNumber()
 */
-String getProductNumbetr();
+String getProductNumbetr(); //讀取產品編號（Product ID）
 
 /*
 函式名稱：getSNNumber()
@@ -96,7 +96,7 @@ String getProductNumbetr();
 傳回值：String - 產品序號字串
 備註：函式名稱有拼寫錯誤，應為 getSNNumber()
 */
-String getSNNumbetr();
+String getSNNumbetr();  //讀取產品序號（Serial Number）
 
 /*
 函式名稱：ShowDHTInformation()
@@ -105,7 +105,7 @@ String getSNNumbetr();
 參數：無
 傳回值：無
 */
-void ShowDHTInformation();
+void ShowDHTInformation();  //印出溫溼度感測器的完整產品資訊
 
 // ================================================================
 // =============== 函式實作區 (Function Implementations) ==========
@@ -120,7 +120,7 @@ void ShowDHTInformation();
 //   1. 呼叫 BMht.begin() 初始化感測器
 //   2. 序列埠輸出初始化成功訊息
 // ---------------------------------------------------------------
-void initDHT()
+void initDHT()   // 初始化感測器，啟動 I2C 通訊
 {
     // 初始化感測器，啟動 I2C 通訊
     // 此函式會設定 I2C 通訊參數並與感測器建立連線
@@ -143,7 +143,7 @@ void initDHT()
 //   2. 將讀取的溫度值更新到全域變數 TValue（在呼叫端執行）
 //   3. 傳回溫度值
 // ---------------------------------------------------------------
-float readTemperature()
+float readTemperature() // 讀取溫度值並直接傳回
 {
     // 讀取溫度值並直接傳回
     // BMht.readTemperature() 會透過 I2C 向感測器發送讀取指令
@@ -161,7 +161,7 @@ float readTemperature()
 //   2. 將讀取的濕度值更新到全域變數 HValue（在呼叫端執行）
 //   3. 傳回濕度值
 // ---------------------------------------------------------------
-float readHumidity()
+float readHumidity()    //讀取濕度值
 {
     // 讀取濕度值並直接傳回
     // BMht.readHumidity() 會透過 I2C 向感測器發送讀取指令
@@ -178,7 +178,7 @@ float readHumidity()
 //   1. 呼叫 BMht.getFWVer() 讀取韌體版本
 //   2. 將讀取結果轉換為 String 格式並傳回
 // ---------------------------------------------------------------
-String getVersion()
+String getVersion() // 讀取韌體版本號
 {
     // 讀取韌體版本號
     // BMht.getFWVer() 傳回的是內建的資料型別，透過 String() 轉換為字串
@@ -192,7 +192,7 @@ String getVersion()
 // 傳回值：String - 產品編號字串
 // 注意：函式名稱有拼寫錯誤（"Numbetr" 應為 "Number"）
 // ---------------------------------------------------------------
-String getProductNumbetr()
+String getProductNumbetr()  //讀取產品編號（Product ID）
 {
     // 讀取產品編號（PID）
     // BMht.getPID() 讀取感測器的產品識別碼
@@ -206,7 +206,7 @@ String getProductNumbetr()
 // 傳回值：String - 產品序號字串
 // 注意：函式名稱有拼寫錯誤（"Numbetr" 應為 "Number"）
 // ---------------------------------------------------------------
-String getSNNumbetr()
+String getSNNumbetr()   //讀取產品序號（Serial Number）
 {
     // 讀取產品序號（SN）
     // BMht.getSN() 讀取感測器的唯一序列號
@@ -225,7 +225,7 @@ String getSNNumbetr()
 //   VER : [韌體版本]
 //   ===============================
 // ---------------------------------------------------------------
-void ShowDHTInformation()
+void ShowDHTInformation()   //印出溫溼度感測器的完整產品資訊
 {
     // 輸出資訊分隔線
     Serial.println("=======DeviceInfo(HEX)========= ");
