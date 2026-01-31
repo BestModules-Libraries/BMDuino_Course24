@@ -1,15 +1,4 @@
-/*****************************************************************
-File:         TCP.ino
-Description: 1. Hardware serial port 1 is used for communication with BMC81M001, with a communication rate of 115200bps
-             2. The serial port is used as a monitoring serial port to print and output some status of BMC81M001
-             3. Automatically complete BMC81M001 networking action when powered on
-             4. When serial port sends data, its data is directly transmitted through to TCP server
-******************************************************************/
-#include "TCP.h" // 引入 TCP 庫
-
-//BMC81M001 Wifi(6,7);// 使用軟體序列（rxPin 6 , txPin 7），若不使用軟體序列請註解掉這行
-BMC81M001 Wifi(&Serial1); // 使用硬體序列1（HW Serial1），若使用 BMduino 的硬體序列，請取消這行的註解
-
+#include "TCP.h" 
 void setup() 
 {
   digitalWrite(LED, LOW); // 將 LED 設定為低電平，關閉 LED
