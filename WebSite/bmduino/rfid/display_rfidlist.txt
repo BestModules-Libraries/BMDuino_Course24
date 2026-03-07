@@ -1,0 +1,42 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "big";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    
+    $stmt = $conn->prepare("SELECT * FROM rfidlist");
+    $stmt->execute();
+    $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    
+    echo "<html><head><title>RFID List</title>";
+    echo "<style>table {border-collapse: collapse; width: 100%;} th, td {border: 1px solid black; padding: 8px; text-align: left;} th {background-color: #f2f2f2;}</style>";
+    echo "</head><body>";
+    echo "<h2>RFID List</h2>";
+    echo "<table>";
+    echo "<tr><th>ID</th><th>Create DateTime</th><th>System Time</th><th>IP</th><th>RFID Key</th><th>Activate</th><th>Start DateTime</th><th>End DateTime</th></tr>";
+    
+    foreach ($results as $row) {
+        echo "<tr>";
+        echo "<td>" . htmlspecialchars($row['id']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['c rtdatetime']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['systime']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['IP']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['rfidkey']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['activate']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['startdatetime']) . "</td>";
+        echo "<td>" . htmlspecialchars($row['enddatetime']) . "</td>";
+        echo "</tr>";
+    }
+    
+    echo "</table>";
+    echo "</body></html>";
+    
+} catch(PDOException $e) {
+    echo "Error: " . $e->getMessage();
+}
+$conn = null;
+?>

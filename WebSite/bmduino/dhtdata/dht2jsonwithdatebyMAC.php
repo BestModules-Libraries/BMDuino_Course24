@@ -1,0 +1,200 @@
+<?php
+
+// 引入資料庫連線設定
+include("../Connections/iotcnn.php");   //引入資料庫連線函式庫
+$link = Connection(); // 建立資料庫連線
+
+// 查詢所有不重複的 MAC 欄位，依照 MAC 排序
+$qry = "SELECT MAC FROM dhtdata GROUP BY MAC ORDER BY MAC ASC";//從dhtdata資料表，把所有相同的MAC群組起來，並依MAC排序
+$result = mysqli_query($link, $qry);    //執行上面sql 命令
+?>
+
+<!DOCTYPE html> <!-- 定義這是一份 HTML5 文件 -->
+<html lang="zh-TW"> <!-- 語言設定為繁體中文 -->
+<head>
+  <meta charset="UTF-8"> <!-- 設定編碼為 UTF-8，支援中文顯示 -->
+  <title>溫溼度感測資料查詢</title> <!-- 網頁標題 -->
+
+  <!-- 引入 Chart.js 函式庫，用來繪製圖表 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- 引入 SheetJS 函式庫，用來將 HTML 表格匯出為 Excel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <!-- 引入 jsPDF 函式庫，用來產生 PDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- 引入 html2canvas 函式庫，將 HTML 元素轉成圖片（用於 PDF 匯出） -->
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+  <style>
+    /* 設定整體文字樣式與邊距 */
+    body { font-family: Arial, sans-serif; margin: 30px; }
+
+    /* 圖表最大寬度限制 */
+    canvas { max-width: 800px; margin-top: 20px; }
+
+    /* 表格樣式：邊框、間距與間隔合併 */
+    table, th, td {
+      border: 1px solid gray;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    table { margin-top: 20px; }
+
+    /* 表單輸入與按鈕的樣式 */
+    input, button {
+      padding: 8px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>溫溼度感測資料查詢系統</h2> <!-- 頁面標題 -->
+
+  <!-- 使用者輸入欄位：裝置 MAC -->
+  <label>MAC：</label>
+  <select name='mac' id='mac'>
+   <?php 
+        if ($result && mysqli_num_rows($result) > 0) //sql命令有產生MAC資料集
+        {
+            // 將每筆 MAC 加入選項中
+            while ($row = mysqli_fetch_array($result))  //一筆一筆抓MAC資料
+            {
+                $mac = htmlspecialchars($row["MAC"]); // 防止特殊字元造成錯誤
+                echo "<option value='{$mac}'>{$mac}</option>";// 產生SELECT內部資料
+            }
+        }
+    ?>
+  </select>
+  <!-- 起始與結束日期輸入（格式為 YYYYMMDD） -->
+  <label>起始日(YYYYMMDD)：</label>
+  <input type="text" id="start" value="20200406">
+
+  <label>結束日(YYYYMMDD)：</label>
+  <input type="text" id="end" value="20200407">
+
+  <!-- 功能按鈕：查詢、匯出 Excel、PDF、列印 -->
+  <button onclick="loadData()">查詢資料</button>
+  <button onclick="exportExcel()">匯出 Excel</button>
+  <button onclick="exportPDF()">匯出 PDF</button>
+  <button onclick="window.print()">列印</button>
+
+  <!-- 報表區塊（圖表與表格），用於匯出 PDF -->
+  <div id="reportArea">
+    <!-- 感測資料圖表（Chart.js） -->
+    <canvas id="sensorChart"></canvas>
+
+    <!-- 感測資料表格 -->
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>時間</th>
+          <th>溫度 (°C)</th>
+          <th>濕度 (%)</th>
+        </tr>
+      </thead>
+      <tbody></tbody> <!-- 資料會透過 JS 動態插入 -->
+    </table>
+  </div>
+
+<script>
+// 全域變數 chart：儲存目前顯示的圖表實體（避免重複疊加）
+let chart;
+
+// 函式：向後端 API 發出請求，載入溫溼度資料
+function loadData() {
+  const mac = document.getElementById('mac').value;     // 讀取 MAC 地址
+  const start = document.getElementById('start').value; // 起始日
+  const end = document.getElementById('end').value;     // 結束日
+  const url = `dht2jsonwithdate.php?MAC=${mac}&start=${start}&end=${end}`; // API 網址
+
+  // 透過 fetch 向 PHP API 取得 JSON 資料
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      const labels = [], temperatures = [], humidities = []; // 儲存時間軸、溫度、濕度
+      const tbody = document.querySelector("#dataTable tbody");
+      tbody.innerHTML = ""; // 清空表格內容
+
+      // 將資料逐筆填入陣列與表格
+      data.Datalist.forEach(item => {
+        labels.push(item.DateTime);
+        temperatures.push(item.Temperature);
+        humidities.push(item.Humidity);
+
+        // 建立一筆表格列（HTML）
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${item.DateTime}</td><td>${item.Temperature}</td><td>${item.Humidity}</td>`;
+        tbody.appendChild(row);
+      });
+
+      // 呼叫畫圖函式
+      drawChart(labels, temperatures, humidities);
+    })
+    .catch(err => alert("資料讀取失敗：" + err)); // 錯誤處理
+}
+
+// 函式：用 Chart.js 畫出溫溼度折線圖
+function drawChart(labels, temperatures, humidities) {
+  const ctx = document.getElementById('sensorChart').getContext('2d');
+
+  if (chart) chart.destroy(); // 若已有圖表，先銷毀避免重疊
+
+  // 建立新圖表
+  chart = new Chart(ctx, {
+    type: 'line', // 折線圖
+    data: {
+      labels: labels, // X 軸標籤（時間）
+      datasets: [
+        {
+          label: '溫度 (°C)',
+          data: temperatures,
+          borderColor: 'red', // 線條紅色
+          backgroundColor: 'rgba(255, 0, 0, 0.1)', // 填滿紅色透明背景
+          tension: 0.1 // 線條曲線平滑度
+        },
+        {
+          label: '濕度 (%)',
+          data: humidities,
+          borderColor: 'blue',
+          backgroundColor: 'rgba(0, 0, 255, 0.1)',
+          tension: 0.1
+        }
+      ]
+    },
+    options: {
+      responsive: true, // 圖表可自適應畫面寬度
+      scales: {
+        y: {
+          beginAtZero: false // Y軸不從 0 開始（依實際數據）
+        }
+      }
+    }
+  });
+}
+
+// 函式：匯出 Excel（使用 SheetJS）
+function exportExcel() {
+  const table = document.getElementById('dataTable'); // 取得資料表格
+  const wb = XLSX.utils.table_to_book(table, { sheet: "感測資料" }); // 建立 Excel 工作簿
+  XLSX.writeFile(wb, "sensor_data.xlsx"); // 儲存成檔案
+}
+
+// 函式：匯出 PDF（使用 html2canvas + jsPDF）
+async function exportPDF() {
+  const { jsPDF } = window.jspdf; // 從 jspdf 物件中解構出 jsPDF 類別
+  const element = document.getElementById("reportArea"); // 匯出的內容區塊
+
+  const canvas = await html2canvas(element); // 將 HTML 轉為畫布 (Canvas)
+  const imgData = canvas.toDataURL("image/png"); // 將畫布轉為圖片（Base64 格式）
+
+  const pdf = new jsPDF("p", "mm", "a4"); // 建立 A4 直式 PDF
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const pageHeight = (canvas.height * pageWidth) / canvas.width; // 等比例縮放圖片
+  pdf.addImage(imgData, "PNG", 0, 10, pageWidth, pageHeight); // 將圖片插入 PDF
+  pdf.save("sensor_report.pdf"); // 下載檔案
+}
+</script>
+</body>
+</html>
