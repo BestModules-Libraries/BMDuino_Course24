@@ -1,0 +1,27 @@
+
+
+曹永忠，Arduino開發工具安裝與設定, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/a1571cfe-628a-41bd-a226-1bb494de03a7
+曹永忠，安裝CH34X USB驅動程式, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/2b76fa17-295a-4ff7-8280-18ba39851aea
+曹永忠，安裝CP210X USB驅動程式, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+曹永忠，BMDuino整合環境與函式庫安裝與設定, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/8ae9bab9-d9a8-43c3-87cf-574f905ab8dc
+曹永忠，BMDuino整合Oled12864, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/8b78c225-8a32-4ebe-b12c-471f7b2bad55
+曹永忠，BMDuino整合繼電器模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/8012850c-d514-4115-9d8e-03b885bd2cf5
+曹永忠，BMDuino整合PIR探測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/9c76d8c9-decd-43ab-9786-0c1aedfd77c7
+曹永忠，BMDuino整合ESP-12F WiFi模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/f88b4e3f-7865-4dda-bd7e-519347a47a3c
+曹永忠，BMDuino整合MPU-6050感測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/164ea2b6-f138-4365-b977-0cf3f3550365
+曹永忠，BMDuino整合RGB LED 8x8模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/29a5027b-2513-4774-a66f-2b9a808923c6
+曹永忠，BMDuino整合觸控按鈕模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/ee8ab58a-4bcd-4c4d-967f-a91930edeab2
+曹永忠，BMDuino整合震動感測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/a57d70b5-39a3-4b78-a45a-97949e89d559
+曹永忠，BMDuino整合4位數14段碼顯示模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/a36ea422-30ee-4f9f-a2fd-51bff5acc82a
+曹永忠，BMDuino整合雷射測距模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/8b78c225-8a32-4ebe-b12c-471f7b2bad55
+曹永忠，BMDuino整合環境光感測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/6b675ec3-15aa-4f0c-a5d2-903d8e7ccd36
+曹永忠，BMDuino整合接近感應模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/14a765ab-cbfe-4335-b365-3204fef5d01e
+曹永忠，BMDuinoBMDuino整合滑條型電容式觸控模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/d86a1c25-40d0-49ae-9acc-8e0b0c76b06f
+曹永忠，BMDuino整合4鍵與滾輪型電容式觸控感測擴充板, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/4794c63a-f4da-4b19-ada4-8ac7912951db
+曹永忠，BMDuino整合手勢識別感測模組, 渥瑪數位有限公司,網址:	https://lib.ebookservice.tw/ks/#book/16b9e412-8389-4ccf-ba09-0eee440fb452
+曹永忠，BMDuino整合四通道馬達驅動擴充板, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/5f81c7af-97ee-494c-9777-c1a62838b6d5
+曹永忠，BMDuino整合數位型溫濕度偵測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/891e7da5-0157-4f66-aae7-4f1840f5ff5e
+曹永忠，BMDuino整合聲音偵測模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/70832434-a7fe-450c-91a0-b387b72ea95b
+曹永忠，BMDuino整合藍牙5BLE模組, 渥瑪數位有限公司,網址:https://lib.ebookservice.tw/ks/#book/829db0a4-7853-445b-bdd5-2f56a7647f57
+

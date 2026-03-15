@@ -1,0 +1,145 @@
+智慧門禁系列
+
+ESP32如何連上網路基礎篇
+新北 https://lib.ebookservice.tw/nt/#book/2786c2a8-ae38-4d25-a784-91ff26a27593
+高雄 https://lib.ebookservice.tw/ks/#book/2786c2a8-ae38-4d25-a784-91ff26a27593
+
+
+
+RFID 基礎入門教學篇
+
+新北
+https://lib.ebookservice.tw/nt/#book/7fd75b1d-7844-4bb7-97a4-755d57da8001
+
+高雄 
+https://lib.ebookservice.tw/ks/#book/7fd75b1d-7844-4bb7-97a4-755d57da8001
+
+ 
+
+Arduino如何讀取json程式設計
+
+新北
+https://lib.ebookservice.tw/nt/#book/cba90e1e-c3a9-4f4f-b8d4-b502dd495bd9
+
+高雄 
+https://lib.ebookservice.tw/ks/#book/cba90e1e-c3a9-4f4f-b8d4-b502dd495bd9
+
+
+RFID卡號之雲端資料庫設計
+新北
+https://lib.ebookservice.tw/nt/#book/f3bba5a5-9bfc-4636-a22d-d6fde8f6d993
+
+高雄
+https://lib.ebookservice.tw/ks/#book/f3bba5a5-9bfc-4636-a22d-d6fde8f6d993
+
+  
+ 
+ 
+RFID卡號之雲端卡號資料顯示篇
+新北  https://lib.ebookservice.tw/nt/#book/46e189a2-08bd-4891-b1a4-0ec5d858680b
+
+高雄  https://lib.ebookservice.tw/ks/#book/46e189a2-08bd-4891-b1a4-0ec5d858680b
+
+
+
+RFID卡號之雲端卡號資料管理篇
+
+新北    https://lib.ebookservice.tw/nt/#book/54a3e12b-ffd0-4c93-b880-d27af0966ddf
+
+高雄    https://lib.ebookservice.tw/ks/#book/54a3e12b-ffd0-4c93-b880-d27af0966ddf
+
+
+
+RFID卡號之雲端卡號資料異動管理篇
+新北 https://lib.ebookservice.tw/nt/#book/0296c93c-180a-43e1-986b-9b13511f4f11
+高雄 https://lib.ebookservice.tw/ks/#book/0296c93c-180a-43e1-986b-9b13511f4f11
+ 
+
+
+RFID 基礎螢幕顯示教學篇
+
+新北 https://lib.ebookservice.tw/nt/#book/e298af58-a45b-4d4a-9513-72e87caea56f
+
+高雄 https://lib.ebookservice.tw/ks/#book/e298af58-a45b-4d4a-9513-72e87caea56f
+
+ 
+ 
+RFID裝置之雲端卡號註冊篇
+
+新北https://lib.ebookservice.tw/nt/#book/961523e5-88a3-4e1f-9154-b0c08aa184e5
+
+高雄https://lib.ebookservice.tw/ks/#book/961523e5-88a3-4e1f-9154-b0c08aa184e5
+
+
+
+RFID裝置之雲端卡號停用篇
+
+新北https://lib.ebookservice.tw/nt/#book/a2a0953a-4716-4bad-82af-01b85c5d84f8
+
+高雄https://lib.ebookservice.tw/ks/#book/a2a0953a-4716-4bad-82af-01b85c5d84f8
+
+
+
+RFID裝置之雲端卡號作廢篇
+
+新北https://lib.ebookservice.tw/nt/#book/54e23a53-cb14-441b-a318-a200e1e30e17
+
+高雄https://lib.ebookservice.tw/ks/#book/54e23a53-cb14-441b-a318-a200e1e30e17
+
+
+RFID裝置之雲端刷卡號開門紀錄篇
+新北https://lib.ebookservice.tw/nt/#book/d3039c4d-365f-4352-be5a-a98c0d915aab
+
+高雄https://lib.ebookservice.tw/ks/#book/d3039c4d-365f-4352-be5a-a98c0d915aab
+
+
+RFID裝置之雲端刷卡號開門紀錄顯示篇
+新北 https://lib.ebookservice.tw/nt/#book/fc6a1b90-bbed-4dc8-ad8d-d660804887bb
+
+高雄 https://lib.ebookservice.tw/ks/#book/fc6a1b90-bbed-4dc8-ad8d-d660804887bb
+
+
+
+RFID裝置之集團門禁裝置註冊系統開發篇
+新北 https://lib.ebookservice.tw/nt/#book/9837234d-329b-4efe-9087-4d5c6dd00b9d
+
+高雄 https://lib.ebookservice.tw/ks/#book/9837234d-329b-4efe-9087-4d5c6dd00b9d 
+ 
+ 
+ 
+RFID裝置之門禁裝置刷卡開門系統開發篇
+新北 https://lib.ebookservice.tw/nt/#book/25957988-34aa-4cfe-ac5a-96e135ae8641
+
+高雄 https://lib.ebookservice.tw/ks/#book/25957988-34aa-4cfe-ac5a-96e135ae8641
+
+
+RFID裝置之雲端門禁裝置卡號註冊系統開發篇
+新北 https://lib.ebookservice.tw/nt/#book/6412c005-c2fd-4dde-96d2-5c9a8c812f8d
+
+高雄 https://lib.ebookservice.tw/ks/#book/6412c005-c2fd-4dde-96d2-5c9a8c812f8d
+
+
+RFID裝置之雲端門禁裝置卡號停用系統開發篇
+新北 https://lib.ebookservice.tw/nt/#book/819b1a56-ad6b-4507-a493-224a9dab5d40
+
+高雄 https://lib.ebookservice.tw/ks/#book/819b1a56-ad6b-4507-a493-224a9dab5d40
+
+
+
+
+
+
+
+RFID裝置之雲端門禁裝置卡號註銷系統開發篇
+
+新北 https://lib.ebookservice.tw/nt/#book/68620680-5778-4191-abc5-4b3a0abaf464
+
+高雄 https://lib.ebookservice.tw/ks/#book/68620680-5778-4191-abc5-4b3a0abaf464
+
+
+
+
+
+
+
+
