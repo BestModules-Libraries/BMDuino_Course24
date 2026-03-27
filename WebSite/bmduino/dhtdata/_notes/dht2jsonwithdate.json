@@ -1,0 +1,7740 @@
+{
+  "Device": "246F28248CE0",
+  "Datalist": [
+    {
+      "DateTime": "20200406005544",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406005604",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406005627",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406005644",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406005704",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406005724",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406005747",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406005804",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406005922",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406010018",
+      "Temperature": 20.7,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406010056",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406010652",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406010711",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406010749",
+      "Temperature": 20.4,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406010824",
+      "Temperature": 20.5,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406010836",
+      "Temperature": 20.5,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406010934",
+      "Temperature": 20.5,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406011031",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406011048",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011109",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011129",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011155",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011211",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011245",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011304",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011324",
+      "Temperature": 20.5,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406011344",
+      "Temperature": 20.5,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406011405",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406011516",
+      "Temperature": 20.5,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406011536",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406011555",
+      "Temperature": 20.7,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406011615",
+      "Temperature": 20.7,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406011635",
+      "Temperature": 20.7,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406011655",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406011718",
+      "Temperature": 20.7,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406011735",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406011758",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406011816",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406011838",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406011855",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406011915",
+      "Temperature": 20.6,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406011936",
+      "Temperature": 20.6,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406011958",
+      "Temperature": 20.6,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012015",
+      "Temperature": 20.6,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012035",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012100",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012127",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012135",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012158",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012220",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012235",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012300",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012318",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012335",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012355",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012415",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012435",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406012455",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012518",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012535",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012555",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012615",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406012635",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406012658",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406012718",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406012735",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406012758",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406012818",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406012836",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406012855",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406012921",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406012935",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406012958",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406013015",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406013041",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013055",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013124",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013136",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013155",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013215",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406013240",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013255",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013315",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406013335",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406013355",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013415",
+      "Temperature": 20.6,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013435",
+      "Temperature": 20.5,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406013500",
+      "Temperature": 20.5,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406013517",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013535",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013600",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013618",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013638",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013655",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013716",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406013737",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406013755",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406013816",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013835",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013856",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013915",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013944",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406013955",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406014015",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406014036",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406014104",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406014115",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406014135",
+      "Temperature": 20.5,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406014155",
+      "Temperature": 20.6,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406014215",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014241",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406014257",
+      "Temperature": 20.6,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014315",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014335",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014355",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014415",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014435",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014455",
+      "Temperature": 20.5,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406014515",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014535",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014601",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014616",
+      "Temperature": 20.6,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014635",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014655",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014715",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014735",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014755",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014818",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014835",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406014855",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014915",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014938",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406014958",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015016",
+      "Temperature": 20.5,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015035",
+      "Temperature": 20.4,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015055",
+      "Temperature": 20.4,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015120",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015138",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015204",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015215",
+      "Temperature": 20.4,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015235",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015304",
+      "Temperature": 20.4,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015315",
+      "Temperature": 20.4,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406015335",
+      "Temperature": 20.5,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015530",
+      "Temperature": 20.5,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015604",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015615",
+      "Temperature": 20.4,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406015635",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015655",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015715",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015735",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406015755",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015815",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015835",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015855",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015915",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406015935",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406015955",
+      "Temperature": 20.5,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020015",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406020035",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406020110",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020115",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020135",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020155",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020224",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020235",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020258",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020315",
+      "Temperature": 20.3,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406020335",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406020355",
+      "Temperature": 20.4,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406020415",
+      "Temperature": 20.4,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406020436",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406020457",
+      "Temperature": 20.4,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406020515",
+      "Temperature": 20.3,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406020535",
+      "Temperature": 20.3,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406020555",
+      "Temperature": 20.4,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020615",
+      "Temperature": 20.3,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406020635",
+      "Temperature": 20.3,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406020655",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020720",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020735",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020755",
+      "Temperature": 20.3,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406020815",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020840",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020855",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406020915",
+      "Temperature": 20.3,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406020935",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406020958",
+      "Temperature": 20.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406021015",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406021035",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021057",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021115",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021135",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021155",
+      "Temperature": 20.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406021215",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021235",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021258",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021315",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021335",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406021355",
+      "Temperature": 20.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406021415",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021437",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021457",
+      "Temperature": 20.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406021515",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406021535",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406021555",
+      "Temperature": 20.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406021615",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021635",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021658",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021715",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406021738",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406021755",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406021815",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406021835",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406021858",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406021915",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406021935",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406021957",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406022015",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406022036",
+      "Temperature": 20.2,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022055",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022115",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022135",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022157",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022217",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022235",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022255",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022315",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022335",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022406",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022415",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022438",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022455",
+      "Temperature": 20.1,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022515",
+      "Temperature": 20.1,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022535",
+      "Temperature": 20.1,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022555",
+      "Temperature": 20.1,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022617",
+      "Temperature": 20,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406022637",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022655",
+      "Temperature": 20,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022719",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022735",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022755",
+      "Temperature": 20,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406022815",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022837",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406022858",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022915",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022935",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406022957",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023015",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406023038",
+      "Temperature": 20,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406023056",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023115",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023137",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023157",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023215",
+      "Temperature": 20,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406023235",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023255",
+      "Temperature": 19.9,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406023315",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023335",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023400",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023415",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023438",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023455",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023515",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023535",
+      "Temperature": 20,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023558",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023615",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023635",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023655",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023715",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023735",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023758",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023817",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023840",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023855",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406023915",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023935",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406023958",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024015",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024035",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024057",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406024115",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406024138",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406024157",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024215",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024238",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406024255",
+      "Temperature": 19.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406024318",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024337",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024355",
+      "Temperature": 20,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024418",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024435",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024458",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024515",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024538",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024600",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024617",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024635",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024655",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024717",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024735",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024758",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024815",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406024835",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024857",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024915",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024938",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406024955",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025018",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025040",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406025055",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025115",
+      "Temperature": 20,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406025135",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025155",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025217",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025235",
+      "Temperature": 19.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406025301",
+      "Temperature": 19.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025315",
+      "Temperature": 20,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406025335",
+      "Temperature": 20,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025355",
+      "Temperature": 20,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406025418",
+      "Temperature": 20.1,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406025435",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406025455",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406025515",
+      "Temperature": 20.1,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406025535",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406025555",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406025615",
+      "Temperature": 20.3,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406025635",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406025655",
+      "Temperature": 20.3,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406025715",
+      "Temperature": 20.4,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406025735",
+      "Temperature": 20.4,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406025755",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406025815",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406025835",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406025855",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406025915",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406025937",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030000",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030020",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030035",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030055",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030115",
+      "Temperature": 20.3,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030135",
+      "Temperature": 20.3,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030155",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030215",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030235",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406030255",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030315",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030335",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406030355",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406030418",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030435",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030455",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406030515",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030535",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030555",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030615",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406030635",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030655",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030715",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030735",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030755",
+      "Temperature": 20.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030815",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030835",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030858",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030915",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406030938",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406030955",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406031015",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031037",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406031055",
+      "Temperature": 20.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031115",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031135",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031155",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031217",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031235",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406031255",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031315",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031335",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031357",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406031415",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406031435",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406031455",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031515",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406031535",
+      "Temperature": 20.3,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406031555",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031617",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031635",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031655",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031715",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031735",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406031755",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031815",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406031835",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406031855",
+      "Temperature": 20.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406031915",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406031935",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406031955",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406032018",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406032035",
+      "Temperature": 20.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406032058",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032115",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032135",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032155",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032215",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032235",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032255",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032315",
+      "Temperature": 20.2,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406032335",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032355",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032418",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032435",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032455",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032515",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032535",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032555",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032621",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032635",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032655",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032715",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032735",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406032757",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406032815",
+      "Temperature": 20.2,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406032835",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406032855",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406032915",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406032935",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406032955",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033015",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033035",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033055",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033115",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033135",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033155",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033217",
+      "Temperature": 20.2,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033235",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033255",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033315",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033335",
+      "Temperature": 20.1,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406033355",
+      "Temperature": 20.1,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033415",
+      "Temperature": 20.1,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033435",
+      "Temperature": 20.1,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033455",
+      "Temperature": 20.1,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406033520",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033535",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033555",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033618",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033635",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033655",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033715",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033735",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033755",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033815",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033835",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033855",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033917",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033935",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406033955",
+      "Temperature": 20,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406034015",
+      "Temperature": 20,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406034035",
+      "Temperature": 20.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406034057",
+      "Temperature": 20,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406034115",
+      "Temperature": 20.1,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406034135",
+      "Temperature": 20.1,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406034155",
+      "Temperature": 20.3,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406034215",
+      "Temperature": 20.6,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406034235",
+      "Temperature": 20.9,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406034255",
+      "Temperature": 21.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406034317",
+      "Temperature": 21.4,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406034335",
+      "Temperature": 21.3,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406034355",
+      "Temperature": 21.3,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406034415",
+      "Temperature": 21.1,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406034435",
+      "Temperature": 21.1,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406034457",
+      "Temperature": 20.9,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406034515",
+      "Temperature": 20.8,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406034538",
+      "Temperature": 20.8,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406034555",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406034615",
+      "Temperature": 20.6,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406034635",
+      "Temperature": 20.6,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406034655",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406034715",
+      "Temperature": 20.5,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406034735",
+      "Temperature": 20.4,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406034755",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406034815",
+      "Temperature": 20.4,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406034837",
+      "Temperature": 20.3,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406034855",
+      "Temperature": 20.3,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406034915",
+      "Temperature": 20.3,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406034935",
+      "Temperature": 20.2,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406034955",
+      "Temperature": 20.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406035017",
+      "Temperature": 20.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406035035",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406035058",
+      "Temperature": 20.2,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406035115",
+      "Temperature": 20.1,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406035135",
+      "Temperature": 20.2,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035155",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406035215",
+      "Temperature": 20.1,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406035235",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035255",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035317",
+      "Temperature": 20.1,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406035335",
+      "Temperature": 20.1,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406035355",
+      "Temperature": 20.1,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406035415",
+      "Temperature": 20.1,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406035435",
+      "Temperature": 20.1,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406035455",
+      "Temperature": 20.1,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406035515",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035537",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035555",
+      "Temperature": 20.1,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035615",
+      "Temperature": 20.2,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035635",
+      "Temperature": 20.2,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035658",
+      "Temperature": 20.2,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035715",
+      "Temperature": 20.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406035735",
+      "Temperature": 20.2,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406035757",
+      "Temperature": 20.2,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406035815",
+      "Temperature": 20.2,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035837",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035855",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406035915",
+      "Temperature": 20.2,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406035935",
+      "Temperature": 20.2,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406035955",
+      "Temperature": 20.2,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406040017",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406040034",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406040054",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406040117",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406040134",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406040157",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406040214",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406040237",
+      "Temperature": 20.3,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040254",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406040314",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040334",
+      "Temperature": 20.4,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406040354",
+      "Temperature": 20.4,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040414",
+      "Temperature": 20.4,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040434",
+      "Temperature": 20.4,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040454",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040514",
+      "Temperature": 20.4,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040534",
+      "Temperature": 20.4,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040554",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040614",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040637",
+      "Temperature": 20.4,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040654",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040714",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040737",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040754",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040814",
+      "Temperature": 20.3,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040834",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040857",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040914",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406040934",
+      "Temperature": 20.3,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406040954",
+      "Temperature": 20.3,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406041014",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041034",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041054",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041117",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041137",
+      "Temperature": 20.4,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406041154",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041217",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041237",
+      "Temperature": 20.3,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406041254",
+      "Temperature": 20.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041314",
+      "Temperature": 20.3,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041334",
+      "Temperature": 20.4,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041354",
+      "Temperature": 20.3,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406041419",
+      "Temperature": 20.4,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041434",
+      "Temperature": 20.4,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406041454",
+      "Temperature": 20.4,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041517",
+      "Temperature": 20.4,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406041534",
+      "Temperature": 20.5,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041554",
+      "Temperature": 20.5,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406041614",
+      "Temperature": 20.5,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406041634",
+      "Temperature": 20.5,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406041654",
+      "Temperature": 20.5,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406041715",
+      "Temperature": 20.6,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406041734",
+      "Temperature": 20.6,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406041754",
+      "Temperature": 20.6,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406041814",
+      "Temperature": 20.6,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406041834",
+      "Temperature": 20.7,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406041854",
+      "Temperature": 20.7,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406041920",
+      "Temperature": 20.7,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406041934",
+      "Temperature": 20.7,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406041954",
+      "Temperature": 20.7,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406042014",
+      "Temperature": 20.8,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406042034",
+      "Temperature": 20.8,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406042054",
+      "Temperature": 20.8,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406042117",
+      "Temperature": 20.9,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406042134",
+      "Temperature": 20.8,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406042154",
+      "Temperature": 20.8,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406042214",
+      "Temperature": 20.8,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406042234",
+      "Temperature": 20.8,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406042254",
+      "Temperature": 20.7,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406042314",
+      "Temperature": 20.7,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406042334",
+      "Temperature": 20.7,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406042354",
+      "Temperature": 20.6,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406042414",
+      "Temperature": 20.5,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406042434",
+      "Temperature": 20.5,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406042454",
+      "Temperature": 20.5,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406042517",
+      "Temperature": 20.5,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406042534",
+      "Temperature": 20.4,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406042554",
+      "Temperature": 20.4,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406042614",
+      "Temperature": 20.4,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406042637",
+      "Temperature": 20.3,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406042654",
+      "Temperature": 20.4,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406042714",
+      "Temperature": 20.5,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406042737",
+      "Temperature": 20.5,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406042754",
+      "Temperature": 20.6,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406042817",
+      "Temperature": 20.6,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406042834",
+      "Temperature": 20.6,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406042854",
+      "Temperature": 20.7,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406042914",
+      "Temperature": 20.7,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406042934",
+      "Temperature": 20.7,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406042954",
+      "Temperature": 20.7,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406043014",
+      "Temperature": 20.7,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406043034",
+      "Temperature": 20.8,
+      "Humidity": 60.1
+    },
+    {
+      "DateTime": "20200406043057",
+      "Temperature": 20.8,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406043114",
+      "Temperature": 20.8,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406043134",
+      "Temperature": 20.8,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406043154",
+      "Temperature": 20.8,
+      "Humidity": 60.1
+    },
+    {
+      "DateTime": "20200406043220",
+      "Temperature": 20.8,
+      "Humidity": 60.1
+    },
+    {
+      "DateTime": "20200406043234",
+      "Temperature": 20.8,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406043300",
+      "Temperature": 20.8,
+      "Humidity": 60.1
+    },
+    {
+      "DateTime": "20200406043317",
+      "Temperature": 20.9,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406043334",
+      "Temperature": 20.8,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406043354",
+      "Temperature": 20.9,
+      "Humidity": 60.4
+    },
+    {
+      "DateTime": "20200406043414",
+      "Temperature": 20.8,
+      "Humidity": 60.4
+    },
+    {
+      "DateTime": "20200406043437",
+      "Temperature": 20.9,
+      "Humidity": 60.4
+    },
+    {
+      "DateTime": "20200406043457",
+      "Temperature": 20.9,
+      "Humidity": 60.4
+    },
+    {
+      "DateTime": "20200406043514",
+      "Temperature": 20.8,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406043534",
+      "Temperature": 20.9,
+      "Humidity": 60.5
+    },
+    {
+      "DateTime": "20200406043554",
+      "Temperature": 20.8,
+      "Humidity": 60.5
+    },
+    {
+      "DateTime": "20200406043614",
+      "Temperature": 20.9,
+      "Humidity": 60.5
+    },
+    {
+      "DateTime": "20200406043637",
+      "Temperature": 20.9,
+      "Humidity": 60.6
+    },
+    {
+      "DateTime": "20200406043654",
+      "Temperature": 20.9,
+      "Humidity": 60.7
+    },
+    {
+      "DateTime": "20200406043714",
+      "Temperature": 20.9,
+      "Humidity": 60.8
+    },
+    {
+      "DateTime": "20200406043734",
+      "Temperature": 20.9,
+      "Humidity": 60.9
+    },
+    {
+      "DateTime": "20200406043756",
+      "Temperature": 20.9,
+      "Humidity": 60.9
+    },
+    {
+      "DateTime": "20200406043814",
+      "Temperature": 20.9,
+      "Humidity": 61
+    },
+    {
+      "DateTime": "20200406043837",
+      "Temperature": 20.9,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406043854",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406043914",
+      "Temperature": 20.9,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406043934",
+      "Temperature": 20.9,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406043954",
+      "Temperature": 20.9,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406044014",
+      "Temperature": 20.9,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406044034",
+      "Temperature": 21,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406044054",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406044114",
+      "Temperature": 21,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406044134",
+      "Temperature": 20.9,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044154",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406044214",
+      "Temperature": 20.9,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044234",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044254",
+      "Temperature": 21,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406044314",
+      "Temperature": 20.9,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044334",
+      "Temperature": 21,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406044357",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406044414",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044437",
+      "Temperature": 20.9,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406044454",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044514",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406044534",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044557",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044614",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406044634",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044657",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406044717",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044734",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406044757",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406044814",
+      "Temperature": 20.9,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406044837",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406044854",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406044914",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406044937",
+      "Temperature": 20.8,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406044957",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045017",
+      "Temperature": 20.8,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406045037",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045057",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045117",
+      "Temperature": 20.9,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406045140",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045154",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045220",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045237",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045254",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045314",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045337",
+      "Temperature": 20.8,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406045357",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045419",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045437",
+      "Temperature": 20.8,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406045457",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045517",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045534",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045557",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045614",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045640",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045700",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045720",
+      "Temperature": 20.8,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406045734",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406045757",
+      "Temperature": 20.9,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406045817",
+      "Temperature": 20.8,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406045837",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406045854",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406050132",
+      "Temperature": 20.8,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406050137",
+      "Temperature": 20.8,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406050203",
+      "Temperature": 20.8,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406050220",
+      "Temperature": 20.8,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406050237",
+      "Temperature": 20.8,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406050300",
+      "Temperature": 20.8,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406050317",
+      "Temperature": 20.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406050337",
+      "Temperature": 20.9,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406050357",
+      "Temperature": 21,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406050417",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406050437",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406050500",
+      "Temperature": 21,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406050523",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406050537",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406050557",
+      "Temperature": 21,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406050623",
+      "Temperature": 21.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406050637",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406050703",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406050720",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406050740",
+      "Temperature": 21.3,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406050757",
+      "Temperature": 21.3,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406050817",
+      "Temperature": 21.3,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406050849",
+      "Temperature": 21.3,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406050900",
+      "Temperature": 21.3,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406050917",
+      "Temperature": 21.3,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406050937",
+      "Temperature": 21.5,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406050957",
+      "Temperature": 21.5,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406051017",
+      "Temperature": 21.5,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406051040",
+      "Temperature": 21.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406051100",
+      "Temperature": 21.4,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406051117",
+      "Temperature": 21.3,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406051137",
+      "Temperature": 21.3,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406051157",
+      "Temperature": 21.3,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406051220",
+      "Temperature": 21.3,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406051237",
+      "Temperature": 21.3,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406051257",
+      "Temperature": 21.2,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406051317",
+      "Temperature": 21.2,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406051337",
+      "Temperature": 21.1,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406051357",
+      "Temperature": 21.1,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406051417",
+      "Temperature": 21.1,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406051440",
+      "Temperature": 21.1,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406051500",
+      "Temperature": 21.1,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406051523",
+      "Temperature": 21,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406051537",
+      "Temperature": 21,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406051600",
+      "Temperature": 21,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406051617",
+      "Temperature": 21,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406051643",
+      "Temperature": 20.9,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406051703",
+      "Temperature": 21,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406051717",
+      "Temperature": 20.9,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406051737",
+      "Temperature": 20.8,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406051803",
+      "Temperature": 20.8,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406051820",
+      "Temperature": 20.8,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406051837",
+      "Temperature": 20.8,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406051857",
+      "Temperature": 20.8,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406051926",
+      "Temperature": 20.7,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406051937",
+      "Temperature": 20.8,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406052003",
+      "Temperature": 20.7,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406052017",
+      "Temperature": 20.7,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406052040",
+      "Temperature": 20.7,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406052100",
+      "Temperature": 20.8,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052117",
+      "Temperature": 20.7,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052137",
+      "Temperature": 20.7,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052154",
+      "Temperature": 20.7,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052217",
+      "Temperature": 20.6,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052234",
+      "Temperature": 20.6,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052300",
+      "Temperature": 20.7,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052317",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052337",
+      "Temperature": 20.6,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052354",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052414",
+      "Temperature": 20.6,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406052437",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052454",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052514",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052537",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052554",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052617",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052634",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406052654",
+      "Temperature": 20.6,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052714",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406052734",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052754",
+      "Temperature": 20.5,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406052814",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052834",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052854",
+      "Temperature": 20.6,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406052914",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052937",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406052957",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406053017",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406053034",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053054",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053114",
+      "Temperature": 20.4,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406053137",
+      "Temperature": 20.4,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053154",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053214",
+      "Temperature": 20.4,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053234",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053254",
+      "Temperature": 20.4,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053314",
+      "Temperature": 20.4,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406053334",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053357",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053417",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053434",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053454",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053514",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053534",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053554",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053614",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053634",
+      "Temperature": 20.4,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406053654",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406053717",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406053734",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406053757",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053817",
+      "Temperature": 20.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406053834",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406053854",
+      "Temperature": 20.4,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406053914",
+      "Temperature": 20.4,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406053934",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406053957",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406054014",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406054034",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406054054",
+      "Temperature": 20.4,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406054114",
+      "Temperature": 20.5,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406054134",
+      "Temperature": 20.5,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406054154",
+      "Temperature": 20.7,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406054217",
+      "Temperature": 20.9,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406054234",
+      "Temperature": 21.1,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406054257",
+      "Temperature": 21.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406054314",
+      "Temperature": 21.4,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406054334",
+      "Temperature": 21.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406054357",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054414",
+      "Temperature": 21.5,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406054434",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406054454",
+      "Temperature": 21.5,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406054514",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406054537",
+      "Temperature": 21.6,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406054554",
+      "Temperature": 21.5,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406054614",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054634",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406054657",
+      "Temperature": 21.6,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406054714",
+      "Temperature": 21.6,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406054734",
+      "Temperature": 21.6,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054754",
+      "Temperature": 21.5,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406054814",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054834",
+      "Temperature": 21.6,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054854",
+      "Temperature": 21.6,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406054917",
+      "Temperature": 21.5,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406054934",
+      "Temperature": 21.5,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406054954",
+      "Temperature": 21.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055014",
+      "Temperature": 21.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406055037",
+      "Temperature": 21.5,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406055054",
+      "Temperature": 21.5,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406055114",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406055134",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406055154",
+      "Temperature": 21.4,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406055214",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406055237",
+      "Temperature": 21.4,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055254",
+      "Temperature": 21.5,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406055314",
+      "Temperature": 21.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055334",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055354",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055417",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055437",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055457",
+      "Temperature": 21.5,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406055514",
+      "Temperature": 21.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406055534",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055554",
+      "Temperature": 21.4,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406055614",
+      "Temperature": 21.4,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406055634",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055654",
+      "Temperature": 21.3,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406055714",
+      "Temperature": 21.3,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406055734",
+      "Temperature": 21.4,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406055754",
+      "Temperature": 21.3,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055814",
+      "Temperature": 21.3,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406055837",
+      "Temperature": 21.4,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406055857",
+      "Temperature": 21.3,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055914",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406055934",
+      "Temperature": 21.4,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406055954",
+      "Temperature": 21.4,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406060014",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406060037",
+      "Temperature": 21.4,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406060054",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406060114",
+      "Temperature": 21.4,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406060134",
+      "Temperature": 21.3,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406060154",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406060217",
+      "Temperature": 21.4,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406060234",
+      "Temperature": 21.4,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406060254",
+      "Temperature": 21.4,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406060317",
+      "Temperature": 21.5,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406060334",
+      "Temperature": 21.4,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406060354",
+      "Temperature": 21.4,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406060414",
+      "Temperature": 21.4,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406060434",
+      "Temperature": 21.3,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406060454",
+      "Temperature": 21.3,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406060514",
+      "Temperature": 21.3,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406060537",
+      "Temperature": 21.2,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406060554",
+      "Temperature": 21.2,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406060614",
+      "Temperature": 21.1,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406060634",
+      "Temperature": 21.1,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406060654",
+      "Temperature": 21.1,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406060717",
+      "Temperature": 21.1,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406060734",
+      "Temperature": 21.1,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406060757",
+      "Temperature": 21.1,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406060814",
+      "Temperature": 21.1,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406060837",
+      "Temperature": 21,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406060854",
+      "Temperature": 20.9,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406060914",
+      "Temperature": 21,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406060934",
+      "Temperature": 20.9,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406060954",
+      "Temperature": 20.8,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406061016",
+      "Temperature": 20.8,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406061034",
+      "Temperature": 20.7,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406061057",
+      "Temperature": 20.8,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406061117",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406061134",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406061154",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406061214",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406061237",
+      "Temperature": 20.7,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406061254",
+      "Temperature": 20.7,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406061314",
+      "Temperature": 20.6,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406061337",
+      "Temperature": 20.6,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406061354",
+      "Temperature": 20.6,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406061414",
+      "Temperature": 20.6,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406061434",
+      "Temperature": 20.6,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406061457",
+      "Temperature": 20.6,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406061514",
+      "Temperature": 20.6,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406061534",
+      "Temperature": 20.5,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406061554",
+      "Temperature": 20.6,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406061614",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406061637",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406061654",
+      "Temperature": 20.5,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406061714",
+      "Temperature": 20.5,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406061737",
+      "Temperature": 20.5,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406061754",
+      "Temperature": 20.4,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406061814",
+      "Temperature": 20.5,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406061837",
+      "Temperature": 20.4,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406061857",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406061914",
+      "Temperature": 20.5,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406061934",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406061954",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406062014",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406062037",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406062054",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062114",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062134",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062154",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062214",
+      "Temperature": 20.4,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406062237",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062254",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062314",
+      "Temperature": 20.4,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062334",
+      "Temperature": 20.4,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062354",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062414",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062434",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062457",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406062514",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062534",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062554",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062614",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062637",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406062654",
+      "Temperature": 20.3,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406062714",
+      "Temperature": 20.3,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406062734",
+      "Temperature": 20.3,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406062754",
+      "Temperature": 20.3,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406062814",
+      "Temperature": 20.3,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406062834",
+      "Temperature": 20.3,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406062854",
+      "Temperature": 20.4,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406062914",
+      "Temperature": 20.4,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406062934",
+      "Temperature": 20.4,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406062954",
+      "Temperature": 20.4,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406063017",
+      "Temperature": 20.4,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406063034",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406063054",
+      "Temperature": 20.5,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406063117",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406063134",
+      "Temperature": 20.5,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406063157",
+      "Temperature": 20.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406063214",
+      "Temperature": 20.5,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406063234",
+      "Temperature": 20.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063254",
+      "Temperature": 20.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063314",
+      "Temperature": 20.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063334",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063354",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406063414",
+      "Temperature": 20.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063434",
+      "Temperature": 20.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063454",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063514",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406063534",
+      "Temperature": 20.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063554",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063617",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063637",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063657",
+      "Temperature": 20.6,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406063714",
+      "Temperature": 20.5,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406063734",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063754",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063817",
+      "Temperature": 20.5,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063834",
+      "Temperature": 20.6,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406063854",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406063914",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063934",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406063954",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064014",
+      "Temperature": 20.6,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064034",
+      "Temperature": 20.6,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064054",
+      "Temperature": 20.5,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064114",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064137",
+      "Temperature": 20.6,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406064154",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064217",
+      "Temperature": 20.7,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064234",
+      "Temperature": 20.6,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064254",
+      "Temperature": 20.6,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064314",
+      "Temperature": 20.6,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406064334",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064354",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406064414",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064434",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406064457",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064514",
+      "Temperature": 20.5,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406064534",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064557",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064617",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064634",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064654",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064714",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064734",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064754",
+      "Temperature": 20.6,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406064817",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064834",
+      "Temperature": 20.5,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406064854",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064914",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406064934",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406064957",
+      "Temperature": 20.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406065014",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065037",
+      "Temperature": 20.6,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406065054",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065114",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065134",
+      "Temperature": 20.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406065157",
+      "Temperature": 20.6,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065214",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065234",
+      "Temperature": 20.6,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065257",
+      "Temperature": 20.5,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065314",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065334",
+      "Temperature": 20.5,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065354",
+      "Temperature": 20.6,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065414",
+      "Temperature": 20.5,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406065437",
+      "Temperature": 20.5,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406065454",
+      "Temperature": 20.6,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065514",
+      "Temperature": 20.6,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065534",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065557",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065614",
+      "Temperature": 20.5,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065634",
+      "Temperature": 20.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065657",
+      "Temperature": 20.6,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406065714",
+      "Temperature": 20.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065734",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065754",
+      "Temperature": 20.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065814",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065837",
+      "Temperature": 20.5,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406065854",
+      "Temperature": 20.5,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406065914",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065934",
+      "Temperature": 20.5,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406065957",
+      "Temperature": 20.6,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070014",
+      "Temperature": 20.6,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406070034",
+      "Temperature": 20.6,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406070059",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070114",
+      "Temperature": 20.5,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070137",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070154",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070217",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070236",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070254",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070314",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070334",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070357",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070414",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070434",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070454",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070514",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070534",
+      "Temperature": 20.5,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406070554",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070617",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070637",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070654",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070714",
+      "Temperature": 20.6,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406070734",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070754",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070814",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406070837",
+      "Temperature": 20.6,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406070854",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406070914",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406070934",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406070957",
+      "Temperature": 20.5,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406071017",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071034",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071054",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071114",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071134",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071157",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071217",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071234",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071254",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071314",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071337",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071354",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071414",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071437",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071454",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406071517",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071534",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071554",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071617",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071634",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406071654",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406071714",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071734",
+      "Temperature": 20.6,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406071754",
+      "Temperature": 20.6,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406071814",
+      "Temperature": 20.6,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406071839",
+      "Temperature": 20.6,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406071854",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406071914",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406071934",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406071954",
+      "Temperature": 20.7,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406072014",
+      "Temperature": 20.7,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406072034",
+      "Temperature": 20.7,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406072057",
+      "Temperature": 20.6,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406072114",
+      "Temperature": 20.7,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406072137",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406072154",
+      "Temperature": 20.7,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406072214",
+      "Temperature": 20.7,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406072237",
+      "Temperature": 20.7,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406072254",
+      "Temperature": 20.8,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406072314",
+      "Temperature": 20.8,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406072334",
+      "Temperature": 20.8,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406072354",
+      "Temperature": 20.8,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406072414",
+      "Temperature": 20.8,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406072434",
+      "Temperature": 20.8,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406072454",
+      "Temperature": 20.8,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406072514",
+      "Temperature": 20.8,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406072537",
+      "Temperature": 20.8,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406072557",
+      "Temperature": 20.8,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406072617",
+      "Temperature": 20.8,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406072634",
+      "Temperature": 20.9,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406072654",
+      "Temperature": 20.9,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406072717",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406072737",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406072754",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406072820",
+      "Temperature": 20.9,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406072834",
+      "Temperature": 20.8,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406072909",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406072914",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406072940",
+      "Temperature": 21,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406072954",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406073017",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406073037",
+      "Temperature": 20.9,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406073054",
+      "Temperature": 20.9,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406073117",
+      "Temperature": 21,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406073134",
+      "Temperature": 21,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406073154",
+      "Temperature": 21,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406073214",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406073234",
+      "Temperature": 20.9,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406073257",
+      "Temperature": 21,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406073314",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406073334",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406073356",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073414",
+      "Temperature": 20.9,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406073437",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406073454",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406073514",
+      "Temperature": 21,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406073534",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406073554",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406073617",
+      "Temperature": 20.9,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073634",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073654",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406073714",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073737",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073754",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406073814",
+      "Temperature": 21,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406073837",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406073857",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073914",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406073934",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406073954",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074017",
+      "Temperature": 20.9,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406074034",
+      "Temperature": 21,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406074054",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074114",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074134",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074154",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074214",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074234",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074254",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074317",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406074334",
+      "Temperature": 21,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406074354",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074414",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074434",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074457",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074514",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074534",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074557",
+      "Temperature": 21.1,
+      "Humidity": 58.1
+    },
+    {
+      "DateTime": "20200406074614",
+      "Temperature": 21.1,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406074634",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406074654",
+      "Temperature": 21,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406074714",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406074734",
+      "Temperature": 21,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406074754",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406074814",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074834",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074854",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406074914",
+      "Temperature": 21,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406074936",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406074954",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075014",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075037",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075054",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075117",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075137",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075154",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075217",
+      "Temperature": 21.1,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406075234",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406075254",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075317",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075334",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406075354",
+      "Temperature": 21,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075414",
+      "Temperature": 21.1,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406075434",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406075454",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406075517",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406075534",
+      "Temperature": 21.1,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406075554",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075614",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075634",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075654",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406075714",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406075737",
+      "Temperature": 21.1,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075757",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075814",
+      "Temperature": 21.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406075834",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406075854",
+      "Temperature": 21.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406075914",
+      "Temperature": 21.2,
+      "Humidity": 58.9
+    },
+    {
+      "DateTime": "20200406075937",
+      "Temperature": 21.1,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406075954",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080014",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080034",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080054",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080114",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406080134",
+      "Temperature": 21.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406080157",
+      "Temperature": 21.1,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080214",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080234",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080259",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080317",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080334",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080354",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080414",
+      "Temperature": 21.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406080434",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080457",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080514",
+      "Temperature": 21.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406080537",
+      "Temperature": 21.2,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406080554",
+      "Temperature": 21.3,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080614",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080634",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080654",
+      "Temperature": 21.2,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406080714",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080734",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080754",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080814",
+      "Temperature": 21.2,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406080834",
+      "Temperature": 21.2,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406080854",
+      "Temperature": 21.2,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406080914",
+      "Temperature": 21.2,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406080934",
+      "Temperature": 21.2,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406080954",
+      "Temperature": 21.2,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406081014",
+      "Temperature": 21.2,
+      "Humidity": 57.9
+    },
+    {
+      "DateTime": "20200406081034",
+      "Temperature": 21.1,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406081054",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406081114",
+      "Temperature": 21.1,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406081137",
+      "Temperature": 21.1,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406081154",
+      "Temperature": 21.1,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406081217",
+      "Temperature": 21,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406081234",
+      "Temperature": 21,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406081254",
+      "Temperature": 20.9,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406081314",
+      "Temperature": 20.9,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406081334",
+      "Temperature": 20.9,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406081354",
+      "Temperature": 20.8,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406081414",
+      "Temperature": 20.8,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406081434",
+      "Temperature": 20.9,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406081454",
+      "Temperature": 20.8,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406081517",
+      "Temperature": 20.8,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406081534",
+      "Temperature": 20.8,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406081554",
+      "Temperature": 20.8,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406081614",
+      "Temperature": 20.7,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406081634",
+      "Temperature": 20.7,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406081657",
+      "Temperature": 20.7,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406081714",
+      "Temperature": 20.7,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406081734",
+      "Temperature": 20.7,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406081757",
+      "Temperature": 20.6,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406081814",
+      "Temperature": 20.7,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406081834",
+      "Temperature": 20.6,
+      "Humidity": 59.2
+    },
+    {
+      "DateTime": "20200406081854",
+      "Temperature": 20.6,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406081917",
+      "Temperature": 20.6,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406081937",
+      "Temperature": 20.6,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406081954",
+      "Temperature": 20.6,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406082014",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082034",
+      "Temperature": 20.5,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082057",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082114",
+      "Temperature": 20.5,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082134",
+      "Temperature": 20.5,
+      "Humidity": 59.6
+    },
+    {
+      "DateTime": "20200406082157",
+      "Temperature": 20.6,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082214",
+      "Temperature": 20.6,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406082234",
+      "Temperature": 20.5,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406082254",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082314",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082334",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082354",
+      "Temperature": 20.5,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082414",
+      "Temperature": 20.4,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406082434",
+      "Temperature": 20.4,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082457",
+      "Temperature": 20.5,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406082514",
+      "Temperature": 20.4,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406082537",
+      "Temperature": 20.4,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082554",
+      "Temperature": 20.4,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406082614",
+      "Temperature": 20.4,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406082634",
+      "Temperature": 20.4,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406082654",
+      "Temperature": 20.4,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406082714",
+      "Temperature": 20.4,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406082737",
+      "Temperature": 20.4,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406082754",
+      "Temperature": 20.4,
+      "Humidity": 62.7
+    },
+    {
+      "DateTime": "20200406082814",
+      "Temperature": 20.4,
+      "Humidity": 63.8
+    },
+    {
+      "DateTime": "20200406082834",
+      "Temperature": 20.5,
+      "Humidity": 64.3
+    },
+    {
+      "DateTime": "20200406082854",
+      "Temperature": 20.6,
+      "Humidity": 64.3
+    },
+    {
+      "DateTime": "20200406082914",
+      "Temperature": 20.7,
+      "Humidity": 64.3
+    },
+    {
+      "DateTime": "20200406082934",
+      "Temperature": 20.7,
+      "Humidity": 64
+    },
+    {
+      "DateTime": "20200406082954",
+      "Temperature": 20.8,
+      "Humidity": 63.8
+    },
+    {
+      "DateTime": "20200406083014",
+      "Temperature": 20.8,
+      "Humidity": 63.5
+    },
+    {
+      "DateTime": "20200406083037",
+      "Temperature": 20.9,
+      "Humidity": 63.3
+    },
+    {
+      "DateTime": "20200406083054",
+      "Temperature": 21,
+      "Humidity": 63
+    },
+    {
+      "DateTime": "20200406083114",
+      "Temperature": 21,
+      "Humidity": 62.7
+    },
+    {
+      "DateTime": "20200406083134",
+      "Temperature": 21.1,
+      "Humidity": 62.5
+    },
+    {
+      "DateTime": "20200406083154",
+      "Temperature": 21.1,
+      "Humidity": 62.2
+    },
+    {
+      "DateTime": "20200406083214",
+      "Temperature": 21.1,
+      "Humidity": 61.9
+    },
+    {
+      "DateTime": "20200406083234",
+      "Temperature": 21.2,
+      "Humidity": 61.8
+    },
+    {
+      "DateTime": "20200406083254",
+      "Temperature": 21.2,
+      "Humidity": 61.5
+    },
+    {
+      "DateTime": "20200406083317",
+      "Temperature": 21.3,
+      "Humidity": 61.4
+    },
+    {
+      "DateTime": "20200406083334",
+      "Temperature": 21.4,
+      "Humidity": 61.3
+    },
+    {
+      "DateTime": "20200406083354",
+      "Temperature": 21.4,
+      "Humidity": 61
+    },
+    {
+      "DateTime": "20200406083414",
+      "Temperature": 21.3,
+      "Humidity": 60.6
+    },
+    {
+      "DateTime": "20200406083437",
+      "Temperature": 21.4,
+      "Humidity": 60.4
+    },
+    {
+      "DateTime": "20200406083454",
+      "Temperature": 21.4,
+      "Humidity": 60.3
+    },
+    {
+      "DateTime": "20200406083514",
+      "Temperature": 21.5,
+      "Humidity": 60.2
+    },
+    {
+      "DateTime": "20200406083534",
+      "Temperature": 21.5,
+      "Humidity": 60
+    },
+    {
+      "DateTime": "20200406083554",
+      "Temperature": 21.5,
+      "Humidity": 59.9
+    },
+    {
+      "DateTime": "20200406083614",
+      "Temperature": 21.5,
+      "Humidity": 59.8
+    },
+    {
+      "DateTime": "20200406083634",
+      "Temperature": 21.6,
+      "Humidity": 59.7
+    },
+    {
+      "DateTime": "20200406083654",
+      "Temperature": 21.6,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406083717",
+      "Temperature": 21.7,
+      "Humidity": 59.5
+    },
+    {
+      "DateTime": "20200406083734",
+      "Temperature": 21.6,
+      "Humidity": 59.3
+    },
+    {
+      "DateTime": "20200406083754",
+      "Temperature": 21.6,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406083814",
+      "Temperature": 21.7,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406083834",
+      "Temperature": 21.7,
+      "Humidity": 59
+    },
+    {
+      "DateTime": "20200406083854",
+      "Temperature": 21.7,
+      "Humidity": 58.8
+    },
+    {
+      "DateTime": "20200406083914",
+      "Temperature": 21.7,
+      "Humidity": 58.7
+    },
+    {
+      "DateTime": "20200406083934",
+      "Temperature": 21.7,
+      "Humidity": 58.6
+    },
+    {
+      "DateTime": "20200406083954",
+      "Temperature": 21.7,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406084014",
+      "Temperature": 21.8,
+      "Humidity": 58.5
+    },
+    {
+      "DateTime": "20200406084037",
+      "Temperature": 21.8,
+      "Humidity": 58.3
+    },
+    {
+      "DateTime": "20200406084057",
+      "Temperature": 21.8,
+      "Humidity": 58.4
+    },
+    {
+      "DateTime": "20200406084114",
+      "Temperature": 21.8,
+      "Humidity": 58.2
+    },
+    {
+      "DateTime": "20200406084134",
+      "Temperature": 21.8,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406084154",
+      "Temperature": 21.9,
+      "Humidity": 58
+    },
+    {
+      "DateTime": "20200406084214",
+      "Temperature": 21.8,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406084237",
+      "Temperature": 21.9,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406084257",
+      "Temperature": 21.9,
+      "Humidity": 57.8
+    },
+    {
+      "DateTime": "20200406084314",
+      "Temperature": 21.9,
+      "Humidity": 57.7
+    },
+    {
+      "DateTime": "20200406084337",
+      "Temperature": 21.9,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406084354",
+      "Temperature": 22,
+      "Humidity": 57.6
+    },
+    {
+      "DateTime": "20200406084414",
+      "Temperature": 21.9,
+      "Humidity": 57.5
+    },
+    {
+      "DateTime": "20200406084434",
+      "Temperature": 21.9,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406084454",
+      "Temperature": 21.9,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406084514",
+      "Temperature": 22,
+      "Humidity": 57.4
+    },
+    {
+      "DateTime": "20200406084534",
+      "Temperature": 22,
+      "Humidity": 57.3
+    },
+    {
+      "DateTime": "20200406084554",
+      "Temperature": 22,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406084614",
+      "Temperature": 22,
+      "Humidity": 57.2
+    },
+    {
+      "DateTime": "20200406084635",
+      "Temperature": 22,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406084654",
+      "Temperature": 22,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406084714",
+      "Temperature": 22,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406084734",
+      "Temperature": 22,
+      "Humidity": 57
+    },
+    {
+      "DateTime": "20200406084754",
+      "Temperature": 22,
+      "Humidity": 56.9
+    },
+    {
+      "DateTime": "20200406084814",
+      "Temperature": 22,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406084834",
+      "Temperature": 22,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406084854",
+      "Temperature": 22.1,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406084917",
+      "Temperature": 22,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406084934",
+      "Temperature": 22.1,
+      "Humidity": 56.8
+    },
+    {
+      "DateTime": "20200406084954",
+      "Temperature": 22.1,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406085014",
+      "Temperature": 22.1,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406085034",
+      "Temperature": 22.1,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406085054",
+      "Temperature": 22.1,
+      "Humidity": 56.6
+    },
+    {
+      "DateTime": "20200406085117",
+      "Temperature": 22.1,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406085137",
+      "Temperature": 22.1,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406085154",
+      "Temperature": 22.1,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406085217",
+      "Temperature": 22.1,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406085234",
+      "Temperature": 22.1,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406085254",
+      "Temperature": 22.1,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406085314",
+      "Temperature": 22.2,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406085334",
+      "Temperature": 22.1,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406085354",
+      "Temperature": 22.1,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085417",
+      "Temperature": 22.1,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085434",
+      "Temperature": 22.1,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085457",
+      "Temperature": 22.2,
+      "Humidity": 56.7
+    },
+    {
+      "DateTime": "20200406085514",
+      "Temperature": 22.2,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406085537",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085554",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085614",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085634",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085654",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085717",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085734",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085757",
+      "Temperature": 22.2,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085814",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406085837",
+      "Temperature": 22.2,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406085857",
+      "Temperature": 22.3,
+      "Humidity": 56.2
+    },
+    {
+      "DateTime": "20200406085914",
+      "Temperature": 22.2,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406085937",
+      "Temperature": 22.2,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406085954",
+      "Temperature": 22.3,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090014",
+      "Temperature": 22.3,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090034",
+      "Temperature": 22.3,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090057",
+      "Temperature": 22.2,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090117",
+      "Temperature": 22.3,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090134",
+      "Temperature": 22.3,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090154",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090214",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090237",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090257",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090314",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090334",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090354",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090414",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090434",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090457",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090514",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090534",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090554",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090617",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090634",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090654",
+      "Temperature": 22.4,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406090714",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090737",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406090754",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406090817",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406090834",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406090854",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406090914",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406090934",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406090954",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091014",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091037",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091057",
+      "Temperature": 22.5,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091114",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091137",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091154",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091217",
+      "Temperature": 22.5,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091234",
+      "Temperature": 22.5,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091257",
+      "Temperature": 22.5,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091317",
+      "Temperature": 22.5,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091334",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091354",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091414",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091437",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091454",
+      "Temperature": 22.6,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406091514",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091534",
+      "Temperature": 22.5,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406091554",
+      "Temperature": 22.5,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406091617",
+      "Temperature": 22.5,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406091637",
+      "Temperature": 22.5,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406091657",
+      "Temperature": 22.5,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406091717",
+      "Temperature": 22.5,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406091735",
+      "Temperature": 22.6,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406091754",
+      "Temperature": 22.5,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406091817",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406091834",
+      "Temperature": 22.5,
+      "Humidity": 55.2
+    },
+    {
+      "DateTime": "20200406091857",
+      "Temperature": 22.6,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406091914",
+      "Temperature": 22.6,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406091937",
+      "Temperature": 22.5,
+      "Humidity": 55.2
+    },
+    {
+      "DateTime": "20200406091954",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092017",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092034",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092054",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092117",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092134",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092154",
+      "Temperature": 22.5,
+      "Humidity": 55.3
+    },
+    {
+      "DateTime": "20200406092217",
+      "Temperature": 22.5,
+      "Humidity": 55.4
+    },
+    {
+      "DateTime": "20200406092234",
+      "Temperature": 22.5,
+      "Humidity": 55.4
+    },
+    {
+      "DateTime": "20200406092254",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092314",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092334",
+      "Temperature": 22.4,
+      "Humidity": 55.4
+    },
+    {
+      "DateTime": "20200406092357",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092414",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092437",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092457",
+      "Temperature": 22.4,
+      "Humidity": 55.4
+    },
+    {
+      "DateTime": "20200406092514",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092534",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092554",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092614",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092637",
+      "Temperature": 22.5,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406092654",
+      "Temperature": 22.4,
+      "Humidity": 54.7
+    },
+    {
+      "DateTime": "20200406092717",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092737",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092754",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092815",
+      "Temperature": 22.4,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092837",
+      "Temperature": 22.5,
+      "Humidity": 55.5
+    },
+    {
+      "DateTime": "20200406092854",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406092914",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406092934",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406092957",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406093014",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406093034",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406093057",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406093114",
+      "Temperature": 22.4,
+      "Humidity": 55.6
+    },
+    {
+      "DateTime": "20200406093137",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093157",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093217",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093234",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093254",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093317",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093334",
+      "Temperature": 22.4,
+      "Humidity": 55.7
+    },
+    {
+      "DateTime": "20200406093357",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406093414",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406093434",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406093457",
+      "Temperature": 22.3,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406093514",
+      "Temperature": 22.4,
+      "Humidity": 55.8
+    },
+    {
+      "DateTime": "20200406093534",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093557",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093617",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093637",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093654",
+      "Temperature": 22.4,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093714",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093734",
+      "Temperature": 22.3,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093757",
+      "Temperature": 22.3,
+      "Humidity": 55.9
+    },
+    {
+      "DateTime": "20200406093819",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093834",
+      "Temperature": 22.4,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093857",
+      "Temperature": 22.4,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406093914",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093937",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406093954",
+      "Temperature": 22.4,
+      "Humidity": 56.1
+    },
+    {
+      "DateTime": "20200406094017",
+      "Temperature": 22.3,
+      "Humidity": 56
+    },
+    {
+      "DateTime": "20200406094034",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094054",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094114",
+      "Temperature": 22.4,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406094134",
+      "Temperature": 22.4,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406094154",
+      "Temperature": 22.4,
+      "Humidity": 56.5
+    },
+    {
+      "DateTime": "20200406094214",
+      "Temperature": 22.4,
+      "Humidity": 56.4
+    },
+    {
+      "DateTime": "20200406094234",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094257",
+      "Temperature": 22.4,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094314",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094334",
+      "Temperature": 22.3,
+      "Humidity": 56.3
+    },
+    {
+      "DateTime": "20200406094354",
+      "Temperature": 22.3,
+      "Humidity": 57.1
+    },
+    {
+      "DateTime": "20200406094417",
+      "Temperature": 22.2,
+      "Humidity": 59.1
+    },
+    {
+      "DateTime": "20200406094434",
+      "Temperature": 22.3,
+      "Humidity": 59.4
+    },
+    {
+      "DateTime": "20200406094607",
+      "Temperature": 22,
+      "Humidity": 62.8
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+/*
+ * ==================================================
+ * 程式名稱：IoT 智慧控制系統主程式
+ * 適用硬體：BMduino / Arduino 開發板 + 多種感測模組
+ * 功能說明：
+ *   本程式為一個物聯網 (IoT) 智慧控制系統的主程式，整合多種硬體模組，
+ *   包含 OLED 顯示器、WiFi 網路連線、MQTT 通訊協定、繼電器控制、
+ *   按鈕輸入、溫溼度感測、血氧感測、揮發性有機化合物感測等。
+ * 
+ * 主要運作流程：
+ *   1. 系統初始化 (setup)：
+ *      - 啟動序列埠通訊 (Serial) 與 OLED 顯示器
+ *      - 初始化 WiFi 網路連線，取得 MAC、SSID、IP 等資訊
+ *      - 顯示系統 Logo 於 OLED 螢幕
+ *      - 將系統資訊 (MAC、IP) 顯示於 OLED 上
+ *      - 初始化 MQTT 連線，準備接收遠端指令
+ * 
+ *   2. 主迴圈 (loop)：
+ *      - 持續監聽 MQTT Broker 傳來的控制指令
+ *      - 當收到 JSON 格式的指令時，解析指令內容
+ *      - 根據指令中的裝置 ID、繼電器編號、動作 (ON/OFF) 
+ *        控制對應的繼電器開啟或關閉
+ *      - 將接收到的指令資訊顯示於 OLED 螢幕上
+ *      - 並將執行結果透過序列埠輸出
+ * 
+ * 支援的感測與控制模組：
+ *   - OLED 顯示模組 (BMD31M090)：顯示系統資訊與接收到的指令
+ *   - WiFi 模組：提供網路連線能力，支援 MQTT 通訊
+ *   - 繼電器模組：接收指令後控制外部設備開關
+ *   - 溫溼度感測模組 (DHT)：(可選) 環境溫溼度監測
+ *   - 血氧感測模組 (Oxygen)：(可選) 生理訊號監測
+ *   - 語音模組 (Voc)：(可選) 語音提示功能
+ *   - 按鈕模組 (LedButton)：(可選) 本地控制功能
+ * 
+ * 作者/版本：Best Module / 智慧控制系統
+ * 建立日期：2025.03.27
+ * 修改紀錄：
+ *   - 2025.03.27：加入詳細繁體中文註解與整體說明
+ * ==================================================
+ */
+
+// ================================================================
+// =============== 全域變數宣告區 (Global Variables) ===============
+// ================================================================
+
+// 宣告三個全域變數，用於儲存 WiFi 模組相關資訊
+String MacData;   // 儲存目前裝置的 WiFi MAC Address（網路卡的唯一識別碼）
+String SSIDData;  // 儲存目前連線的 WiFi 熱點名稱 (SSID)
+String IPData;    // 儲存 WiFi 連線後由路由器分配的 IP 位址
+
+// ------- 感測模組函式與外部函式引用宣告區 -----------
+#include <String.h>    // Arduino 內建字串處理函式庫
+#include "commlib.h"   // 通訊相關的共用函式庫（可能包含封包處理、緩衝區管理等）
+
+#include "OledLib.h"   // 自訂 OLED 顯示模組函式庫（提供 OLED 初始化、文字繪製、清屏等功能）
+#include "TCP.h"       // TCP 通訊函式庫（包含 WiFi 初始化、MAC 取得等函式）
+
+#include "clouding.h"  // REST Ful API 基本模組（可選用於雲端資料傳送）
+
+#include "RelayLib.h"      // 自訂繼電器模組函式庫（提供 TurnonRelay、TurnoffRelay 等功能）
+#include "LedButtonLib.h"  // 自訂按鈕模組函式庫（用於本地按鈕控制）
+#include "OxygenLib.h"     // 自訂血氧模組函式庫（用於量測血氧濃度與心率）
+#include "DHTLib.h"        // 自訂溫溼度模組函式庫（用於量測環境溫度與濕度）
+#include "MQTTLib.h"       // MQTT 函式庫，提供 MQTT 初始化、連線與發佈/訂閱訊息功能
+#include "VocLib.h"        // 自訂語音模組函式庫（提供語音提示功能）
+
+// ------- 自定義函式宣告區 -----------
+void initSensor();                 // 初始化所有感測模組
+void initAll();                    // 初始化整體系統（序列埠、感測器、OLED 等）
+void INITWIFI();                   // 初始化 WiFi 網路連線
+void showTitleonOled(String ss, int row);   // 顯示標題文字於 OLED 指定列
+void showIPonOled(String ss, int row);      // 顯示 IP 位址於 OLED 指定列
+void showDeviceonOled(String ss, int row);  // 顯示裝置 Device ID 於 OLED 指定列
+void ShowWiFiInformation();        // 顯示 WiFi 的基本參數（MAC、SSID、IP）
+
+// ------------------ 初始化 ------------------
+void setup()
+{
+  initAll();       // 初始化整體系統（啟動序列埠、初始化 OLED、繼電器等）
+  delay(200);      // 延遲 200ms，確保硬體模組穩定
+  INITWIFI();      // 初始化 WiFi 網路，並取得 SSID、IP 與 MAC 資料
+
+  if (Wifi.getStatus())   // 確認 WiFi 是否連線成功
+  {
+    initMQTT();           // 初始化 MQTT 伺服器連線（準備接收遠端指令）
+    Serial.println("WIFI OK"); 
+    // SendtoClouding();  // （選用功能）傳送感測資料到雲端
+  }
+
+  //---------------------------------
+  clearScreen();  // 清除 OLED 螢幕
+  // 顯示 BEST MODULES 的 LOGO（品牌識別圖案）
+  drawPicture(0, 0, BestModule_LOGO, 128, 64);
+  delay(3000);    // LOGO 顯示 3 秒
+  clearScreen();  // 再次清除螢幕，準備顯示系統資訊
+
+  // 顯示系統資訊於 OLED 螢幕
+  showTitleonOled(MacData, 0);  // 在第 0 列顯示 MAC 位址
+  showIPonOled(IPData, 2);      // 在第 2 列顯示 IP 位址
+  //----------------------------
+  Serial.println("Enter Loop()"); // 提示已經進入主迴圈 loop()，準備接收指令
+}
+
+// ------------------ 主迴圈 ------------------
+void loop() 
+{              
+  // WiFi 斷線檢查與重連邏輯（目前註解掉，可視需求啟用）
+  // 當 WiFi 斷線時可重新執行 INITWIFI() 進行重連
+
+  // 從 MQTT Broker 接收資料
+  // 讀取 Broker 下發的資料，包含訊息內容、長度與主題
+  Wifi.readIotData(&ReciveBuff, &ReciveBufflen, &topic);
+
+  if (ReciveBufflen)   // 如果有接收到資料（緩衝區長度大於 0）
+  {
+    // 將接收到的訊息輸出到序列埠監控視窗
+    Serial.print("read payload from mqtt broker:(");
+    Serial.print(topic);
+    Serial.print("/");
+    Serial.print(ReciveBuff);
+    Serial.print(")\n");
+
+    // 解析接收到的 JSON 格式資料
+    // 假設收到的 JSON 格式範例：
+    // {"Device":"48E729732158", "RelayNumber":2, "Command":"ON"}
+    DeserializationError error = deserializeJson(doc, ReciveBuff);
+
+    // 取出 JSON 中的欄位數值（需與實際傳送的 JSON 格式對應）
+    const char* device     = doc["Device"];      // 裝置識別碼，例: "48E729732158"
+    int relaynumber        = doc["RelayNumber"]; // 繼電器編號，例: 2
+    const char* command    = doc["Command"];     // 控制命令，例: "ON" 或 "OFF"
+
+    // 將解析結果輸出到序列監視器，方便除錯
+    Serial.print("Device: ");
+    Serial.println(device);
+
+    Serial.print("RelayNumber: ");
+    Serial.println(relaynumber);
+
+    Serial.print("Command:(");
+    Serial.println(command);
+    Serial.print(")\n");
+
+    // 將接收到的指令顯示在 OLED 螢幕上
+    showDeviceonOled(device);           // 顯示裝置 ID
+    showRelayNOonOled(relaynumber);     // 顯示繼電器編號（需確認此函式是否存在於 OledLib）
+    showCommandonOled(command);         // 顯示命令字串（需確認此函式是否存在於 OledLib）
+
+    // 判斷並執行對應的繼電器操作
+    if (String(command) == "ON")   // 若指令為 "ON"，開啟指定編號的繼電器
+    {
+      Serial.println("Turn on Relay");
+      TurnonRelay(relaynumber);    // 呼叫繼電器函式庫中的開啟函式
+    }
+    if (String(command) == "OFF")  // 若指令為 "OFF"，關閉指定編號的繼電器
+    {
+      Serial.println("Turn off Relay");
+      TurnoffRelay(relaynumber);   // 呼叫繼電器函式庫中的關閉函式
+    }
+  }
+}
+
+//---------------  主程式自訂函式區 ------------------
+
+//-----初始化所有感測模組----------
+/**
+ * 函式名稱：initSensor()
+ * 功能：初始化所有連接的感測模組
+ * 說明：此函式會依序初始化 OLED 顯示器、繼電器模組等
+ *       可根據實際需求加入其他感測器的初始化程序
+ */
+void initSensor()   // 初始化所有感測模組
+{
+  initOled();       // 初始化 OLED 12864 (0.96吋 OLED BMD31M090)
+  delay(2000);      // 延遲 2 秒，等待顯示模組穩定
+  initRealy();      // 初始化繼電器模組，準備進行控制
+}
+
+// ------------------ 系統初始化區 ------------------
+/**
+ * 函式名稱：initAll()
+ * 功能：初始化整體系統環境
+ * 說明：此函式會在系統啟動時第一個被呼叫
+ *       負責啟動序列埠通訊、初始化所有感測器
+ */
+void initAll()      // 初始化整體系統
+{
+  Serial.begin(9600);  // 啟動序列埠通訊，傳輸速率設定為 9600 bps
+  Serial.println("System Start....."); // 輸出系統啟動訊息到序列埠
+  initSensor();        // 呼叫 initSensor() 初始化所有感測模組
+}
+
+// ---------- 無線網路初始化 --------
+/**
+ * 函式名稱：INITWIFI()
+ * 功能：初始化 WiFi 無線網路連線
+ * 說明：呼叫 initWiFi() 進行 WiFi 連線，完成後顯示網路相關資訊
+ */
+void INITWIFI()      // 初始化 WiFi 網路
+{
+  initWiFi();             // 連線到預先設定的 WiFi 熱點
+  ShowWiFiInformation();  // 顯示 MAC / SSID / IP 等連線資訊
+}
+
+// ---------顯示無線網路基本資訊---------
+/**
+ * 函式名稱：ShowWiFiInformation()
+ * 功能：顯示目前 WiFi 連線相關資訊（MAC、SSID、IP）
+ * 說明：此函式會取得裝置的 MAC 位址、連線的 SSID、以及被分配的 IP 位址
+ *       並將這些資訊儲存到全域變數中，同時也輸出到序列埠監控視窗
+ *       這些資訊後續也會用於 OLED 螢幕顯示
+ */
+void ShowWiFiInformation()  // 顯示 WiFi 資訊
+{
+  // 取得並儲存 MAC Address
+  MacData = GetMAC();   // 呼叫自訂函式 GetMAC()，取得目前裝置的 MAC Address
+                        // 並將結果存入全域變數 MacData
+
+  Serial.println("---MAC Address----");  // 在序列埠輸出標題文字
+  Serial.println(MacData);               // 印出裝置的 MAC Address
+  Serial.println("");                    // 空一行，使顯示格式更清楚
+
+  // 取得並儲存 WiFi SSID
+  Serial.println("---wifi access point----"); // 顯示目前使用的 WiFi AP 資訊標題
+  SSIDData = GetSSID(); // 呼叫 GetSSID() 取得目前連線的 WiFi 熱點名稱 (SSID)
+                        // 並儲存回全域變數 SSIDData
+
+  Serial.println(SSIDData);  // 印出目前連線的 WiFi 熱點名稱 (SSID)
+
+  // 取得並儲存 IP Address
+  Serial.println("---Show IP Address----"); // 顯示 IP 位址標題
+  IPData = GetIP();     // 呼叫自訂函式 GetIP() 取得目前 WiFi 分配到的 IP 位址
+                        // 並儲存回全域變數 IPData
+
+  Serial.println(IPData);  // 在序列埠輸出 IP Address，例如：192.168.1.105
+}

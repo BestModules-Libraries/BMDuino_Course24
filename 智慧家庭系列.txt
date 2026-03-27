@@ -1,0 +1,28 @@
+智慧家庭系列
+
+Arduino開發工具安裝與設定
+https://www.ebookservice.tw/ks/book/a1571cfe-628a-41bd-a226-1bb494de03a7
+
+
+安裝CH34X USB驅動程式
+https://www.ebookservice.tw/ks/book/2b76fa17-295a-4ff7-8280-18ba39851aea
+
+
+安裝CP210X USB驅動程式
+https://www.ebookservice.tw/ks/book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+ 
+
+家居用水流量監控裝置控制板組立篇V2
+新北 https://lib.ebookservice.tw/nt/#book/13f515ec-bc17-4bfb-bdd4-078aa7eadc80
+
+高雄 https://lib.ebookservice.tw/ks/#book/13f515ec-bc17-4bfb-bdd4-078aa7eadc80
+
+
+第二代氣氛燈泡與燈管_硬體組裝篇
+https://www.ebookservice.tw/ks/book/cd644097-fcc2-4513-9eb9-f2bd16ceac8d
+
+
+第三代氣氛燈泡與燈管_硬體組裝篇
+https://www.ebookservice.tw/ks/book/28e5d3ed-1189-4bd1-8bc8-dabb7c15d897
+

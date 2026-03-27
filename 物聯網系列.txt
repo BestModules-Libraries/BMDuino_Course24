@@ -1,0 +1,81 @@
+Arduino 系列
+
+Arduino開發工具安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/a1571cfe-628a-41bd-a226-1bb494de03a7
+
+高雄 https://lib.ebookservice.tw/ks/#book/a1571cfe-628a-41bd-a226-1bb494de03a7
+
+Arduino開發工具安裝與設定234
+新北 https://lib.ebookservice.tw/nt/#book/44f9f846-f66a-40a7-b1a7-ab4afe63fba6
+
+高雄 https://lib.ebookservice.tw/ks/#book/44f9f846-f66a-40a7-b1a7-ab4afe63fba6
+
+
+ESP32 開發環境函式庫安裝與設定(1.XX版)
+新北 https://lib.ebookservice.tw/nt/#book/6a88044a-02c6-4933-971b-6769d30934a2
+
+高雄 https://lib.ebookservice.tw/ks/#book/6a88044a-02c6-4933-971b-6769d30934a2
+
+ 
+ESP32開發工具安裝與設定V4
+新北 https://lib.ebookservice.tw/nt/#book/f5ebd89d-20f0-45f7-99ea-608663c7f28a
+
+高雄 https://lib.ebookservice.tw/ks/#book/f5ebd89d-20f0-45f7-99ea-608663c7f28a
+
+
+ESP32整合環境與函式庫安裝與設定
+https://lib.ebookservice.tw/ks/#book/a99679e8-e4fb-4864-9c87-cc0a1467b5da
+
+ESP32 開發版_韌體驅動程式安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/17c54e3a-21cf-4506-a1f4-05f631dac32d
+
+高雄 https://lib.ebookservice.tw/ks/#book/17c54e3a-21cf-4506-a1f4-05f631dac32d
+
+
+ESP32 開發版_驅動程式安裝與設定
+https://lib.ebookservice.tw/ks/#book/c02c575d-f0fe-4479-a05a-3b73943dc88c
+
+安裝CH34X USB驅動程式
+新北 https://lib.ebookservice.tw/nt/#book/2b76fa17-295a-4ff7-8280-18ba39851aea
+
+高雄 https://lib.ebookservice.tw/ks/#book/2b76fa17-295a-4ff7-8280-18ba39851aea
+
+
+
+安裝CP210X USB驅動程式
+新北 https://lib.ebookservice.tw/nt/#book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+高雄 https://lib.ebookservice.tw/ks/#book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+
+ESP32物聯網基礎10門課教學版組立篇
+新北 https://lib.ebookservice.tw/nt/#book/3c0e9c30-cb71-400f-871b-61a005c56c66
+
+高雄 https://lib.ebookservice.tw/ks/#book/3c0e9c30-cb71-400f-871b-61a005c56c66
+
+==========================
+函式庫模組化開發與技巧
+https://lib.ebookservice.tw/ks/#book/d863a0d9-7595-41d4-9927-7164ce500b3c
+
+物聯網開發函式庫模組化開發與技巧進階版
+https://lib.ebookservice.tw/ks/#book/251e1dd4-da16-412f-81e5-3b5298a0464d
+
+
+溫溼度感測器之資料收集端代理人設計
+https://lib.ebookservice.tw/ks/#book/90d8505f-f41d-48e3-aad3-5241dc949567
+
+ 
+=====================================================
+  
+MQTT基本入門
+新北 https://lib.ebookservice.tw/nt/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+高雄 https://lib.ebookservice.tw/ks/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+
+
+NodeRed 系統安裝
+新北 https://lib.ebookservice.tw/nt/#book/b0ff1a03-43ad-4e40-9fae-8350972a489a
+
+高雄 https://lib.ebookservice.tw/ks/#book/b0ff1a03-43ad-4e40-9fae-8350972a489a
+

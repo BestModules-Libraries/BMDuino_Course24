@@ -1,0 +1,121 @@
+Python設計與開發
+=====================================================
+Python 安裝講義
+新北 https://lib.ebookservice.tw/nt/#book/adefc7ef-a13e-4585-ac84-3213e2542894
+
+高雄 https://lib.ebookservice.tw/ks/#book/adefc7ef-a13e-4585-ac84-3213e2542894
+
+
+
+Python 安裝講義V2
+新北 https://lib.ebookservice.tw/nt/#book/2c93256a-f0a0-46ed-9fc2-5f5d225796be
+
+高雄 https://lib.ebookservice.tw/ks/#book/2c93256a-f0a0-46ed-9fc2-5f5d225796be
+
+
+=====================================================
+
+PyCharm整合工具安裝
+新北 https://lib.ebookservice.tw/nt/#book/54c10854-efba-475f-ad43-656be390b5a6
+
+高雄 https://lib.ebookservice.tw/ks/#book/54c10854-efba-475f-ad43-656be390b5a6
+
+
+PyCharm整合工具安裝V2
+新北 https://lib.ebookservice.tw/nt/#book/8abae4ff-6a8b-44e5-907d-cbddfd333d4d
+
+高雄 https://lib.ebookservice.tw/ks/#book/8abae4ff-6a8b-44e5-907d-cbddfd333d4d
+
+ =====================================================
+
+
+Qt Designer安裝與設定
+
+https://lib.ebookservice.tw/ks/#book/9b54a29f-f4aa-419f-89eb-9f02889bd5ee
+
+QT Designer之Python套件安裝與設定
+
+https://lib.ebookservice.tw/ks/#book/22aeb1e7-3faf-4c42-8c1c-eada27c6897f
+
+=====================================================
+Book:MicroPython程式設計(ESP32物聯網基礎篇)
+https://www.ebookservice.tw/#book/6460cfc1-b4cb-4cd6-817d-fbb05f5a4d4a
+
+
+Thonny工具安裝與設定V2
+新北 https://lib.ebookservice.tw/nt/#book/b4ae1aef-d8d4-4907-861f-572d12bf8d92
+
+高雄 https://lib.ebookservice.tw/ks/#book/b4ae1aef-d8d4-4907-861f-572d12bf8d92
+
+
+
+Thonny工具安裝與設定(ESP32)
+新北 https://lib.ebookservice.tw/nt/#book/c2f067d5-8caf-4939-8206-f3755cdac93f
+
+高雄 https://lib.ebookservice.tw/ks/#book/c2f067d5-8caf-4939-8206-f3755cdac93f
+
+
+Python Thonny工具安裝與設定ESP32篇
+新北 https://lib.ebookservice.tw/nt/#book/6b0c57dd-5ca8-47f1-9354-e49f1eb80c17
+
+高雄 https://lib.ebookservice.tw/ks/#book/6b0c57dd-5ca8-47f1-9354-e49f1eb80c17
+
+
+
+Thonny工具Python環境設定V2
+新北 https://lib.ebookservice.tw/nt/#book/d767b8a7-03c0-4c06-a397-efc1593f33af
+
+高雄 https://lib.ebookservice.tw/ks/#book/d767b8a7-03c0-4c06-a397-efc1593f33af 
+
+
+Thonny工具V4中文版安裝與設定(ESP32)
+新北 https://lib.ebookservice.tw/nt/#book/e9204143-442d-4ba2-a898-21086fb14e5d
+
+高雄 https://lib.ebookservice.tw/ks/#book/e9204143-442d-4ba2-a898-21086fb14e5d
+
+
+
+==================================
+Python Thonny工具安裝與設定(PICO W篇)
+https://lib.ebookservice.tw/ks/#book/95d6cb9e-1079-42ba-aa77-ee4e85b0b407
+=====================================================
+  
+MQTT基本入門
+https://lib.ebookservice.tw/ks/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+
+NodeRed 系統安裝
+
+https://lib.ebookservice.tw/ks/#book/b0ff1a03-43ad-4e40-9fae-8350972a489a
+
+ =====================================================
+
+使用Python讀寫mySQL程式設計
+
+https://lib.ebookservice.tw/ks/#book/ba9d891e-f565-4c0d-a845-e57b990c851d
+
+ 
+
+使用Python讀寫json程式設計
+
+https://lib.ebookservice.tw/ks/#book/91d04c0f-284f-4bf0-ba6e-4a7c9a2d31c4
+
+ 
+
+使用Python設計MQTT資料代理人之設計
+
+https://lib.ebookservice.tw/ks/#book/1a2e9431-9205-44fd-b3cf-5536527aba1e
+
+ 
+使用Python為資料代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/f30d44b3-bf43-45f9-85af-f58d7e7bb76f
+
+高雄 https://lib.ebookservice.tw/ks/#book/f30d44b3-bf43-45f9-85af-f58d7e7bb76f
+
+
+
+
+ 
+
+
+
