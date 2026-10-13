@@ -1,0 +1,92 @@
+ESP32S 物聯網基礎10門課_ESP32S 學習用白色終極板硬體介紹
+https://www.pubu.com.tw/ebook/438266
+
+TTGO T Display 擴充板組裝手冊
+https://www.pubu.com.tw/ebook/468992
+
+
+網站伺服器安裝與初始化設計
+https://www.pubu.com.tw/ebook/431854
+
+溫溼度感測器之雲端資料庫設計
+https://www.pubu.com.tw/ebook/431863
+
+溫溼度感測器之資料代理人設計
+https://www.pubu.com.tw/ebook/431864
+
+ 網站伺服器安裝與初始化設計
+https://www.pubu.com.tw/ebook/431854
+
+溫溼度感測器之雲端資料庫設計
+https://www.pubu.com.tw/ebook/431863
+
+溫溼度感測器之資料代理人設計
+https://www.pubu.com.tw/ebook/431864
+
+雲端主頁設計
+https://www.pubu.com.tw/ebook/438495
+
+雲端主頁模組化設計
+https://www.pubu.com.tw/ebook/442183
+
+溫溼度裝置彙總表程式設計
+https://www.pubu.com.tw/ebook/442239
+
+
+溫溼度裝置明細表程式設計
+https://www.pubu.com.tw/ebook/443352
+
+HighCharts安裝與設定
+https://www.pubu.com.tw/ebook/443394
+
+溫溼度裝置視覺化彙總表程式設計
+https://www.pubu.com.tw/ebook/443475
+
+單一裝置之溫溼度線性圖表程式設計
+https://www.pubu.com.tw/ebook/444520
+
+
+下面是安裝xampp的簡報，可以透過雲端圖書館去借
+網站伺服器安裝與初始化設計
+https://www.pubu.com.tw/ebook/431854
+
+溫溼度感測器之雲端資料庫設計
+https://www.pubu.com.tw/ebook/431863
+
+溫溼度感測器之資料代理人設計
+https://www.pubu.com.tw/ebook/431864
+
+PHP開發IDE_NetBeans安裝與設定
+https://www.pubu.com.tw/ebook/436414
+
+MQTT Broker基本入門
+https://www.pubu.com.tw/ebook/438016
+
+
+PyThon
+
+Python 安裝講義
+https://www.pubu.com.tw/ebook/421541
+
+Python 安裝講義V3,12,5
+https://www.pubu.com.tw/ebook/461331
+
+
+
+PyCharm整合工具安裝
+https://www.pubu.com.tw/ebook/421542
+
+
+PyCharm整合工具安裝V2024.2
+https://www.pubu.com.tw/ebook/461332
+
+
+Qt Designer安裝與設定
+https://www.pubu.com.tw/ebook/443261
+
+QT Designer之Python套件安裝與設定
+https://www.pubu.com.tw/ebook/443351
+
+NodeRed 系統安裝
+https://www.pubu.com.tw/ebook/468993
+

@@ -1,0 +1,15 @@
+{
+  "Device": "CC50E3B5BB20",
+  "Datalist": [
+    {
+      "Datetime": "20210619",
+      "Temperature": 34.705,
+      "Humidity": 54.067
+    },
+    {
+      "Datetime": "20210620",
+      "Temperature": 33.952,
+      "Humidity": 56.717
+    }
+  ]
+}

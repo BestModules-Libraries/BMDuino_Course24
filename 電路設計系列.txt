@@ -1,0 +1,54 @@
+KICAD 系列
+
+使用Kicad 設計教學用的電路板 
+新北 https://lib.ebookservice.tw/nt/#book/eeab50b9-822b-4940-8ea9-4d93d11bcc94
+
+高雄 https://lib.ebookservice.tw/ks/#book/eeab50b9-822b-4940-8ea9-4d93d11bcc94
+
+
+
+當Ameba遇到Kicad
+新北 https://lib.ebookservice.tw/nt/#book/02e42d9b-27cf-4496-a9cb-3c2945807411
+
+高雄 https://lib.ebookservice.tw/ks/#book/02e42d9b-27cf-4496-a9cb-3c2945807411
+
+
+教您學會Kicad開發ESP32教育開發板
+新北 https://lib.ebookservice.tw/nt/#book/394c8b45-b373-4f40-8fc0-429b0cc92f6c
+
+高雄 https://lib.ebookservice.tw/ks/#book/394c8b45-b373-4f40-8fc0-429b0cc92f6c
+
+
+
+
+
+
+
+
+
+Fritzing 系列
+
+
+如何使用fritzing設計物聯網電路(基礎入門篇)
+新北 https://lib.ebookservice.tw/nt/#book/28ae53d6-37c2-4736-ac17-28590f2708c0
+
+高雄 https://lib.ebookservice.tw/ks/#book/28ae53d6-37c2-4736-ac17-28590f2708c0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

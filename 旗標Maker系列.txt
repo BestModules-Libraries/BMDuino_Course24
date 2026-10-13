@@ -1,0 +1,34 @@
+旗標Maker系列
+
+FlagBlock 下載與安裝
+https://lib.ebookservice.tw/tc/#book/2fd9d3fe-8a5d-42e3-8867-3e05f02e51be
+https://lib.ebookservice.tw/ks/#book/2fd9d3fe-8a5d-42e3-8867-3e05f02e51be
+
+FlagBlock下載與安裝(WeMOS D32版)
+https://lib.ebookservice.tw/ks/#book/ec7aa81e-bc0e-468a-8fcd-702d27b102b5
+
+
+生醫感測健康大應用Thonny下載與安裝(WeMOS D32版)
+https://lib.ebookservice.tw/tc/#book/21e74afa-01c5-4c4e-aec6-fa7007f0ee3d
+
+生醫感測健康大應用_安裝CH34X USB驅動程式
+https://lib.ebookservice.tw/tc/#book/66940464-a0cc-4264-8458-8e238c66ddbf
+
+生醫感測健康大應用Thonny安裝套件(WeMOS D32版)
+https://lib.ebookservice.tw/tc/#book/71a16061-b1be-42a9-8b7e-46cc67fcaaa4
+
+生醫感測健康大應用-MicroPythonGPIO入門
+https://lib.ebookservice.tw/tc/#book/d281a397-4f3a-486e-9cea-99de031d4bfa
+
+生醫感測健康大應用-MicroPython網路入門
+https://lib.ebookservice.tw/tc/#book/dc85c033-1f33-4e4f-b83e-e5932cebfdbe
+
+生醫感測健康大應用-PPG之基本讀取
+https://lib.ebookservice.tw/tc/#book/38c7c85c-fd63-4d45-b869-73bd7d081cad
+
+生醫感測健康大應用MicroPython網頁顯示PPG讀取
+https://lib.ebookservice.tw/tc/#book/7e7b943c-e772-4ddc-ae97-f62e37af161c
+
+
+
+ 

@@ -1,0 +1,22 @@
+可以幫我設計一個網頁，
+有一個主頁，檔名叫做"index.php"，
+請依據附檔："index.php"內容，進行擴充，其餘不更改，
+請再程式:"include 'toptitle.php';"之後加入下列功能。
+請幫我用javascript寫一個menu 程式，
+這個menu有四個大項目，項目名字分別叫做"Home"、"My information"、"My Teaching"、"My Writing"，
+項目"Home"，使用者點選之後，會連結到"index.htm"，
+項目"My information"，下面又有三個submenu分別為"My Profile"、"My Award"、"My Student"。
+當使用者點選到submenu:"My Profile"，會轉址到"menu01a.php",
+當使用者點選到submenu:"My Award"，會轉址到"menu01b.php",
+當使用者點選到submenu:"My Student"，會轉址到"menu01c.php",
+項目"My Teaching"，下面又有三個submenu分別為"My Courses"、"My Speech"、"My YouTube"。
+當使用者點選到submenu:"My Courses"，會轉址到"menu02a.php",
+當使用者點選到submenu:"My Speech"，會轉址到"menu02b.php",
+當使用者點選到submenu:"My YouTube"，會轉址到"menu03c.php",
+項目"My Writing"，下面又有三個submenu分別為"My Paper"、"My Books"、"My Article"。
+當使用者點選到submenu:"My Paper"，會轉址到"menu03a.php",
+當使用者點選到submenu:"My Books"，會轉址到"menu03b.php",
+當使用者點選到submenu:"My Article"，會轉址到"menu03c.php",
+所有使用者點選任何到submenu，會轉址到對應的網頁，都會開啟該網頁於原來的頁面。
+當上面都改寫好程式之後，
+請將程式顯示出來，並且提供indexnew.php， 讓我下載
