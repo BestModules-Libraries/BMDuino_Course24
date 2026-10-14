@@ -71,7 +71,7 @@
 
 
 //-------外部函式宣告區-----------
-#define loopdelay 10000    // loop 迴圈延遲時間（單位：毫秒），即 30 秒
+#define loopdelay 60000    // loop 迴圈延遲時間（單位：毫秒），即 30 秒
 
 
 //-------自定義函式宣告區-----------
@@ -157,8 +157,13 @@ void loop() {
 
     if (Wifi.getStatus())           // 檢查 WiFi 是否已連線
     {
-        Serial.println("WIFI OK");
+        Serial.println("WIFI OK，Ready to clouding");
         SendtoClouding();           // 傳送溫濕度資料到雲端
+    }
+    delay(3000) ;   //等待3秒，讓前面資料恢復
+    if (Wifi.getStatus())           // 檢查 WiFi 是否已連線
+    {
+          Serial.println("WIFI OK，Ready to clouding1");
         SendtoClouding1();           // 傳送亮度資料到雲端
     }
 

@@ -1,6 +1,6 @@
 /*
 ================================================================================
-【程式名稱】clouding.h
+【程式名稱】clouding1.h
 【功能概述】本檔案為雲端資料上傳自訂函式庫，主要負責將 LUX 亮度感測器
             所讀取的亮度（L）數值，連同裝置的 MAC 位址，透過
             HTTP GET 請求傳送至遠端雲端伺服器（iot.arduino.org.tw），
@@ -76,7 +76,7 @@
 // %s    → MAC 位址字串
 // %6.1f → 亮度值（欄寬 6、小數 1 位）
 
-#define dbagent1 "/bmduino/lux/dataadd.php?MAC=%s&L=%6.1f"
+#define dbagent1 "/bmduino/lux/dataadd.php?MAC=%s&L=%5.1f"
 
 // char dbagentstr[300]; // sprintf 使用之字元暫存區（存放格式化後的請求參數字串）
 // String connectstr;    // 動態組成的完整 RESTful 請求參數字串
@@ -84,16 +84,12 @@
 // // float Tvalue=55, Hvalue=66; // 測試用的溫濕度範例值（已註解）
 // String webresponse;   // 儲存 HTTP GET 請求後伺服器回傳的內容
 
-// 雲端資料上傳範例網址：
-// http://iot.arduino.org.tw:8888/bmduino/dhtdata/dataadd.php?MAC=112233445566&L=300
-// 主機位址（Host）    ：iot.arduino.org.tw:8888
-// 應用程式路徑（Path）：/bmduino/dhtdata/dataadd.php
-// 請求參數（Query）   ：?MAC=AABBCCDDEEFF&L=300
+
 
 /*
    完整的 HTTP 請求範例，分解如下：
    主機位址：iot.arduino.org.tw:8888（域名與通訊埠）。
-   應用程式路徑：/bmduino/dhtdata/dataadd.php（伺服器上的 PHP 程式，
+   應用程式路徑：/bmduino/lux/dataadd.php（伺服器上的 PHP 程式，
                  用來接收並處理資料）。
    參數：?MAC=112233445566&L=300，表示傳送的資料：
      MAC：設備的唯一識別碼（例如 112233445566）。
