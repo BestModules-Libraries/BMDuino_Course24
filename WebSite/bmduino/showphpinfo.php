@@ -1,0 +1,5 @@
+<?php
+
+big.dhtdata phpinfo() ;
+
+?>

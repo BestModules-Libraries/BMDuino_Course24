@@ -18,7 +18,7 @@ connection method: sclPin:SCL(D19) sdaPin:SDA(D18)
 uint8_t t = ' ';  // 宣告變數 t，初始化為空格字元
 
 // 創建 BMD31M090 顯示模組的物件，並使用 HW Wire 進行通訊
-BMD31M090 BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire);
+BMD31M090 BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire1);
 //BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire1); //Please uncomment out this line of code if you use HW Wire1 on BMduino
 //BMD31M090     BMD31(BMD31M090_WIDTH, BMD31M090_HEIGHT, &Wire2); //Please uncomment out this line of code if you use HW Wire1 on BMduino
 
