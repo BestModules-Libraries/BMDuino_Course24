@@ -1,0 +1,37 @@
+MQTT系列
+
+MQTT基本入門
+https://lib.ebookservice.tw/ks/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+
+使用Python讀寫mySQL程式設計
+新北 https://lib.ebookservice.tw/nt/#book/ba9d891e-f565-4c0d-a845-e57b990c851d
+
+高雄 https://lib.ebookservice.tw/ks/#book/ba9d891e-f565-4c0d-a845-e57b990c851d
+
+ 
+
+使用Python讀寫json程式設計
+新北 https://lib.ebookservice.tw/nt/#book/91d04c0f-284f-4bf0-ba6e-4a7c9a2d31c4
+
+高雄 https://lib.ebookservice.tw/ks/#book/91d04c0f-284f-4bf0-ba6e-4a7c9a2d31c4
+
+ 
+
+使用Python設計MQTT資料代理人之設計
+新北 https://lib.ebookservice.tw/nt/#book/1a2e9431-9205-44fd-b3cf-5536527aba1e
+
+高雄 https://lib.ebookservice.tw/ks/#book/1a2e9431-9205-44fd-b3cf-5536527aba1e
+
+ 
+ 
+ 
+使用ESP32設計MQTT遠端控制之設計
+新北 https://lib.ebookservice.tw/nt/#book/ba909cee-b11d-427e-a5ff-bb455d13cf30
+
+高雄 https://lib.ebookservice.tw/ks/#book/ba909cee-b11d-427e-a5ff-bb455d13cf30
+
+
+
+
+ 

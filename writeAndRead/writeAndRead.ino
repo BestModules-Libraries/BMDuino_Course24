@@ -1,145 +1,269 @@
 /*************************************************
   File:             write.ino
-  Description:      The module is connected to the mobile phone APP "BLEDemo", press the key on the APP, 
-                    the module receives the key and prints it to the serial port monitor, 
-                    and then sends the corresponding data to the APP, making the LED on the APP light up
-  Note:
-  Operation:
+  Description:
+      本範例示範 BM7701-00-1 BLE 模組
+      搭配手機 APP「BLEDemo」進行按鍵收發測試。
+
+      APP 上按下按鍵 → 模組接收按鍵事件 (KEY Event)
+      → 將收到的資料印到序列埠
+      → 再回傳對應資料給 APP → APP 上的 LED 亮起
+
+  使用方式：
+      1. 模組插上 BMduino 並上電
+      2. 使用 APP BLEDemo 搜尋裝置，名稱為 BMC77M001
+      3. 點選 Key1 / Key2 / Key3 測試按下與放開事件
 **************************************************/
 
-#include <BM7701-00-1.h> // 引入 BM7701-00-1 函式庫
-//BM7701_00_1       BC7701(2, 3); // rxPin, txPin，如果不使用軟體序列通訊請註解這行
-BM7701_00_1     BC7701(&Serial1); // 如果使用 BMduino 的硬體序列通訊 1，請取消註解這行
-//BM7701_00_1     BC7701(&Serial2); // 如果使用 BMduino 的硬體序列通訊 2，請取消註解這行
-//BM7701_00_1     BC7701(&Serial3); // 如果使用 BMduino 的硬體序列通訊 3，請取消註解這行
-//BM7701_00_1     BC7701(&Serial4); // 如果使用 BMduino 的硬體序列通訊 4，請取消註解這行
+#include <BM7701-00-1.h>  // 引入 BLE 模組 BM7701-00-1 的函式庫
 
-// 定義 BLE 設定
-#define TX_POWER     0x0F                   // 設定發射功率
-#define XTAL_CLOAD   0x04                   // 16MHz 晶體負載
-#define ADV_MIN      100                    // 廣播間隔最小值 = 100 毫秒
-#define ADV_MAX      100                    // 廣播間隔最大值 = 100 毫秒
-#define CON_MIN      30                     // 連線間隔最小值 = 30 毫秒
-#define CON_MAX      30                     // 連線間隔最大值 = 30 毫秒
-#define CON_LATENCY  00                     // 連線延遲 = 00
-#define CON_TIMEOUT  300                    // 連線超時 = 300 毫秒
-uint8_t BDAddress[6] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66};  // 設備位址
-uint8_t BDName[] = {'B', 'M', 'C', '7', '7', 'M', '0', '0', '1'}; // 設備名稱
-uint8_t Adata[] = {0x02, 0x01, 0x06}; // 廣播數據
-uint8_t Sdata[] = {0x03, 0x02, 0x0f, 0x18}; // 掃描響應數據
+// 若使用軟體序列埠 (SoftwareSerial)，用以下形式建立：
+// BM7701_00_1 BC7701(2, 3);  // rxPin = 2, txPin = 3
 
-/////////////////////////////////////////////////////////////////////////////////////////
+// 使用 BMduino 的硬體序列埠 Serial1
+BM7701_00_1 BC7701(&Serial2);  
+// 也可改成 Serial2 / Serial3 / Serial4 依需求切換
 
+//------------------------------------------------------
+// BLE 相關設定參數區
+//------------------------------------------------------
+#define TX_POWER     0x0F  // BLE 模組無線發射功率，0x0F = 最大功率
+#define XTAL_CLOAD   0x04  // 16MHz 晶振負載電容設定
+#define ADV_MIN      100   // 廣播間隔最小值（ms）
+#define ADV_MAX      100   // 廣播間隔最大值（ms）
+#define CON_MIN      30    // 連線間隔最小值（ms）
+#define CON_MAX      30    // 連線間隔最大值（ms）
+#define CON_LATENCY  00    // 連線延遲參數（用於省電）
+#define CON_TIMEOUT  300   // 連線超時時間（ms）
+
+// BLE MAC Address（設備位址）
+uint8_t BDAddress[6] = {0x11, 0x22, 0x33, 0x44, 0x55, 0x66};
+
+// BLE 廣播名稱（最多 31 bytes）
+uint8_t BDName[] = {'B','M','C','7','7','M','0','0','1'};
+
+// BLE 廣播封包（Advertise Data）
+uint8_t Adata[] = {0x02, 0x01, 0x06};
+
+// BLE 掃描響應封包（Scan Response Data）
+uint8_t Sdata[] = {0x03, 0x02, 0x0F, 0x18};
+
+
+//------------------------------------------------------
+// 內部狀態常數與旗標變數
+//------------------------------------------------------
 #define BUTTON_CONSISTENCY_DURATION    6
 #define BUTTON_REPEAT1_DURATION       (600 / BUTTON_CONSISTENCY_DURATION)
 #define BUTTON_REPEAT2_DURATION       (150 / BUTTON_CONSISTENCY_DURATION)
 #define INVERT_TIME                   500
-bool board_connect = false;
-bool board_receive = false;
-bool board_conIntv = false;
-uint8_t Status;         // BLE 狀態
-uint8_t flag=0;
-uint8_t count=0;
-uint8_t sel = 1;
-uint8_t receiveBuf[256] = {0};
-KEY_MESSAGE Keymessage;
 
+bool board_connect = false;  // 是否已連線
+bool board_receive = false;  // 是否收到資料
+bool board_conIntv = false;  // 連線參數是否已設定
+
+uint8_t Status;         // BLE 狀態碼
+uint8_t flag = 0;
+uint8_t count = 0;
+uint8_t sel = 1;        // BLE 初始化時的流程控制變數
+uint8_t receiveBuf[256] = {0};  // BLE 接收資料緩衝區
+
+KEY_MESSAGE Keymessage; // 用來回傳給 APP 的鍵值資料格式
+
+
+
+/*************************************************
+  setup()：系統初始化
+**************************************************/
 void setup() {
-  delay(60); // 上電重置後延遲 60 毫秒，期間不能發送指令
-  Serial.begin(9600);
-  BC7701.begin(BAUD_115200); // 設置 BLE 模組的通訊速率為 115200
+
+  delay(60);  // BLE 上電後，晶片需等待 60ms 才能開始接受 AT / API 指令
+  Serial.begin(9600);     // 用於印出除錯訊息
+  BC7701.begin(BAUD_115200); // 設定 BLE 模組 UART 通訊速率為 115200 bps
+
+  //-------------------------------
+  // BLE 模組初始化流程
+  //-------------------------------
   while (sel != 10) {
     switch (sel) {
-      case 1: if (BC7701.setAddress(BDAddress) == true) sel++; // 設置設備位址
-        else sel = 0xFF; break;
-      case 2: if (BC7701.setName(sizeof(BDName), BDName) == true) sel++; // 設置設備名稱（最大 31 字元）
-        else sel = 0xFF; break;
-      case 3: if (BC7701.setAdvIntv(ADV_MIN / 0.625, ADV_MAX / 0.625, 7) == true) sel++; // 設置廣播間隔
-        else sel = 0xFF; break;
-      case 4: if (BC7701.setAdvData(APPEND_NAME, sizeof(Adata), Adata) == true) sel++; // 設置廣播數據
-        else sel = 0xFF; break;
-      case 5: if (BC7701.setScanData(sizeof(Sdata), Sdata) == true) sel++; // 設置掃描響應數據
-        else sel = 0xFF; break;
-      case 6: if (BC7701.setTXpower(TX_POWER) == true) sel++; // 設置發射功率
-        else sel = 0xFF; break;
-      case 7: if (BC7701.setCrystalOffset(XTAL_CLOAD) == true) sel++; // 設置晶體負載
-        else sel = 0xFF; break;
-      case 8: if (BC7701.setFeature(FEATURE_DIR, AUTO_SEND_SATUS) == true) sel++; // 自動發送狀態
-        else sel = 0xFF; break;
-      case 9: if (BC7701.setAdvCtrl(ENABLE) == true) sel++; // 開啟廣播
-        else sel = 0xFF;
+
+      case 1:
+        // 設置 BLE MAC Address
+        if (BC7701.setAddress(BDAddress))
+          sel++;
+        else
+          sel = 0xFF;
         break;
-      case 0xFF: digitalWrite(13, HIGH); // 配置失敗，亮起 LED
+
+      case 2:
+        // 設置 BLE 廣播名稱
+        if (BC7701.setName(sizeof(BDName), BDName))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 3:
+        // 設置廣播間隔（單位 = 0.625ms）
+        if (BC7701.setAdvIntv(ADV_MIN / 0.625, ADV_MAX / 0.625, 7))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 4:
+        // 設置廣播資料（advertise data）
+        if (BC7701.setAdvData(APPEND_NAME, sizeof(Adata), Adata))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 5:
+        // 設置掃描響應資料（scan response）
+        if (BC7701.setScanData(sizeof(Sdata), Sdata))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 6:
+        // 設定發射功率
+        if (BC7701.setTXpower(TX_POWER))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 7:
+        // 設置晶振偏移設定
+        if (BC7701.setCrystalOffset(XTAL_CLOAD))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 8:
+        // 自動回傳狀態設定
+        if (BC7701.setFeature(FEATURE_DIR, AUTO_SEND_SATUS))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 9:
+        // 開啟 BLE 廣播
+        if (BC7701.setAdvCtrl(ENABLE))
+          sel++;
+        else
+          sel = 0xFF;
+        break;
+
+      case 0xFF:
+        // 初始化失敗 → 亮起 LED 13 通知使用者
+        digitalWrite(13, HIGH);
         break;
     }
   }
-  delay(650); // 開啟廣播後延遲 650 毫秒，期間不能發送指令
+
+  delay(650);  // 廣播啟動後需等待 650ms 才能進行後續指令
 }
 
+
+
+/*************************************************
+  loop()：主要程式邏輯
+**************************************************/
 void loop() {
-  Status = bleProcess(); // 讀取 BLE 狀態
+
+  // 讀取 BLE 狀態（是否連線？是否收到資料？）
+  Status = bleProcess();
+
   if (Status) {
     switch (Status) {
-      case API_CONNECTED:
-        if (board_connect == false) {
+
+      case API_CONNECTED:  // BLE 成功連線
+        if (!board_connect) {
           board_connect = true;
           board_receive = false;
         }
         break;
-      case API_DISCONNECTED:
+
+      case API_DISCONNECTED:  // BLE 斷線
         board_connect = false;
         board_receive = false;
         board_conIntv = false;
         break;
-      case DATA_RECEIVED:
-        if (board_connect == true) {
+
+      case DATA_RECEIVED:  // 收到手機 APP 傳來的 Key 資料
+        if (board_connect) {
           digitalWrite(13, LOW);
           board_receive = true;
         }
         break;
-      case API_ERROR:
-         digitalWrite(13, HIGH);
+
+      case API_ERROR:  // 讀取錯誤
+        digitalWrite(13, HIGH);
         break;
     }
   }
 
+
+  //----------------------------------------------------
+  // 若 BLE 已連線，則設定連線參數（連線間隔、延遲、timeout）
+  //----------------------------------------------------
   if (board_connect == true) {
-    if (board_conIntv == false) {
+
+    if (!board_conIntv) {
       BC7701.wakeUp();
       delay(30);
-      if (BC7701.setConnIntv(CON_MIN / 1.25, CON_MAX / 1.25, CON_LATENCY, CON_TIMEOUT) == true) // 設置連接間隔
+
+      // 設置連線參數（Interval / Latency / Timeout）
+      if (BC7701.setConnIntv(CON_MIN / 1.25, CON_MAX / 1.25, CON_LATENCY, CON_TIMEOUT))
         board_conIntv = true;
     }
+
+    //----------------------------------------------------
+    // 若 APP 有按鍵事件傳入（Press / Release）
+    //----------------------------------------------------
     if (board_receive == true) {
+
       board_receive = false;
+
+      // BLE Key Event 的格式：(receiveBuf[3] == 0xB0)
       if (receiveBuf[3] == 0xB0) {
+
         switch (receiveBuf[4]) {
           case 0x11:
-            count=1;
+            count = 1;
             Serial.println("KEY1 icon Pushed");
             break;
           case 0x10:
-            count=2; 
+            count = 2;
             Serial.println("KEY1 icon Released");
             break;
+
           case 0x22:
-            count=1;
+            count = 1;
             Serial.println("KEY2 icon Pushed");
             break;
           case 0x20:
-            count=2;
+            count = 2;
             Serial.println("KEY2 icon Released");
             break;
+
           case 0x44:
-            count=1;
+            count = 1;
             Serial.println("KEY3 icon Pushed");
             break;
           case 0x40:
-            count=2; 
+            count = 2;
             Serial.println("KEY3 icon Released");
             break;
         }
 
+
+        //----------------------------------------------------
+        // 將按鍵事件回傳給手機 APP（APP 上的 LED 會亮起）
+        //----------------------------------------------------
         if (receiveBuf[4] != 0 && count == 2 && flag == 0) {
           Keymessage.key = receiveBuf[4] >> 4;
           Keymessage.key += receiveBuf[4];
@@ -163,38 +287,48 @@ void loop() {
   }
 }
 
+
+
 /**********************************************************
-  說明:         判斷 BLE 狀態
-  參數:
-  返回值:       API_CONNECTED
-                API_DISCONNECTED
-                DATA_RECEIVED
-                API_ERROR
-  其他:
+  函式：bleProcess()
+  功能：判斷 BLE 模組回傳的狀態
+  回傳值：
+      API_CONNECTED         → BLE 已連線
+      API_DISCONNECTED      → BLE 已斷線
+      DATA_RECEIVED         → 收到 APP 資料
+      API_ERROR             → 讀取錯誤
 **********************************************************/
 uint8_t bleProcess() {
+
   uint8_t st = 0x00;
   uint8_t lenth = 0;
+
+  // 嘗試讀取 BLE 回傳資料
   if (BC7701.readData(receiveBuf, lenth)) {
+
     switch (receiveBuf[1]) {
-      case 0x00:
+
+      case 0x00:  // 連線 or 斷線事件
         if (receiveBuf[0] == 0x00) {
-          if ((receiveBuf[3] & 0x01) == 0x01) {
+          if (receiveBuf[3] & 0x01)
             st = API_CONNECTED;
-          } else {
+          else
             st = API_DISCONNECTED;
-          }
         }
         break;
-      case 0xF2:
-        if ((receiveBuf[0] == 0x00) && (receiveBuf[2] == 0xFF)) {
+
+      case 0xF2:  // 收到 APP 的資料封包
+        if (receiveBuf[0] == 0x00 && receiveBuf[2] == 0xFF)
           st = DATA_RECEIVED;
-        }
         break;
-      default: break;
+
+      default:
+        break;
     }
-  } else {
-    st = API_ERROR;
   }
+  else {
+    st = API_ERROR;  // 無法讀取模組 → 錯誤
+  }
+
   return st;
 }

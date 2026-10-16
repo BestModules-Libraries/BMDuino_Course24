@@ -1,0 +1,185 @@
+我的演講 系列
+
+
+
+個人出版電子書之面面觀-談如何增加知識工作者之附加價值
+新北 https://lib.ebookservice.tw/nt/#book/5f7c95df-227b-4e31-b792-c324e3d394e3
+
+高雄 https://lib.ebookservice.tw/ks/#book/5f7c95df-227b-4e31-b792-c324e3d394e3
+
+
+老布在 Arduino 電子書出版經驗分享
+
+新北 https://lib.ebookservice.tw/nt/#book/a0122b6c-b011-4919-9d48-a8c1dff1fc40
+
+高雄 https://lib.ebookservice.tw/ks/#book/a0122b6c-b011-4919-9d48-a8c1dff1fc40
+
+
+
+淺談Arduino對物聯網之變革
+
+新北 https://lib.ebookservice.tw/nt/#book/f9d2a1ac-e8aa-4750-8738-edd03eab0538
+
+高雄 https://lib.ebookservice.tw/ks/#book/f9d2a1ac-e8aa-4750-8738-edd03eab0538
+
+
+
+用Arduino串連物聯網商機
+
+新北 https://lib.ebookservice.tw/nt/#book/b5df6de5-3e27-4176-ae35-a9337e6b5abc
+
+高雄 https://lib.ebookservice.tw/ks/#book/b5df6de5-3e27-4176-ae35-a9337e6b5abc
+
+
+
+物聯網之興起來談Arduino開發板
+新北 https://lib.ebookservice.tw/nt/#book/446439e2-fb17-428e-837b-647d21fb3e50
+
+高雄 https://lib.ebookservice.tw/ks/#book/446439e2-fb17-428e-837b-647d21fb3e50
+
+
+
+
+智慧物聯網對研究的契機
+
+新北 https://lib.ebookservice.tw/nt/#book/b4779d29-de49-434d-9dbb-ed821ad5c284
+
+高雄 https://lib.ebookservice.tw/ks/#book/b4779d29-de49-434d-9dbb-ed821ad5c284
+
+
+智慧物聯網對產學的契機
+新北 https://lib.ebookservice.tw/nt/#book/0bcae643-3e5f-4a46-8f7e-8f38568b7679
+
+高雄 https://lib.ebookservice.tw/ks/#book/0bcae643-3e5f-4a46-8f7e-8f38568b7679
+
+
+智慧物聯網生活應用介紹
+新北 https://lib.ebookservice.tw/nt/#book/9148f260-dbe3-419a-bf9e-82e573d562ea
+
+高雄 https://lib.ebookservice.tw/ks/#book/9148f260-dbe3-419a-bf9e-82e573d562ea
+
+
+物聯網連結智慧生活-環境監控與智慧家電的開發與應用
+
+新北 https://lib.ebookservice.tw/nt/#book/6a527b3d-3898-489a-8af0-d803705654ba
+
+高雄 https://lib.ebookservice.tw/ks/#book/6a527b3d-3898-489a-8af0-d803705654ba
+
+
+
+
+
+
+物聯網於環境氣象監控的開發與應用
+
+新北 https://lib.ebookservice.tw/nt/#book/e6cde1a3-af07-4fa8-81ca-16cb58af65c8
+
+高雄 https://lib.ebookservice.tw/ks/#book/e6cde1a3-af07-4fa8-81ca-16cb58af65c8
+
+
+電力能源監控設計理念
+新北 https://lib.ebookservice.tw/nt/#book/67ee2ca0-23a7-4981-9ad8-00a3c0b86543
+
+高雄 https://lib.ebookservice.tw/ks/#book/67ee2ca0-23a7-4981-9ad8-00a3c0b86543
+
+
+
+看緊您錢包的電力監控系統
+
+新北 https://lib.ebookservice.tw/nt/#book/942ce433-e559-4eb9-bcfd-47e7c68e761f
+
+高雄 https://lib.ebookservice.tw/ks/#book/942ce433-e559-4eb9-bcfd-47e7c68e761f
+
+
+
+運用物聯網技術建立之電力監控系統
+新北 https://lib.ebookservice.tw/nt/#book/bbfc4c95-eb87-4ab0-b813-7f30d5e3991a
+
+高雄 https://lib.ebookservice.tw/ks/#book/bbfc4c95-eb87-4ab0-b813-7f30d5e3991a
+
+
+
+物聯網於水流流量感測之實作
+
+新北 https://lib.ebookservice.tw/nt/#book/873ffbf7-f5bd-4d40-b398-7114f5e41dea
+
+高雄 https://lib.ebookservice.tw/ks/#book/873ffbf7-f5bd-4d40-b398-7114f5e41dea
+
+
+開發家用用水感測於物聯智慧家居物聯網
+
+新北 https://lib.ebookservice.tw/nt/#book/2d5cf21b-6a8b-4df3-8973-ba2edec9c445
+
+高雄 https://lib.ebookservice.tw/ks/#book/2d5cf21b-6a8b-4df3-8973-ba2edec9c445
+
+
+
+
+
+
+機械外骨骼-智慧醫療扛起你的一身
+
+新北 https://lib.ebookservice.tw/nt/#book/c553a388-b787-4127-b259-99bd988e4afd
+
+高雄 https://lib.ebookservice.tw/ks/#book/c553a388-b787-4127-b259-99bd988e4afd
+
+
+
+
+研究所升學經驗談-如何選取適合自己的研究之路
+
+新北 https://lib.ebookservice.tw/nt/#book/cb0b51d1-f417-457a-92ec-55c505486eb4
+
+高雄 https://lib.ebookservice.tw/ks/#book/cb0b51d1-f417-457a-92ec-55c505486eb4
+
+
+
+
+AI技術於高教經驗分享
+新北 https://lib.ebookservice.tw/nt/#book/852997d2-756d-441d-8012-bf7d89a08157
+
+高雄 https://lib.ebookservice.tw/ks/#book/852997d2-756d-441d-8012-bf7d89a08157
+
+
+工業4.0來臨大學生如何因應下一波工業革命
+
+新北 https://lib.ebookservice.tw/nt/#book/bc57b59c-90dc-4c24-b713-9cf79002990d
+
+高雄 https://lib.ebookservice.tw/ks/#book/bc57b59c-90dc-4c24-b713-9cf79002990d
+
+
+
+物聯網的現況與未來-大學生如何因應下一波資訊革命
+
+新北 https://lib.ebookservice.tw/nt/#book/1f637e07-d769-431a-89b5-f9776130f7b0
+
+高雄 https://lib.ebookservice.tw/ks/#book/1f637e07-d769-431a-89b5-f9776130f7b0
+
+
+參加競賽綜合經驗談
+新北 https://www.ebookservice.tw/nt/book/aee5b5fe-5b8e-4e30-86f2-0e1c807f0615
+高雄 https://www.ebookservice.tw/ks/book/aee5b5fe-5b8e-4e30-86f2-0e1c807f0615
+
+
+運用物聯網技術可以衍生之研究議題
+新北：https://www.ebookservice.tw/nt/book/6a8e4cea-be63-454e-8e63-e37ba05c1d57
+高雄：https://www.ebookservice.tw/ks/book/6a8e4cea-be63-454e-8e63-e37ba05c1d57
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

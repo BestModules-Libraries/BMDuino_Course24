@@ -1,0 +1,60 @@
+Arduino 系列
+
+Arduino開發工具安裝與設定234
+https://lib.ebookservice.tw/ks/#book/44f9f846-f66a-40a7-b1a7-ab4afe63fba6
+
+Arduino開發工具安裝與設定
+https://lib.ebookservice.tw/ks/#book/a1571cfe-628a-41bd-a226-1bb494de03a7
+
+ESP32 開發環境函式庫安裝與設定(1.XX版)
+https://lib.ebookservice.tw/ks/#book/6a88044a-02c6-4933-971b-6769d30934a2
+ 
+ESP32開發工具安裝與設定V4
+https://lib.ebookservice.tw/ks/#book/f5ebd89d-20f0-45f7-99ea-608663c7f28a
+
+
+ESP32整合環境與函式庫安裝與設定
+https://lib.ebookservice.tw/ks/#book/a99679e8-e4fb-4864-9c87-cc0a1467b5da
+
+ESP32 開發版_韌體驅動程式安裝與設定
+https://lib.ebookservice.tw/ks/#book/17c54e3a-21cf-4506-a1f4-05f631dac32d
+
+ESP32 開發版_驅動程式安裝與設定
+https://lib.ebookservice.tw/ks/#book/c02c575d-f0fe-4479-a05a-3b73943dc88c
+
+安裝CH34X USB驅動程式
+https://lib.ebookservice.tw/ks/#book/2b76fa17-295a-4ff7-8280-18ba39851aea
+
+安裝CP210X USB驅動程式
+https://lib.ebookservice.tw/ks/#book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+
+智慧家居之氣氛燈泡_開發工具安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/c73a561b-906b-42e2-8e2f-0a4605094c31
+
+高雄 https://lib.ebookservice.tw/ks/#book/c73a561b-906b-42e2-8e2f-0a4605094c31
+
+=====================================================
+WeMOS開發工具安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/5775e7ee-46ff-4cec-bbb3-24a8671c80ea
+
+高雄 https://lib.ebookservice.tw/ks/#book/5775e7ee-46ff-4cec-bbb3-24a8671c80ea
+
+
+WEMOS D1 WIFI整合環境與函式庫安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/2c112100-50db-4a99-a684-c774fb191e68
+
+高雄 https://lib.ebookservice.tw/ks/#book/2c112100-50db-4a99-a684-c774fb191e68
+
+
+
+=====================================================
+  
+MQTT基本入門
+https://lib.ebookservice.tw/ks/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+
+NodeRed 系統安裝
+
+https://lib.ebookservice.tw/ks/#book/b0ff1a03-43ad-4e40-9fae-8350972a489a
+

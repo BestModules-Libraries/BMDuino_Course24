@@ -1,0 +1,48 @@
+<style type="text/css">
+#header {	background-color: #CCFF99;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#title {
+}
+#logo {
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #CCC;
+	color: #FFF;
+}
+#footer {
+	background-color: #999;
+}
+#body {
+	background-color: #FFC;
+	font-size: 18px;
+	font-weight: normal;
+	color: #00F;
+}
+#main {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #00F;
+	background-color: #9C9;
+}
+#menu {
+	font-size: larger;
+	background-color: #FF9;
+}
+</style>.Item01 {
+	font-size: 14px;
+	font-style: oblique;
+	line-height: normal;
+	color: #00F;
+}
+.Item01 {
+	background-color: #FFF;
+}
+.tablehead {
+	background-color: #0C6;
+}

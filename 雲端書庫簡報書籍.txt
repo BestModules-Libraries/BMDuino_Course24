@@ -1,0 +1,281 @@
+https://lib.ebookservice.tw/ks/#book/fd446f1e-c536-4c0d-92ec-78281ac2a387
+
+ESP32S 物聯網基礎10門課_ESP32S 學習用白色終極板硬體介紹
+
+
+Python 安裝講義
+https://lib.ebookservice.tw/ks/#book/adefc7ef-a13e-4585-ac84-3213e2542894
+
+PyCharm整合工具安裝
+https://lib.ebookservice.tw/ks/#book/54c10854-efba-475f-ad43-656be390b5a6
+
+
+
+
+
+
+
+智慧家居之氣氛燈泡手機軟體開發篇
+新北 https://lib.ebookservice.tw/nt/#book/f28be501-fb33-4a81-bab9-bfa2a030ecf4
+
+高雄 https://lib.ebookservice.tw/ks/#book/f28be501-fb33-4a81-bab9-bfa2a030ecf4
+
+
+
+智慧家居之氣氛燈泡_韌體篇
+新北 https://lib.ebookservice.tw/nt/#book/8420658c-1289-4e49-9b8b-85a7acc629cf
+
+高雄 https://lib.ebookservice.tw/ks/#book/8420658c-1289-4e49-9b8b-85a7acc629cf
+
+
+
+智慧家居之氣氛燈泡_開發工具安裝與設定
+新北 https://lib.ebookservice.tw/nt/#book/c73a561b-906b-42e2-8e2f-0a4605094c31
+
+高雄 https://lib.ebookservice.tw/ks/#book/c73a561b-906b-42e2-8e2f-0a4605094c31
+
+
+Kicad 設計教學系列
+
+使用Kicad 設計教學用的電路板
+https://lib.ebookservice.tw/ks/#book/eeab50b9-822b-4940-8ea9-4d93d11bcc94
+
+當Ameba遇到Kicad
+https://lib.ebookservice.tw/ks/#book/02e42d9b-27cf-4496-a9cb-3c2945807411
+
+
+ESP32物聯網基礎10門課教學版系列
+
+ESP32物聯網基礎10門課教學版組立篇V２
+https://lib.ebookservice.tw/ks/#book/3c0e9c30-cb71-400f-871b-61a005c56c66
+
+
+ESP32物聯網基礎10門課 - 教學板組立篇
+https://lib.ebookservice.tw/ks/#book/11b3d893-123a-47d3-9ea1-2678f5a1e9fe
+
+
+ESP32_30Pin究極板組立篇V2
+https://lib.ebookservice.tw/ks/#book/f8d70f3a-a456-47b0-bca0-492d06a56837
+
+ESP32物聯網基礎10門課 - ESP32教學電路套件究極版 組立篇
+https://lib.ebookservice.tw/ks/#book/b8f466c4-40ab-41f1-951b-7edc23510f2d
+
+
+ESP32物聯網基礎10門課 - ESP32教學電路套件究極版 30Pin 組立篇
+https://lib.ebookservice.tw/ks/#book/8d204806-6972-4cb3-ad18-7c39a9e22cdc
+
+ESP32物聯網基礎10門課ESP32究極版組立篇V4
+https://lib.ebookservice.tw/ks/#book/69734ade-a93c-4309-8ddd-c66bf80e8bb1
+
+
+TTGO_T-Display擴充板組裝手冊
+https://lib.ebookservice.tw/ks/#book/02d745d2-6d7a-4c6f-ae51-bef3fb622e50
+
+
+TTGO_T-Display安裝與設定
+
+https://lib.ebookservice.tw/ks/#book/ef1e8011-04cf-4400-ae54-fa3429c87630
+
+ 
+ 
+=====================================================
+Books:物聯網雲端系統開發(物聯網基礎篇)
+
+Clouding雲端網站設計與開發
+
+
+網站伺服器安裝與初始化設計
+https://lib.ebookservice.tw/ks/#book/b6afd168-3213-4018-a8b8-8f55454a1791
+
+PHP開發IDE_NetBeans安裝與設定
+https://lib.ebookservice.tw/ks/#book/b846468c-f6b6-4194-ba38-4eefa21ed765
+
+HighCharts安裝與設定
+https://lib.ebookservice.tw/ks/#book/9509a3ad-65b8-4e4c-9ab9-4048ba3c7185
+
+
+
+
+溫溼度感測器之雲端資料庫設計
+https://lib.ebookservice.tw/ks/#book/e704561c-f9dd-4a6e-bc95-2278b0406e74
+
+=====================================================
+資料代理人部分
+
+PHP開發IDE_NetBeans安裝與設定
+https://lib.ebookservice.tw/ks/#book/b846468c-f6b6-4194-ba38-4eefa21ed765
+
+
+
+
+溫溼度感測器之資料代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/5d77e614-bf1a-4563-b57a-4e13fd244860
+
+高雄 https://lib.ebookservice.tw/ks/#book/5d77e614-bf1a-4563-b57a-4e13fd244860
+
+
+
+擴充欄位之溫溼度感測器之資料代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/2b8f72ad-210c-424d-a5a7-d7b363157914
+
+高雄 https://lib.ebookservice.tw/ks/#book/2b8f72ad-210c-424d-a5a7-d7b363157914
+
+
+溫溼度感測器之雲端版資料代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/6478bdef-7aef-4a9f-a064-2f58b5fcf2cf
+
+高雄 https://lib.ebookservice.tw/ks/#book/6478bdef-7aef-4a9f-a064-2f58b5fcf2cf
+
+
+
+
+擴充欄位之溫溼度感測器之雲端版資料代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/a084d843-cd15-4cef-b059-c5e888e3bb67
+
+高雄 https://lib.ebookservice.tw/ks/#book/a084d843-cd15-4cef-b059-c5e888e3bb67
+
+
+溫溼度感測器之資料收集端代理人設計
+新北 https://lib.ebookservice.tw/nt/#book/90d8505f-f41d-48e3-aad3-5241dc949567
+
+高雄 https://lib.ebookservice.tw/ks/#book/90d8505f-f41d-48e3-aad3-5241dc949567
+
+
+=====================================================
+
+
+雲端主頁設計
+https://lib.ebookservice.tw/ks/#book/aed47da4-c721-4f7c-847d-bf84166e0885
+
+
+雲端主頁模組化設計
+https://lib.ebookservice.tw/ks/#book/978d02ef-e8e4-4f6d-acaf-7f613d014e84
+
+
+
+溫溼度裝置彙總表程式設計
+https://lib.ebookservice.tw/ks/#book/cf8a159f-b22d-4645-aa58-285af09b6b67
+
+溫溼度裝置明細表程式設計
+
+https://lib.ebookservice.tw/ks/#book/ef2b45e7-1c88-4425-ab7c-37aa856ce5f6
+
+
+
+
+
+溫溼度裝置視覺化彙總表程式設計
+
+https://lib.ebookservice.tw/ks/#book/03e97671-a3c3-4a89-8550-7f9177097fa6
+
+單一裝置之溫溼度線性圖表程式設計
+https://lib.ebookservice.tw/ks/#book/fd446f1e-c536-4c0d-92ec-78281ac2a387
+
+
+
+=====================================================
+Python 安裝講義
+https://lib.ebookservice.tw/ks/#book/adefc7ef-a13e-4585-ac84-3213e2542894
+
+Python 安裝講義V2
+
+https://lib.ebookservice.tw/ks/#book/2c93256a-f0a0-46ed-9fc2-5f5d225796be
+
+ 
+PyCharm整合工具安裝
+https://lib.ebookservice.tw/ks/#book/54c10854-efba-475f-ad43-656be390b5a6
+
+PyCharm整合工具安裝V2
+
+https://lib.ebookservice.tw/ks/#book/8abae4ff-6a8b-44e5-907d-cbddfd333d4d
+
+ 
+
+Qt Designer安裝與設定
+
+https://lib.ebookservice.tw/ks/#book/9b54a29f-f4aa-419f-89eb-9f02889bd5ee
+
+QT Designer之Python套件安裝與設定
+
+https://lib.ebookservice.tw/ks/#book/22aeb1e7-3faf-4c42-8c1c-eada27c6897f
+
+=====================================================
+Book:MicroPython程式設計篇(物聯網基礎篇)
+
+Thonny工具安裝與設定V2
+https://lib.ebookservice.tw/ks/#book/b4ae1aef-d8d4-4907-861f-572d12bf8d92
+
+Thonny工具安裝與設定(ESP32)
+https://lib.ebookservice.tw/ks/#book/c2f067d5-8caf-4939-8206-f3755cdac93f
+https://lib.ebookservice.tw/ks/#book/c2f067d5-8caf-4939-8206-f3755cdac93f
+
+Thonny工具Python環境設定V2
+https://lib.ebookservice.tw/ks/#book/d767b8a7-03c0-4c06-a397-efc1593f33af
+
+
+Thonny工具Python環境設定V2
+https://lib.ebookservice.tw/ks/#book/d767b8a7-03c0-4c06-a397-efc1593f33af
+
+
+
+Thonny工具V4中文版安裝與設定(ESP32)
+https://lib.ebookservice.tw/ks/#book/e9204143-442d-4ba2-a898-21086fb14e5d
+
+
+=====================================================
+  
+Arduino開發工具安裝與設定
+https://lib.ebookservice.tw/ks/#book/a1571cfe-628a-41bd-a226-1bb494de03a7
+
+ 
+ESP32開發工具安裝與設定V4
+https://lib.ebookservice.tw/ks/#book/f5ebd89d-20f0-45f7-99ea-608663c7f28a
+
+
+ESP32整合環境與函式庫安裝與設定
+https://lib.ebookservice.tw/ks/#book/a99679e8-e4fb-4864-9c87-cc0a1467b5da
+
+ESP32 開發版_韌體驅動程式安裝與設定
+https://lib.ebookservice.tw/ks/#book/17c54e3a-21cf-4506-a1f4-05f631dac32d
+
+ESP32 開發版_驅動程式安裝與設定
+https://lib.ebookservice.tw/ks/#book/c02c575d-f0fe-4479-a05a-3b73943dc88c
+
+安裝CH34X USB驅動程式
+https://lib.ebookservice.tw/ks/#book/2b76fa17-295a-4ff7-8280-18ba39851aea
+
+安裝CP210X USB驅動程式
+https://lib.ebookservice.tw/ks/#book/79c3ec0e-e558-453a-84e0-8e3c46d66859
+
+ 
+
+家居用水流量監控裝置控制板_組立篇
+https://lib.ebookservice.tw/ks/#book/a06b9f36-99fd-4e26-9e8f-effa4a97f7fc
+
+家居用水流量監控裝置控制板組立篇V2
+https://lib.ebookservice.tw/ks/#book/13f515ec-bc17-4bfb-bdd4-078aa7eadc80
+
+
+===========================
+樹莓派系列
+PICO W擴充版基本篇(MicroPython篇)
+
+https://lib.ebookservice.tw/ks/#book/e18335bb-6db4-43d9-a60a-aad66e6d5979
+
+ 
+
+
+
+
+MQTT基本入門
+https://lib.ebookservice.tw/ks/#book/b0448f03-47e4-4076-ae03-8d73e6dd5384
+
+
+NodeRed 系統安裝
+
+https://lib.ebookservice.tw/ks/#book/b0ff1a03-43ad-4e40-9fae-8350972a489a
+
+ 
+
+
+

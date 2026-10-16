@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>溫溼度感測資料查詢</title>
+
+  <!-- 引入 Chart.js：用來畫溫溼度折線圖 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- 引入 SheetJS：用來將資料表格匯出成 Excel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+  <style>
+    /* 網頁基本樣式 */
+    body { font-family: Arial, sans-serif; margin: 30px; }
+
+    /* 圖表寬度限制 */
+    canvas { max-width: 800px; margin-top: 20px; }
+
+    /* 表格邊框與排版樣式 */
+    table, th, td { border: 1px solid gray; border-collapse: collapse; padding: 5px; }
+    table { margin-top: 20px; }
+
+    /* 輸入欄位與按鈕樣式 */
+    input, button { padding: 8px; margin: 5px; }
+  </style>
+</head>
+<body>
+  <h2>溫溼度感測資料查詢系統</h2>
+
+  <!-- 使用者輸入：裝置 MAC、起始日期、結束日期 -->
+  <label>MAC：</label>
+  <input type="text" id="mac" value="246F28248CE0">
+
+  <label>起始日(YYYYMMDD)：</label>
+  <input type="text" id="start" value="20200406">
+
+  <label>結束日：</label>
+  <input type="text" id="end" value="20200407">
+
+  <!-- 查詢與匯出按鈕 -->
+  <button onclick="loadData()">查詢資料</button>
+  <button onclick="exportExcel()">匯出 Excel</button>
+  <button onclick="exportPDF()">匯出 PDF</button>
+  <button onclick="window.print()">列印</button>
+  
+  <!-- 折線圖顯示感測資料 -->
+  <canvas id="sensorChart"></canvas>
+
+  <!-- 資料表格：顯示查詢結果 -->
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>時間</th>
+        <th>溫度 (°C)</th>
+        <th>濕度 (%)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+<script>
+// 全域變數 chart：用來儲存 Chart.js 的圖表實例
+let chart;
+
+// 函式：從 API 載入資料並顯示到圖表與表格
+function loadData() {
+  // 從輸入欄位取得使用者輸入值
+  const mac = document.getElementById('mac').value;
+  const start = document.getElementById('start').value;
+  const end = document.getElementById('end').value;
+
+  // 組合 API 查詢網址（GET 方式）
+  const url = `dht2jsonwithdate.php?MAC=${mac}&start=${start}&end=${end}`;
+
+  // 發送 HTTP 請求取得 JSON 資料
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      // 準備存放時間、溫度、濕度陣列
+      const labels = [];
+      const temperatures = [];
+      const humidities = [];
+
+      // 清空表格內容
+      const tbody = document.querySelector("#dataTable tbody");
+      tbody.innerHTML = "";
+
+      // 逐筆資料加入陣列與表格
+      data.Datalist.forEach(item => {
+        labels.push(item.DateTime);              // 時間軸資料
+        temperatures.push(item.Temperature);     // 溫度資料
+        humidities.push(item.Humidity);          // 濕度資料
+
+        // 新增一列表格資料
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${item.DateTime}</td><td>${item.Temperature}</td><td>${item.Humidity}</td>`;
+        tbody.appendChild(row); // 加入表格
+      });
+
+      // 呼叫函式畫出圖表
+      drawChart(labels, temperatures, humidities);
+    })
+    .catch(err => {
+      alert("資料讀取失敗：" + err);  // 若 API 發生錯誤顯示警告
+    });
+}
+
+// 函式：使用 Chart.js 畫出折線圖
+function drawChart(labels, temperatures, humidities) {
+  // 取得畫布物件 context
+  const ctx = document.getElementById('sensorChart').getContext('2d');
+
+  // 如果之前已建立圖表，就先銷毀再重畫
+  if (chart) chart.destroy();
+
+  // 建立 Chart.js 圖表
+  chart = new Chart(ctx, {
+    type: 'line', // 使用折線圖
+    data: {
+      labels: labels, // X軸標籤（時間）
+      datasets: [
+        {
+          label: '溫度 (°C)',
+          data: temperatures,
+          borderColor: 'red',                        // 線條顏色
+          backgroundColor: 'rgba(255, 0, 0, 0.1)',   // 背景顏色（半透明）
+          tension: 0.1                               // 線條平滑度
+        },
+        {
+          label: '濕度 (%)',
+          data: humidities,
+          borderColor: 'blue',
+          backgroundColor: 'rgba(0, 0, 255, 0.1)',
+          tension: 0.1
+        }
+      ]
+    },
+    options: {
+      responsive: true, // 圖表可自適應螢幕寬度
+      scales: {
+        y: {
+          beginAtZero: false // Y軸不一定從 0 開始
+        }
+      }
+    }
+  });
+}
+
+// 函式：將表格資料匯出成 Excel 檔案
+function exportExcel() {
+  const table = document.getElementById('dataTable'); // 取得資料表格
+  const wb = XLSX.utils.table_to_book(table, { sheet: "感測資料" }); // 轉為工作簿
+  XLSX.writeFile(wb, "sensor_data.xlsx"); // 下載為 Excel 檔
+}
+</script>
+
+</body>
+</html>
